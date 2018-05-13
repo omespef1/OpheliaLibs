@@ -1,0 +1,593 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Ophelia.MDA.OMDATOGn</name>
+    </assembly>
+    <members>
+        <member name="T:Ophelia.MDA.OMDATOGn.OMDATOGnAtrib">
+            <summary>
+            Objeto de transferencia de datos para Atrib
+            </summary>
+        </member>
+        <member name="M:Ophelia.MDA.OMDATOGn.OMDATOGnAtrib.#ctor">
+            <summary>
+            Constructor de la clase
+            </summary>
+        </member>
+        <member name="P:Ophelia.MDA.OMDATOGn.OMDATOGnAtrib.act_esta">
+            <summary>
+            Atributo ACT_ESTA
+            </summary>
+        </member>
+        <member name="P:Ophelia.MDA.OMDATOGn.OMDATOGnAtrib.act_hora">
+            <summary>
+            Atributo ACT_HORA
+            </summary>
+        </member>
+        <member name="P:Ophelia.MDA.OMDATOGn.OMDATOGnAtrib.act_usua">
+            <summary>
+            Atributo ACT_USUA
+            </summary>
+        </member>
+        <member name="P:Ophelia.MDA.OMDATOGn.OMDATOGnAtrib.atr_caco">
+            <summary>
+            Atributo ATR_CACO
+            </summary>
+        </member>
+        <member name="P:Ophelia.MDA.OMDATOGn.OMDATOGnAtrib.atr_codi">
+            <summary>
+            Atributo ATR_CODI
+            </summary>
+        </member>
+        <member name="P:Ophelia.MDA.OMDATOGn.OMDATOGnAtrib.atr_desc">
+            <summary>
+            Atributo ATR_DESC
+            </summary>
+        </member>
+        <member name="P:Ophelia.MDA.OMDATOGn.OMDATOGnAtrib.atr_esca">
+            <summary>
+            Atributo ATR_ESCA
+            </summary>
+        </member>
+        <member name="P:Ophelia.MDA.OMDATOGn.OMDATOGnAtrib.atr_exre">
+            <summary>
+            Atributo ATR_EXRE
+            </summary>
+        </member>
+        <member name="P:Ophelia.MDA.OMDATOGn.OMDATOGnAtrib.atr_fila">
+            <summary>
+            Atributo ATR_FILA
+            </summary>
+        </member>
+        <member name="P:Ophelia.MDA.OMDATOGn.OMDATOGnAtrib.atr_frky">
+            <summary>
+            Atributo ATR_FRKY
+            </summary>
+        </member>
+        <member name="P:Ophelia.MDA.OMDATOGn.OMDATOGnAtrib.atr_lect">
+            <summary>
+            Atributo ATR_LECT
+            </summary>
+        </member>
+        <member name="P:Ophelia.MDA.OMDATOGn.OMDATOGnAtrib.atr_long">
+            <summary>
+            Atributo ATR_LONG
+            </summary>
+        </member>
+        <member name="P:Ophelia.MDA.OMDATOGn.OMDATOGnAtrib.atr_nomb">
+            <summary>
+            Atributo ATR_NOMB
+            </summary>
+        </member>
+        <member name="P:Ophelia.MDA.OMDATOGn.OMDATOGnAtrib.atr_prec">
+            <summary>
+            Atributo ATR_PREC
+            </summary>
+        </member>
+        <member name="P:Ophelia.MDA.OMDATOGn.OMDATOGnAtrib.atr_prky">
+            <summary>
+            Atributo ATR_PRKY
+            </summary>
+        </member>
+        <member name="P:Ophelia.MDA.OMDATOGn.OMDATOGnAtrib.atr_requ">
+            <summary>
+            Atributo ATR_REQU
+            </summary>
+        </member>
+        <member name="P:Ophelia.MDA.OMDATOGn.OMDATOGnAtrib.atr_sepr">
+            <summary>
+            Atributo ATR_SEPR
+            </summary>
+        </member>
+        <member name="P:Ophelia.MDA.OMDATOGn.OMDATOGnAtrib.atr_tefk">
+            <summary>
+            Atributo ATR_TEFK
+            </summary>
+        </member>
+        <member name="P:Ophelia.MDA.OMDATOGn.OMDATOGnAtrib.atr_tida">
+            <summary>
+            Atributo ATR_TIDA
+            </summary>
+        </member>
+        <member name="P:Ophelia.MDA.OMDATOGn.OMDATOGnAtrib.atr_visi">
+            <summary>
+            Atributo ATR_VISI
+            </summary>
+        </member>
+        <member name="P:Ophelia.MDA.OMDATOGn.OMDATOGnAtrib.ctr_codi">
+            <summary>
+            Atributo CTR_CODI
+            </summary>
+        </member>
+        <member name="P:Ophelia.MDA.OMDATOGn.OMDATOGnAtrib.rmt_atri">
+            <summary>
+            Atributo RMT_ATRI
+            </summary>
+        </member>
+        <member name="P:Ophelia.MDA.OMDATOGn.OMDATOGnAtrib.rmt_fofk">
+            <summary>
+            Atributo RMT_FOFK
+            </summary>
+        </member>
+        <member name="P:Ophelia.MDA.OMDATOGn.OMDATOGnAtrib.rmt_form">
+            <summary>
+            Atributo RMT_FORM
+            </summary>
+        </member>
+        <member name="T:Ophelia.MDA.OMDATOGn.OMDATOPKGnAtrib">
+            <summary>
+            Objeto PK de transferencia de datos para Atrib
+            </summary>
+        </member>
+        <member name="M:Ophelia.MDA.OMDATOGn.OMDATOPKGnAtrib.#ctor">
+            <summary>
+            Constructor de la clase
+            </summary>
+        </member>
+        <member name="P:Ophelia.MDA.OMDATOGn.OMDATOPKGnAtrib.rmt_atri">
+            <summary>
+            Atributo Rmt_atri
+            </summary>
+        </member>
+        <member name="P:Ophelia.MDA.OMDATOGn.OMDATOPKGnAtrib.rmt_form">
+            <summary>
+            Atributo Rmt_form
+            </summary>
+        </member>
+        <member name="T:Ophelia.MDA.OMDATOGn.OMDATOGnCtrol">
+            <summary>
+            Objeto de transferencia de datos para Ctrol
+            </summary>
+        </member>
+        <member name="M:Ophelia.MDA.OMDATOGn.OMDATOGnCtrol.#ctor">
+            <summary>
+            Constructor de la clase
+            </summary>
+        </member>
+        <member name="P:Ophelia.MDA.OMDATOGn.OMDATOGnCtrol.act_esta">
+            <summary>
+            Atributo ACT_ESTA
+            </summary>
+        </member>
+        <member name="P:Ophelia.MDA.OMDATOGn.OMDATOGnCtrol.act_hora">
+            <summary>
+            Atributo ACT_HORA
+            </summary>
+        </member>
+        <member name="P:Ophelia.MDA.OMDATOGn.OMDATOGnCtrol.act_usua">
+            <summary>
+            Atributo ACT_USUA
+            </summary>
+        </member>
+        <member name="P:Ophelia.MDA.OMDATOGn.OMDATOGnCtrol.ctr_code">
+            <summary>
+            Atributo CTR_CODE
+            </summary>
+        </member>
+        <member name="P:Ophelia.MDA.OMDATOGn.OMDATOGnCtrol.ctr_codi">
+            <summary>
+            Atributo CTR_CODI
+            </summary>
+        </member>
+        <member name="P:Ophelia.MDA.OMDATOGn.OMDATOGnCtrol.ctr_desc">
+            <summary>
+            Atributo CTR_DESC
+            </summary>
+        </member>
+        <member name="P:Ophelia.MDA.OMDATOGn.OMDATOGnCtrol.ctr_nomb">
+            <summary>
+            Atributo CTR_NOMB
+            </summary>
+        </member>
+        <member name="T:Ophelia.MDA.OMDATOGn.OMDATOPKGnCtrol">
+            <summary>
+            Objeto PK de transferencia de datos para Ctrol
+            </summary>
+        </member>
+        <member name="M:Ophelia.MDA.OMDATOGn.OMDATOPKGnCtrol.#ctor">
+            <summary>
+            Constructor de la clase
+            </summary>
+        </member>
+        <member name="P:Ophelia.MDA.OMDATOGn.OMDATOPKGnCtrol.ctr_codi">
+            <summary>
+            Atributo Ctr_codi
+            </summary>
+        </member>
+        <member name="T:Ophelia.MDA.OMDATOGn.OMDATOGnEmpre">
+            <summary>
+            Objeto de transferencia de datos para Empre
+            </summary>
+        </member>
+        <member name="M:Ophelia.MDA.OMDATOGn.OMDATOGnEmpre.#ctor">
+            <summary>
+            Constructor de la clase
+            </summary>
+        </member>
+        <member name="P:Ophelia.MDA.OMDATOGn.OMDATOGnEmpre.act_esta">
+            <summary>
+            Atributo ACT_ESTA
+            </summary>
+        </member>
+        <member name="P:Ophelia.MDA.OMDATOGn.OMDATOGnEmpre.act_hora">
+            <summary>
+            Atributo ACT_HORA
+            </summary>
+        </member>
+        <member name="P:Ophelia.MDA.OMDATOGn.OMDATOGnEmpre.act_usua">
+            <summary>
+            Atributo ACT_USUA
+            </summary>
+        </member>
+        <member name="P:Ophelia.MDA.OMDATOGn.OMDATOGnEmpre.emp_codi">
+            <summary>
+            Atributo EMP_CODI
+            </summary>
+        </member>
+        <member name="P:Ophelia.MDA.OMDATOGn.OMDATOGnEmpre.emp_dire">
+            <summary>
+            Atributo EMP_DIRE
+            </summary>
+        </member>
+        <member name="P:Ophelia.MDA.OMDATOGn.OMDATOGnEmpre.emp_esta">
+            <summary>
+            Atributo EMP_ESTA
+            </summary>
+        </member>
+        <member name="P:Ophelia.MDA.OMDATOGn.OMDATOGnEmpre.emp_nit">
+            <summary>
+            Atributo EMP_NIT
+            </summary>
+        </member>
+        <member name="P:Ophelia.MDA.OMDATOGn.OMDATOGnEmpre.emp_nomb">
+            <summary>
+            Atributo EMP_NOMB
+            </summary>
+        </member>
+        <member name="P:Ophelia.MDA.OMDATOGn.OMDATOGnEmpre.emp_tele">
+            <summary>
+            Atributo EMP_TELE
+            </summary>
+        </member>
+        <member name="T:Ophelia.MDA.OMDATOGn.OMDATOPKGnEmpre">
+            <summary>
+            Objeto PK de transferencia de datos para Empre
+            </summary>
+        </member>
+        <member name="M:Ophelia.MDA.OMDATOGn.OMDATOPKGnEmpre.#ctor">
+            <summary>
+            Constructor de la clase
+            </summary>
+        </member>
+        <member name="P:Ophelia.MDA.OMDATOGn.OMDATOPKGnEmpre.emp_codi">
+            <summary>
+            Atributo Emp_codi
+            </summary>
+        </member>
+        <member name="T:Ophelia.MDA.OMDATOGn.OMDATOGnModul">
+            <summary>
+            Objeto de transferencia de datos para Forma
+            </summary>
+        </member>
+        <member name="M:Ophelia.MDA.OMDATOGn.OMDATOGnModul.#ctor">
+            <summary>
+            Constructor de la clase
+            </summary>
+        </member>
+        <member name="T:Ophelia.MDA.OMDATOGn.OMDATOGnForma">
+            <summary>
+            Objeto de transferencia de datos para Forma
+            </summary>
+        </member>
+        <member name="M:Ophelia.MDA.OMDATOGn.OMDATOGnForma.#ctor">
+            <summary>
+            Constructor de la clase
+            </summary>
+        </member>
+        <member name="P:Ophelia.MDA.OMDATOGn.OMDATOGnForma.act_esta">
+            <summary>
+            Atributo ACT_ESTA
+            </summary>
+        </member>
+        <member name="P:Ophelia.MDA.OMDATOGn.OMDATOGnForma.act_hora">
+            <summary>
+            Atributo ACT_HORA
+            </summary>
+        </member>
+        <member name="P:Ophelia.MDA.OMDATOGn.OMDATOGnForma.act_usua">
+            <summary>
+            Atributo ACT_USUA
+            </summary>
+        </member>
+        <member name="P:Ophelia.MDA.OMDATOGn.OMDATOGnForma.for_codi">
+            <summary>
+            Atributo FOR_CODI
+            </summary>
+        </member>
+        <member name="P:Ophelia.MDA.OMDATOGn.OMDATOGnForma.for_desc">
+            <summary>
+            Atributo FOR_DESC
+            </summary>
+        </member>
+        <member name="P:Ophelia.MDA.OMDATOGn.OMDATOGnForma.for_nomb">
+            <summary>
+            Atributo FOR_NOMB
+            </summary>
+        </member>
+        <member name="P:Ophelia.MDA.OMDATOGn.OMDATOGnForma.for_tipo">
+            <summary>
+            Atributo FOR_TIPO
+            </summary>
+        </member>
+        <member name="P:Ophelia.MDA.OMDATOGn.OMDATOGnForma.pro_codi">
+            <summary>
+            Atributo PRO_CODI
+            </summary>
+        </member>
+        <member name="P:Ophelia.MDA.OMDATOGn.OMDATOGnForma.rmt_ford">
+            <summary>
+            Atributo RMT_FORD
+            </summary>
+        </member>
+        <member name="P:Ophelia.MDA.OMDATOGn.OMDATOGnForma.rmt_form">
+            <summary>
+            Atributo RMT_FORM
+            </summary>
+        </member>
+        <member name="P:Ophelia.MDA.OMDATOGn.OMDATOGnForma.cod_modu">
+            <summary>
+            Atributo COD_MODU
+            </summary>
+        </member>
+        <member name="T:Ophelia.MDA.OMDATOGn.OMDATOPKGnForma">
+            <summary>
+            Objeto PK de transferencia de datos para Forma
+            </summary>
+        </member>
+        <member name="M:Ophelia.MDA.OMDATOGn.OMDATOPKGnForma.#ctor">
+            <summary>
+            Constructor de la clase
+            </summary>
+        </member>
+        <member name="P:Ophelia.MDA.OMDATOGn.OMDATOPKGnForma.rmt_form">
+            <summary>
+            Atributo Rmt_form
+            </summary>
+        </member>
+        <member name="T:Ophelia.MDA.OMDATOGn.OMDATOGnProdu">
+            <summary>
+            Objeto de transferencia de datos para Produ
+            </summary>
+        </member>
+        <member name="M:Ophelia.MDA.OMDATOGn.OMDATOGnProdu.#ctor">
+            <summary>
+            Constructor de la clase
+            </summary>
+        </member>
+        <member name="P:Ophelia.MDA.OMDATOGn.OMDATOGnProdu.act_esta">
+            <summary>
+            Atributo ACT_ESTA
+            </summary>
+        </member>
+        <member name="P:Ophelia.MDA.OMDATOGn.OMDATOGnProdu.act_hora">
+            <summary>
+            Atributo ACT_HORA
+            </summary>
+        </member>
+        <member name="P:Ophelia.MDA.OMDATOGn.OMDATOGnProdu.act_usua">
+            <summary>
+            Atributo ACT_USUA
+            </summary>
+        </member>
+        <member name="P:Ophelia.MDA.OMDATOGn.OMDATOGnProdu.pro_codi">
+            <summary>
+            Atributo PRO_CODI
+            </summary>
+        </member>
+        <member name="P:Ophelia.MDA.OMDATOGn.OMDATOGnProdu.pro_desc">
+            <summary>
+            Atributo PRO_DESC
+            </summary>
+        </member>
+        <member name="P:Ophelia.MDA.OMDATOGn.OMDATOGnProdu.pro_inic">
+            <summary>
+            Atributo PRO_INIC
+            </summary>
+        </member>
+        <member name="P:Ophelia.MDA.OMDATOGn.OMDATOGnProdu.pro_nasp">
+            <summary>
+            Atributo PRO_NASP
+            </summary>
+        </member>
+        <member name="P:Ophelia.MDA.OMDATOGn.OMDATOGnProdu.pro_nomb">
+            <summary>
+            Atributo PRO_NOMB
+            </summary>
+        </member>
+        <member name="P:Ophelia.MDA.OMDATOGn.OMDATOGnProdu.pro_plan">
+            <summary>
+            Atributo PRO_PLAN
+            </summary>
+        </member>
+        <member name="P:Ophelia.MDA.OMDATOGn.OMDATOGnProdu.pro_sisd">
+            <summary>
+            Atributo PRO_SISD
+            </summary>
+        </member>
+        <member name="T:Ophelia.MDA.OMDATOGn.OMDATOPKGnProdu">
+            <summary>
+            Objeto PK de transferencia de datos para Produ
+            </summary>
+        </member>
+        <member name="M:Ophelia.MDA.OMDATOGn.OMDATOPKGnProdu.#ctor">
+            <summary>
+            Constructor de la clase
+            </summary>
+        </member>
+        <member name="P:Ophelia.MDA.OMDATOGn.OMDATOPKGnProdu.pro_codi">
+            <summary>
+            Atributo Pro_codi
+            </summary>
+        </member>
+        <member name="T:Ophelia.MDA.OMDATOGn.OMDATOGnProye">
+            <summary>
+            Objeto de transferencia de datos para Proye
+            </summary>
+        </member>
+        <member name="M:Ophelia.MDA.OMDATOGn.OMDATOGnProye.#ctor">
+            <summary>
+            Constructor de la clase
+            </summary>
+        </member>
+        <member name="P:Ophelia.MDA.OMDATOGn.OMDATOGnProye.act_esta">
+            <summary>
+            Atributo ACT_ESTA
+            </summary>
+        </member>
+        <member name="P:Ophelia.MDA.OMDATOGn.OMDATOGnProye.act_hora">
+            <summary>
+            Atributo ACT_HORA
+            </summary>
+        </member>
+        <member name="P:Ophelia.MDA.OMDATOGn.OMDATOGnProye.act_usua">
+            <summary>
+            Atributo ACT_USUA
+            </summary>
+        </member>
+        <member name="P:Ophelia.MDA.OMDATOGn.OMDATOGnProye.pro_codi">
+            <summary>
+            Atributo PRO_CODI
+            </summary>
+        </member>
+        <member name="P:Ophelia.MDA.OMDATOGn.OMDATOGnProye.pry_codi">
+            <summary>
+            Atributo PRY_CODI
+            </summary>
+        </member>
+        <member name="P:Ophelia.MDA.OMDATOGn.OMDATOGnProye.pry_desc">
+            <summary>
+            Atributo PRY_DESC
+            </summary>
+        </member>
+        <member name="P:Ophelia.MDA.OMDATOGn.OMDATOGnProye.pry_inic">
+            <summary>
+            Atributo PRY_INIC
+            </summary>
+        </member>
+        <member name="P:Ophelia.MDA.OMDATOGn.OMDATOGnProye.pry_nasp">
+            <summary>
+            Atributo PRY_NASP
+            </summary>
+        </member>
+        <member name="P:Ophelia.MDA.OMDATOGn.OMDATOGnProye.pry_nomb">
+            <summary>
+            Atributo PRY_NOMB
+            </summary>
+        </member>
+        <member name="T:Ophelia.MDA.OMDATOGn.OMDATOPKGnProye">
+            <summary>
+            Objeto PK de transferencia de datos para Proye
+            </summary>
+        </member>
+        <member name="M:Ophelia.MDA.OMDATOGn.OMDATOPKGnProye.#ctor">
+            <summary>
+            Constructor de la clase
+            </summary>
+        </member>
+        <member name="P:Ophelia.MDA.OMDATOGn.OMDATOPKGnProye.pry_codi">
+            <summary>
+            Atributo Pry_codi
+            </summary>
+        </member>
+        <member name="T:Ophelia.MDA.OMDATOGn.OMDATOGnUsuar">
+            <summary>
+            Objeto de transferencia de datos para Usuar
+            </summary>
+        </member>
+        <member name="M:Ophelia.MDA.OMDATOGn.OMDATOGnUsuar.#ctor">
+            <summary>
+            Constructor de la clase
+            </summary>
+        </member>
+        <member name="P:Ophelia.MDA.OMDATOGn.OMDATOGnUsuar.act_esta">
+            <summary>
+            Atributo ACT_ESTA
+            </summary>
+        </member>
+        <member name="P:Ophelia.MDA.OMDATOGn.OMDATOGnUsuar.act_hora">
+            <summary>
+            Atributo ACT_HORA
+            </summary>
+        </member>
+        <member name="P:Ophelia.MDA.OMDATOGn.OMDATOGnUsuar.act_usua">
+            <summary>
+            Atributo ACT_USUA
+            </summary>
+        </member>
+        <member name="P:Ophelia.MDA.OMDATOGn.OMDATOGnUsuar.emp_codi">
+            <summary>
+            Atributo EMP_CODI
+            </summary>
+        </member>
+        <member name="P:Ophelia.MDA.OMDATOGn.OMDATOGnUsuar.usu_apel">
+            <summary>
+            Atributo USU_APEL
+            </summary>
+        </member>
+        <member name="P:Ophelia.MDA.OMDATOGn.OMDATOGnUsuar.usu_codi">
+            <summary>
+            Atributo USU_CODI
+            </summary>
+        </member>
+        <member name="P:Ophelia.MDA.OMDATOGn.OMDATOGnUsuar.usu_esta">
+            <summary>
+            Atributo USU_ESTA
+            </summary>
+        </member>
+        <member name="P:Ophelia.MDA.OMDATOGn.OMDATOGnUsuar.usu_nomb">
+            <summary>
+            Atributo USU_NOMB
+            </summary>
+        </member>
+        <member name="T:Ophelia.MDA.OMDATOGn.OMDATOPKGnUsuar">
+            <summary>
+            Objeto PK de transferencia de datos para Usuar
+            </summary>
+        </member>
+        <member name="M:Ophelia.MDA.OMDATOGn.OMDATOPKGnUsuar.#ctor">
+            <summary>
+            Constructor de la clase
+            </summary>
+        </member>
+        <member name="P:Ophelia.MDA.OMDATOGn.OMDATOPKGnUsuar.emp_codi">
+            <summary>
+            Atributo Emp_codi
+            </summary>
+        </member>
+        <member name="P:Ophelia.MDA.OMDATOGn.OMDATOPKGnUsuar.usu_codi">
+            <summary>
+            Atributo Usu_codi
+            </summary>
+        </member>
+    </members>
+</doc>

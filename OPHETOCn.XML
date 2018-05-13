@@ -1,0 +1,133 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Ophelia.Ophelia.OPHETOCn</name>
+    </assembly>
+    <members>
+        <member name="T:Ophelia.Ophelia.OPHETOCn.OPHETOCnBlomeGrid">
+            <summary>
+            Objeto de transferencia de datos para Blome
+            </summary>
+        </member>
+        <member name="M:Ophelia.Ophelia.OPHETOCn.OPHETOCnBlomeGrid.#ctor">
+            <summary>
+            Constructor de la clase
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OPHETOCn.OPHETOCnBlomeGrid.aud_esta">
+            <summary>
+            Atributo AUD_ESTA
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OPHETOCn.OPHETOCnBlomeGrid.aud_ufac">
+            <summary>
+            Atributo AUD_UFAC
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OPHETOCn.OPHETOCnBlomeGrid.aud_usua">
+            <summary>
+            Atributo AUD_USUA
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OPHETOCn.OPHETOCnBlomeGrid.blo_acti">
+            <summary>
+            Atributo BLO_ACTI
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OPHETOCn.OPHETOCnBlomeGrid.Id">
+            <summary>
+            Atributo BLO_ANOP
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OPHETOCn.OPHETOCnBlomeGrid.blo_mesp">
+            <summary>
+            Atributo BLO_MESP
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OPHETOCn.OPHETOCnBlomeGrid.cas_cont">
+            <summary>
+            Atributo CAS_CONT
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OPHETOCn.OPHETOCnBlomeGrid.emp_codi">
+            <summary>
+            Atributo EMP_CODI
+            </summary>
+        </member>
+        <member name="T:Ophelia.Ophelia.OPHETOCn.OPHETOCnBlome">
+            <summary>
+            Objeto de transferencia de datos para Blome
+            </summary>
+        </member>
+        <member name="M:Ophelia.Ophelia.OPHETOCn.OPHETOCnBlome.#ctor">
+            <summary>
+            Constructor de la clase
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OPHETOCn.OPHETOCnBlome.aud_esta">
+            <summary>
+            Atributo AUD_ESTA
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OPHETOCn.OPHETOCnBlome.aud_ufac">
+            <summary>
+            Atributo AUD_UFAC
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OPHETOCn.OPHETOCnBlome.aud_usua">
+            <summary>
+            Atributo AUD_USUA
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OPHETOCn.OPHETOCnBlome.blo_acti">
+            <summary>
+            Atributo BLO_ACTI
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OPHETOCn.OPHETOCnBlome.blo_anop">
+            <summary>
+            Atributo BLO_ANOP
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OPHETOCn.OPHETOCnBlome.blo_mesp">
+            <summary>
+            Atributo BLO_MESP
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OPHETOCn.OPHETOCnBlome.cas_cont">
+            <summary>
+            Atributo CAS_CONT
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OPHETOCn.OPHETOCnBlome.emp_codi">
+            <summary>
+            Atributo EMP_CODI
+            </summary>
+        </member>
+        <member name="T:Ophelia.Ophelia.OPHETOCn.OPHETOPKCnBlome">
+            <summary>
+            Objeto PK de transferencia de datos para Blome
+            </summary>
+        </member>
+        <member name="M:Ophelia.Ophelia.OPHETOCn.OPHETOPKCnBlome.#ctor">
+            <summary>
+            Constructor de la clase
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OPHETOCn.OPHETOPKCnBlome.blo_anop">
+            <summary>
+            Atributo Blo_anop
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OPHETOCn.OPHETOPKCnBlome.blo_mesp">
+            <summary>
+            Atributo Blo_mesp
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OPHETOCn.OPHETOPKCnBlome.emp_codi">
+            <summary>
+            Atributo Emp_codi
+            </summary>
+        </member>
+    </members>
+</doc>

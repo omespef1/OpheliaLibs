@@ -1,0 +1,258 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Ophelia.Ophelia.OPHETOOp</name>
+    </assembly>
+    <members>
+        <member name="T:Ophelia.Ophelia.OPHETOOp.OPHETOOpDetin">
+            <summary>
+            Objeto de transferencia de datos para Detin
+            </summary>
+        </member>
+        <member name="M:Ophelia.Ophelia.OPHETOOp.OPHETOOpDetin.#ctor">
+            <summary>
+            Constructor de la clase
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OPHETOOp.OPHETOOpDetin.act_esta">
+            <summary>
+            Atributo ACT_ESTA
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OPHETOOp.OPHETOOpDetin.act_hora">
+            <summary>
+            Atributo ACT_HORA
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OPHETOOp.OPHETOOpDetin.act_usua">
+            <summary>
+            Atributo ACT_USUA
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OPHETOOp.OPHETOOpDetin.det_cons">
+            <summary>
+            Atributo DET_CONS
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OPHETOOp.OPHETOOpDetin.det_desc">
+            <summary>
+            Atributo DET_DESC
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OPHETOOp.OPHETOOpDetin.det_iden">
+            <summary>
+            Atributo DET_IDEN
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OPHETOOp.OPHETOOpDetin.det_nomb">
+            <summary>
+            Atributo DET_NOMB
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OPHETOOp.OPHETOOpDetin.det_qery">
+            <summary>
+            Atributo DET_QERY
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OPHETOOp.OPHETOOpDetin.grd_iden">
+            <summary>
+            Atributo GRD_IDEN
+            </summary>
+        </member>
+        <member name="T:Ophelia.Ophelia.OPHETOOp.OPHETOPKOpDetin">
+            <summary>
+            Objeto PK de transferencia de datos para Detin
+            </summary>
+        </member>
+        <member name="M:Ophelia.Ophelia.OPHETOOp.OPHETOPKOpDetin.#ctor">
+            <summary>
+            Constructor de la clase
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OPHETOOp.OPHETOPKOpDetin.det_iden">
+            <summary>
+            Atributo Det_iden
+            </summary>
+        </member>
+        <member name="T:Ophelia.Ophelia.OPHETOOp.OPHETOOpGrdet">
+            <summary>
+            Objeto de transferencia de datos para Grdet
+            </summary>
+        </member>
+        <member name="M:Ophelia.Ophelia.OPHETOOp.OPHETOOpGrdet.#ctor">
+            <summary>
+            Constructor de la clase
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OPHETOOp.OPHETOOpGrdet.act_esta">
+            <summary>
+            Atributo ACT_ESTA
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OPHETOOp.OPHETOOpGrdet.act_hora">
+            <summary>
+            Atributo ACT_HORA
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OPHETOOp.OPHETOOpGrdet.act_usua">
+            <summary>
+            Atributo ACT_USUA
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OPHETOOp.OPHETOOpGrdet.grd_iden">
+            <summary>
+            Atributo GRD_IDEN
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OPHETOOp.OPHETOOpGrdet.grd_nomb">
+            <summary>
+            Atributo GRD_NOMB
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OPHETOOp.OPHETOOpGrdet.rfa_iden">
+            <summary>
+            Atributo RFA_IDEN
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OPHETOOp.OPHETOOpGrdet.sis_iden">
+            <summary>
+            Atributo SIS_IDEN
+            </summary>
+        </member>
+        <member name="T:Ophelia.Ophelia.OPHETOOp.OPHETOPKOpGrdet">
+            <summary>
+            Objeto PK de transferencia de datos para Grdet
+            </summary>
+        </member>
+        <member name="M:Ophelia.Ophelia.OPHETOOp.OPHETOPKOpGrdet.#ctor">
+            <summary>
+            Constructor de la clase
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OPHETOOp.OPHETOPKOpGrdet.grd_iden">
+            <summary>
+            Atributo Grd_iden
+            </summary>
+        </member>
+        <member name="T:Ophelia.Ophelia.OPHETOOp.OPHETOOpIndic">
+            <summary>
+            Objeto de transferencia de datos para Indic
+            </summary>
+        </member>
+        <member name="M:Ophelia.Ophelia.OPHETOOp.OPHETOOpIndic.#ctor">
+            <summary>
+            Constructor de la clase
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OPHETOOp.OPHETOOpIndic.act_esta">
+            <summary>
+            Atributo ACT_ESTA
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OPHETOOp.OPHETOOpIndic.act_hora">
+            <summary>
+            Atributo ACT_HORA
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OPHETOOp.OPHETOOpIndic.act_usua">
+            <summary>
+            Atributo ACT_USUA
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OPHETOOp.OPHETOOpIndic.ind_grup">
+            <summary>
+            Atributo IND_GRUP
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OPHETOOp.OPHETOOpIndic.ind_iden">
+            <summary>
+            Atributo IND_IDEN
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OPHETOOp.OPHETOOpIndic.ind_nomb">
+            <summary>
+            Atributo IND_NOMB
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OPHETOOp.OPHETOOpIndic.ind_sist">
+            <summary>
+            Atributo IND_SIST
+            </summary>
+        </member>
+        <member name="T:Ophelia.Ophelia.OPHETOOp.OPHETOPKOpIndic">
+            <summary>
+            Objeto PK de transferencia de datos para Indic
+            </summary>
+        </member>
+        <member name="M:Ophelia.Ophelia.OPHETOOp.OPHETOPKOpIndic.#ctor">
+            <summary>
+            Constructor de la clase
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OPHETOOp.OPHETOPKOpIndic.ind_iden">
+            <summary>
+            Atributo Ind_iden
+            </summary>
+        </member>
+        <member name="T:Ophelia.Ophelia.OPHETOOp.OPHETOOpRefas">
+            <summary>
+            Objeto de transferencia de datos para Refas
+            </summary>
+        </member>
+        <member name="M:Ophelia.Ophelia.OPHETOOp.OPHETOOpRefas.#ctor">
+            <summary>
+            Constructor de la clase
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OPHETOOp.OPHETOOpRefas.act_esta">
+            <summary>
+            Atributo ACT_ESTA
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OPHETOOp.OPHETOOpRefas.act_hora">
+            <summary>
+            Atributo ACT_HORA
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OPHETOOp.OPHETOOpRefas.act_usua">
+            <summary>
+            Atributo ACT_USUA
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OPHETOOp.OPHETOOpRefas.ind_iden">
+            <summary>
+            Atributo IND_IDEN
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OPHETOOp.OPHETOOpRefas.ref_iden">
+            <summary>
+            Atributo REF_IDEN
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OPHETOOp.OPHETOOpRefas.ref_nomb">
+            <summary>
+            Atributo REF_NOMB
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OPHETOOp.OPHETOOpRefas.ref_qery">
+            <summary>
+            Atributo REF_QERY
+            </summary>
+        </member>
+        <member name="T:Ophelia.Ophelia.OPHETOOp.OPHETOPKOpRefas">
+            <summary>
+            Objeto PK de transferencia de datos para Refas
+            </summary>
+        </member>
+        <member name="M:Ophelia.Ophelia.OPHETOOp.OPHETOPKOpRefas.#ctor">
+            <summary>
+            Constructor de la clase
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OPHETOOp.OPHETOPKOpRefas.ref_iden">
+            <summary>
+            Atributo Ref_iden
+            </summary>
+        </member>
+    </members>
+</doc>

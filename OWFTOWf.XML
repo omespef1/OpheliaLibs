@@ -1,0 +1,218 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Ophelia.Ophelia.OWFTOWf</name>
+    </assembly>
+    <members>
+        <member name="T:Ophelia.Ophelia.OWFTOWf.OBPMDMTDocumento">
+            <summary>
+            Objeto de transferencia de datos para Endoc
+            </summary>
+        </member>
+        <member name="T:Ophelia.Ophelia.OWFTOWf.OBPMDMTFirma">
+            <summary>
+            Objeto de transferencia de datos para Endoc
+            </summary>
+        </member>
+        <member name="T:Ophelia.Ophelia.OWFTOWf.OBPMDMTResults">
+            <summary>
+            Objeto de transferencia de datos para Endoc
+            </summary>
+        </member>
+        <member name="T:Ophelia.Ophelia.OWFTOWf.OBPMDMTPdf">
+            <summary>
+            Objeto de transferencia de datos para Endoc
+            </summary>
+        </member>
+        <member name="T:Ophelia.Ophelia.OWFTOWf.OBPMDMTGenPdf">
+            <summary>
+            Objeto de transferencia de datos para Endoc
+            </summary>
+        </member>
+        <member name="T:Ophelia.Ophelia.OWFTOWf.OBPMDMTTags">
+            <summary>
+            Objeto de transferencia de datos para Endoc
+            </summary>
+        </member>
+        <member name="T:Ophelia.Ophelia.OWFTOWf.OBPMDMTDocumentHtml">
+            <summary>
+            Objeto de transferencia de datos para Endoc
+            </summary>
+        </member>
+        <member name="T:Ophelia.Ophelia.OWFTOWf.OBPMDMTWfCondicion">
+            <summary>
+            Objeto de transferencia de datos para Endoc
+            </summary>
+        </member>
+        <member name="T:Ophelia.Ophelia.OWFTOWf.OBPMDMTDocument">
+            <summary>
+            Objeto de transferencia de datos para Endoc
+            </summary>
+        </member>
+        <member name="T:Ophelia.Ophelia.OWFTOWf.OBPMDMTDendo">
+            <summary>
+            Objeto de transferencia de datos para Endoc
+            </summary>
+        </member>
+        <member name="T:Ophelia.Ophelia.OWFTOWf.OBPMDMTCampo">
+            <summary>
+            Objeto de transferencia de datos para Endoc
+            </summary>
+        </member>
+        <member name="T:Ophelia.Ophelia.OWFTOWf.OBPMDMTCasos">
+            <summary>
+            Objeto de transferencia de datos para Endoc
+            </summary>
+        </member>
+        <member name="T:Ophelia.Ophelia.OWFTOWf.OWFTOWfEndoc">
+            <summary>
+            Objeto de transferencia de datos para Endoc
+            </summary>
+        </member>
+        <member name="M:Ophelia.Ophelia.OWFTOWf.OWFTOWfEndoc.#ctor">
+            <summary>
+            Constructor de la clase
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OWFTOWf.OWFTOWfEndoc.end_fiub">
+            <summary>
+            Atributo END_FIRM
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OWFTOWf.OWFTOWfEndoc.end_agua">
+            <summary>
+            Atributo END_FIRM
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OWFTOWf.OWFTOWfEndoc.end_firm">
+            <summary>
+            Atributo END_FIRM
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OWFTOWf.OWFTOWfEndoc.end_texg">
+            <summary>
+            Atributo END_TEXG
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OWFTOWf.OWFTOWfEndoc.aud_usua">
+            <summary>
+            Atributo AUD_USUA
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OWFTOWf.OWFTOWfEndoc.aud_esta">
+            <summary>
+            Atributo AUD_ESTA
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OWFTOWf.OWFTOWfEndoc.aud_ufac">
+            <summary>
+            Atributo AUD_UFAC
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OWFTOWf.OWFTOWfEndoc.emp_codi">
+            <summary>
+            Atributo EMP_CODI
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OWFTOWf.OWFTOWfEndoc.rmt_endo">
+            <summary>
+            Atributo RMT_ENDO
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OWFTOWf.OWFTOWfEndoc.end_nomb">
+            <summary>
+            Atributo END_NOMB
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OWFTOWf.OWFTOWfEndoc.end_desc">
+            <summary>
+            Atributo END_DESC
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OWFTOWf.OWFTOWfEndoc.cas_cont">
+            <summary>
+            Atributo CAS_CONT
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OWFTOWf.OWFTOWfEndoc.end_html">
+            <summary>
+            Atributo END_HTML
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OWFTOWf.OWFTOWfEndoc.end_head">
+            <summary>
+            Atributo END_HEAD
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OWFTOWf.OWFTOWfEndoc.end_hcol">
+            <summary>
+            Atributo END_HCOL
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OWFTOWf.OWFTOWfEndoc.end_himg">
+            <summary>
+            Atributo END_HIMG
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OWFTOWf.OWFTOWfEndoc.end_htxt">
+            <summary>
+            Atributo END_HTXT
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OWFTOWf.OWFTOWfEndoc.end_foot">
+            <summary>
+            Atributo END_FOOT
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OWFTOWf.OWFTOWfEndoc.end_fcol">
+            <summary>
+            Atributo END_FCOL
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OWFTOWf.OWFTOWfEndoc.end_ftxt">
+            <summary>
+            Atributo END_FTXT
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OWFTOWf.OWFTOWfEndoc.end_ftco">
+            <summary>
+            Atributo END_FTCO
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OWFTOWf.OWFTOWfEndoc.end_htco">
+            <summary>
+            Atributo END_HTCO
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OWFTOWf.OWFTOWfEndoc.end_hful">
+            <summary>
+            Atributo END_HFUL
+            </summary>
+        </member>
+        <member name="T:Ophelia.Ophelia.OWFTOWf.OWFTOPKWfEndoc">
+            <summary>
+            Objeto PK de transferencia de datos para Endoc
+            </summary>
+        </member>
+        <member name="M:Ophelia.Ophelia.OWFTOWf.OWFTOPKWfEndoc.#ctor">
+            <summary>
+            Constructor de la clase
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OWFTOWf.OWFTOPKWfEndoc.Empresa">
+            <summary>
+            Atributo Emp_codi
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OWFTOWf.OWFTOPKWfEndoc.Id">
+            <summary>
+            Atributo Rmt_endo
+            </summary>
+        </member>
+        <member name="T:Ophelia.BPM.OBPMDMTTO.OPGTOWfCdocu">
+            <summary>
+            Objeto de transferencia de datos para Dfpla
+            </summary>
+        </member>
+    </members>
+</doc>

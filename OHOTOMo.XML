@@ -1,0 +1,228 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Ophelia.Hosvital.OHOTOMo</name>
+    </assembly>
+    <members>
+        <member name="T:Ophelia.Hosvital.OHOTOMo.OHOTOMoCont3">
+            <summary>
+            Objeto de transferencia de datos para Cont3
+            </summary>
+        </member>
+        <member name="M:Ophelia.Hosvital.OHOTOMo.OHOTOMoCont3.#ctor">
+            <summary>
+            Constructor de la clase
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHOTOMo.OHOTOMoCont3.agccdg">
+            <summary>
+            Atributo AGCCDG
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHOTOMo.OHOTOMoCont3.doccod">
+            <summary>
+            Atributo DOCCOD
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHOTOMo.OHOTOMoCont3.empcod">
+            <summary>
+            Atributo EMPCOD
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHOTOMo.OHOTOMoCont3.mcdpto">
+            <summary>
+            Atributo MCDPTO
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHOTOMo.OHOTOMoCont3.mvccnvmon">
+            <summary>
+            Atributo MVCCNVMON
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHOTOMo.OHOTOMoCont3.mvccpt">
+            <summary>
+            Atributo MVCCPT
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHOTOMo.OHOTOMoCont3.mvcdocequ">
+            <summary>
+            Atributo MVCDOCEQU
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHOTOMo.OHOTOMoCont3.mvcdocret">
+            <summary>
+            Atributo MVCDOCRET
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHOTOMo.OHOTOMoCont3.mvcest">
+            <summary>
+            Atributo MVCEST
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHOTOMo.OHOTOMoCont3.mvcestpre">
+            <summary>
+            Atributo MVCESTPRE
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHOTOMo.OHOTOMoCont3.mvcfch">
+            <summary>
+            Atributo MVCFCH
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHOTOMo.OHOTOMoCont3.mvcfchact">
+            <summary>
+            Atributo MVCFCHACT
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHOTOMo.OHOTOMoCont3.mvcfchanu">
+            <summary>
+            Atributo MVCFCHANU
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHOTOMo.OHOTOMoCont3.mvcfchaut">
+            <summary>
+            Atributo MVCFCHAUT
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHOTOMo.OHOTOMoCont3.mvcfchemi">
+            <summary>
+            Atributo MVCFCHEMI
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHOTOMo.OHOTOMoCont3.mvcforpag">
+            <summary>
+            Atributo MVCFORPAG
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHOTOMo.OHOTOMoCont3.mvcidetrb">
+            <summary>
+            Atributo MVCIDETRB
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHOTOMo.OHOTOMoCont3.mvcmayaux">
+            <summary>
+            Atributo MVCMAYAUX
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHOTOMo.OHOTOMoCont3.mvcmaygen">
+            <summary>
+            Atributo MVCMAYGEN
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHOTOMo.OHOTOMoCont3.mvcmonbse">
+            <summary>
+            Atributo MVCMONBSE
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHOTOMo.OHOTOMoCont3.mvcmpajs">
+            <summary>
+            Atributo MVCMPAJS
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHOTOMo.OHOTOMoCont3.mvcnro">
+            <summary>
+            Atributo MVCNRO
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHOTOMo.OHOTOMoCont3.mvcnroaut">
+            <summary>
+            Atributo MVCNROAUT
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHOTOMo.OHOTOMoCont3.mvcnroret">
+            <summary>
+            Atributo MVCNRORET
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHOTOMo.OHOTOMoCont3.mvcnumequ">
+            <summary>
+            Atributo MVCNUMEQU
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHOTOMo.OHOTOMoCont3.mvcorigen">
+            <summary>
+            Atributo MVCORIGEN
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHOTOMo.OHOTOMoCont3.mvcsedequ">
+            <summary>
+            Atributo MVCSEDEQU
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHOTOMo.OHOTOMoCont3.mvctascmb">
+            <summary>
+            Atributo MVCTASCMB
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHOTOMo.OHOTOMoCont3.mvcultcsc">
+            <summary>
+            Atributo MVCULTCSC
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHOTOMo.OHOTOMoCont3.mvcusuact">
+            <summary>
+            Atributo MVCUSUACT
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHOTOMo.OHOTOMoCont3.mvcusuanu">
+            <summary>
+            Atributo MVCUSUANU
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHOTOMo.OHOTOMoCont3.mvcusucre">
+            <summary>
+            Atributo MVCUSUCRE
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHOTOMo.OHOTOMoCont3.mvfchsys">
+            <summary>
+            Atributo MVFCHSYS
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHOTOMo.OHOTOMoCont3.mvsrccm">
+            <summary>
+            Atributo MVSRCCM
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHOTOMo.OHOTOMoCont3.mvsrcerr">
+            <summary>
+            Atributo MVSRCERR
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHOTOMo.OHOTOMoCont3.tranapl">
+            <summary>
+            Atributo TRANAPL
+            </summary>
+        </member>
+        <member name="T:Ophelia.Hosvital.OHOTOMo.OHOTOPKMoCont3">
+            <summary>
+            Objeto PK de transferencia de datos para Cont3
+            </summary>
+        </member>
+        <member name="M:Ophelia.Hosvital.OHOTOMo.OHOTOPKMoCont3.#ctor">
+            <summary>
+            Constructor de la clase
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHOTOMo.OHOTOPKMoCont3.doccod">
+            <summary>
+            Atributo Doccod
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHOTOMo.OHOTOPKMoCont3.empcod">
+            <summary>
+            Atributo Empcod
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHOTOMo.OHOTOPKMoCont3.mcdpto">
+            <summary>
+            Atributo Mcdpto
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHOTOMo.OHOTOPKMoCont3.mvcnro">
+            <summary>
+            Atributo Mvcnro
+            </summary>
+        </member>
+    </members>
+</doc>

@@ -1,0 +1,178 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Ophelia.Hosvital.OHFTOTs</name>
+    </assembly>
+    <members>
+        <member name="T:Ophelia.Hosvital.OHFTOTs.OHFTOTsACUMULA">
+            <summary>
+            Objeto de transferencia de datos para ACUMULA
+            </summary>
+        </member>
+        <member name="M:Ophelia.Hosvital.OHFTOTs.OHFTOTsACUMULA.#ctor">
+            <summary>
+            Constructor de la clase
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOTs.OHFTOTsACUMULA.acucod">
+            <summary>
+            Atributo ACUCOD
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOTs.OHFTOTsACUMULA.acudsc">
+            <summary>
+            Atributo ACUDSC
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOTs.OHFTOTsACUMULA.empcod">
+            <summary>
+            Atributo EMPCOD
+            </summary>
+        </member>
+        <member name="T:Ophelia.Hosvital.OHFTOTs.OHFTOPKTsACUMULA">
+            <summary>
+            Objeto PK de transferencia de datos para ACUMULA
+            </summary>
+        </member>
+        <member name="M:Ophelia.Hosvital.OHFTOTs.OHFTOPKTsACUMULA.#ctor">
+            <summary>
+            Constructor de la clase
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOTs.OHFTOPKTsACUMULA.acucod">
+            <summary>
+            Atributo Acucod
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOTs.OHFTOPKTsACUMULA.empcod">
+            <summary>
+            Atributo Empcod
+            </summary>
+        </member>
+        <member name="T:Ophelia.Hosvital.OHFTOTs.OHFTOTsBANCO">
+            <summary>
+            Objeto de transferencia de datos para BANCO
+            </summary>
+        </member>
+        <member name="M:Ophelia.Hosvital.OHFTOTs.OHFTOTsBANCO.#ctor">
+            <summary>
+            Constructor de la clase
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOTs.OHFTOTsBANCO.bancaj">
+            <summary>
+            Atributo BANCAJ
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOTs.OHFTOTsBANCO.bancnt">
+            <summary>
+            Atributo BANCNT
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOTs.OHFTOTsBANCO.bancod">
+            <summary>
+            Atributo BANCOD
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOTs.OHFTOTsBANCO.bancodnac">
+            <summary>
+            Atributo BANCODNAC
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOTs.OHFTOTsBANCO.bandir">
+            <summary>
+            Atributo BANDIR
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOTs.OHFTOTsBANCO.banemail">
+            <summary>
+            Atributo BANEMAIL
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOTs.OHFTOTsBANCO.banfax">
+            <summary>
+            Atributo BANFAX
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOTs.OHFTOTsBANCO.banformchq">
+            <summary>
+            Atributo BANFORMCHQ
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOTs.OHFTOTsBANCO.banindcic">
+            <summary>
+            Atributo BANINDCIC
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOTs.OHFTOTsBANCO.bannom">
+            <summary>
+            Atributo BANNOM
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOTs.OHFTOTsBANCO.bansuc">
+            <summary>
+            Atributo BANSUC
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOTs.OHFTOTsBANCO.bantel">
+            <summary>
+            Atributo BANTEL
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOTs.OHFTOTsBANCO.banusuuni">
+            <summary>
+            Atributo BANUSUUNI
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOTs.OHFTOTsBANCO.concicod">
+            <summary>
+            Atributo CONCICOD
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOTs.OHFTOTsBANCO.ctbcodtrc">
+            <summary>
+            Atributo CTBCODTRC
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOTs.OHFTOTsBANCO.ctbnro">
+            <summary>
+            Atributo CTBNRO
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOTs.OHFTOTsBANCO.ctbtipcue">
+            <summary>
+            Atributo CTBTIPCUE
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOTs.OHFTOTsBANCO.empcod">
+            <summary>
+            Atributo EMPCOD
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOTs.OHFTOTsBANCO.fortraele">
+            <summary>
+            Atributo FORTRAELE
+            </summary>
+        </member>
+        <member name="T:Ophelia.Hosvital.OHFTOTs.OHFTOPKTsBANCO">
+            <summary>
+            Objeto PK de transferencia de datos para BANCO
+            </summary>
+        </member>
+        <member name="M:Ophelia.Hosvital.OHFTOTs.OHFTOPKTsBANCO.#ctor">
+            <summary>
+            Constructor de la clase
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOTs.OHFTOPKTsBANCO.bancod">
+            <summary>
+            Atributo Bancod
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOTs.OHFTOPKTsBANCO.empcod">
+            <summary>
+            Atributo Empcod
+            </summary>
+        </member>
+    </members>
+</doc>

@@ -1,0 +1,1883 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Ophelia.Kactus.OKGTOOp</name>
+    </assembly>
+    <members>
+        <member name="T:Ophelia.Kactus.OKGTOOp.OKGTOOpChats">
+            <summary>
+            Objeto de transferencia de datos para Chats
+            </summary>
+        </member>
+        <member name="M:Ophelia.Kactus.OKGTOOp.OKGTOOpChats.#ctor">
+            <summary>
+            Constructor de la clase
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKGTOOp.OKGTOOpChats.act_usua">
+            <summary>
+            Atributo ACT_USUA
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKGTOOp.OKGTOOpChats.act_hora">
+            <summary>
+            Atributo ACT_HORA
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKGTOOp.OKGTOOpChats.act_esta">
+            <summary>
+            Atributo ACT_ESTA
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKGTOOp.OKGTOOpChats.cod_empr">
+            <summary>
+            Atributo COD_EMPR
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKGTOOp.OKGTOOpChats.cas_cont">
+            <summary>
+            Atributo CAS_CONT
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKGTOOp.OKGTOOpChats.cod_empl">
+            <summary>
+            Atributo COD_EMPL
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKGTOOp.OKGTOOpChats.rmt_room">
+            <summary>
+            Atributo RMT_ROOM
+            </summary>
+        </member>
+        <member name="T:Ophelia.Kactus.OKGTOOp.OKGTOPKOpChats">
+            <summary>
+            Objeto PK de transferencia de datos para Chats
+            </summary>
+        </member>
+        <member name="M:Ophelia.Kactus.OKGTOOp.OKGTOPKOpChats.#ctor">
+            <summary>
+            Constructor de la clase
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKGTOOp.OKGTOPKOpChats.cod_empl">
+            <summary>
+            Atributo Cod_empl
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKGTOOp.OKGTOPKOpChats.cod_empr">
+            <summary>
+            Atributo Cod_empr
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKGTOOp.OKGTOPKOpChats.rmt_room">
+            <summary>
+            Atributo Rmt_room
+            </summary>
+        </member>
+        <member name="T:Ophelia.Kactus.OKGTOOp.OKGTOOpDetin">
+            <summary>
+            Objeto de transferencia de datos para Detin
+            </summary>
+        </member>
+        <member name="M:Ophelia.Kactus.OKGTOOp.OKGTOOpDetin.#ctor">
+            <summary>
+            Constructor de la clase
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKGTOOp.OKGTOOpDetin.act_usua">
+            <summary>
+            Atributo ACT_USUA
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKGTOOp.OKGTOOpDetin.act_hora">
+            <summary>
+            Atributo ACT_HORA
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKGTOOp.OKGTOOpDetin.act_esta">
+            <summary>
+            Atributo ACT_ESTA
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKGTOOp.OKGTOOpDetin.det_iden">
+            <summary>
+            Atributo DET_IDEN
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKGTOOp.OKGTOOpDetin.det_nomb">
+            <summary>
+            Atributo DET_NOMB
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKGTOOp.OKGTOOpDetin.det_desc">
+            <summary>
+            Atributo DET_DESC
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKGTOOp.OKGTOOpDetin.det_qery">
+            <summary>
+            Atributo DET_QERY
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKGTOOp.OKGTOOpDetin.grd_iden">
+            <summary>
+            Atributo GRD_IDEN
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKGTOOp.OKGTOOpDetin.det_cons">
+            <summary>
+            Atributo DET_CONS
+            </summary>
+        </member>
+        <member name="T:Ophelia.Kactus.OKGTOOp.OKGTOPKOpDetin">
+            <summary>
+            Objeto PK de transferencia de datos para Detin
+            </summary>
+        </member>
+        <member name="M:Ophelia.Kactus.OKGTOOp.OKGTOPKOpDetin.#ctor">
+            <summary>
+            Constructor de la clase
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKGTOOp.OKGTOPKOpDetin.det_iden">
+            <summary>
+            Atributo Det_iden
+            </summary>
+        </member>
+        <member name="T:Ophelia.Kactus.OKGTOOp.OKGTOOpEmgru">
+            <summary>
+            Objeto de transferencia de datos para Emgru
+            </summary>
+        </member>
+        <member name="M:Ophelia.Kactus.OKGTOOp.OKGTOOpEmgru.#ctor">
+            <summary>
+            Constructor de la clase
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKGTOOp.OKGTOOpEmgru.act_usua">
+            <summary>
+            Atributo ACT_USUA
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKGTOOp.OKGTOOpEmgru.act_hora">
+            <summary>
+            Atributo ACT_HORA
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKGTOOp.OKGTOOpEmgru.act_esta">
+            <summary>
+            Atributo ACT_ESTA
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKGTOOp.OKGTOOpEmgru.cod_empr">
+            <summary>
+            Atributo COD_EMPR
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKGTOOp.OKGTOOpEmgru.cas_cont">
+            <summary>
+            Atributo CAS_CONT
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKGTOOp.OKGTOOpEmgru.rmt_grup">
+            <summary>
+            Atributo RMT_GRUP
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKGTOOp.OKGTOOpEmgru.cod_empl">
+            <summary>
+            Atributo COD_EMPL
+            </summary>
+        </member>
+        <member name="T:Ophelia.Kactus.OKGTOOp.OKGTOPKOpEmgru">
+            <summary>
+            Objeto PK de transferencia de datos para Emgru
+            </summary>
+        </member>
+        <member name="M:Ophelia.Kactus.OKGTOOp.OKGTOPKOpEmgru.#ctor">
+            <summary>
+            Constructor de la clase
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKGTOOp.OKGTOPKOpEmgru.cod_empl">
+            <summary>
+            Atributo Cod_empl
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKGTOOp.OKGTOPKOpEmgru.cod_empr">
+            <summary>
+            Atributo Cod_empr
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKGTOOp.OKGTOPKOpEmgru.rmt_grup">
+            <summary>
+            Atributo Rmt_grup
+            </summary>
+        </member>
+        <member name="T:Ophelia.Kactus.OKGTOOp.OKGTOOpForos">
+            <summary>
+            Objeto de transferencia de datos para Foros
+            </summary>
+        </member>
+        <member name="M:Ophelia.Kactus.OKGTOOp.OKGTOOpForos.#ctor">
+            <summary>
+            Constructor de la clase
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKGTOOp.OKGTOOpForos.act_usua">
+            <summary>
+            Atributo ACT_USUA
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKGTOOp.OKGTOOpForos.act_hora">
+            <summary>
+            Atributo ACT_HORA
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKGTOOp.OKGTOOpForos.act_esta">
+            <summary>
+            Atributo ACT_ESTA
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKGTOOp.OKGTOOpForos.cod_empr">
+            <summary>
+            Atributo COD_EMPR
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKGTOOp.OKGTOOpForos.cas_cont">
+            <summary>
+            Atributo CAS_CONT
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKGTOOp.OKGTOOpForos.rmt_foro">
+            <summary>
+            Atributo RMT_FORO
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKGTOOp.OKGTOOpForos.cod_empl">
+            <summary>
+            Atributo COD_EMPL
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKGTOOp.OKGTOOpForos.nom_foro">
+            <summary>
+            Atributo NOM_FORO
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKGTOOp.OKGTOOpForos.des_foro">
+            <summary>
+            Atributo DES_FORO
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKGTOOp.OKGTOOpForos.fec_inic">
+            <summary>
+            Atributo FEC_INIC
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKGTOOp.OKGTOOpForos.fec_fina">
+            <summary>
+            Atributo FEC_FINA
+            </summary>
+        </member>
+        <member name="T:Ophelia.Kactus.OKGTOOp.OKGTOPKOpForos">
+            <summary>
+            Objeto PK de transferencia de datos para Foros
+            </summary>
+        </member>
+        <member name="M:Ophelia.Kactus.OKGTOOp.OKGTOPKOpForos.#ctor">
+            <summary>
+            Constructor de la clase
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKGTOOp.OKGTOPKOpForos.cod_empr">
+            <summary>
+            Atributo Cod_empr
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKGTOOp.OKGTOPKOpForos.rmt_foro">
+            <summary>
+            Atributo Rmt_foro
+            </summary>
+        </member>
+        <member name="T:Ophelia.Kactus.OKGTOOp.OKGTOOpGrdet">
+            <summary>
+            Objeto de transferencia de datos para Grdet
+            </summary>
+        </member>
+        <member name="M:Ophelia.Kactus.OKGTOOp.OKGTOOpGrdet.#ctor">
+            <summary>
+            Constructor de la clase
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKGTOOp.OKGTOOpGrdet.act_usua">
+            <summary>
+            Atributo ACT_USUA
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKGTOOp.OKGTOOpGrdet.act_hora">
+            <summary>
+            Atributo ACT_HORA
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKGTOOp.OKGTOOpGrdet.act_esta">
+            <summary>
+            Atributo ACT_ESTA
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKGTOOp.OKGTOOpGrdet.grd_iden">
+            <summary>
+            Atributo GRD_IDEN
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKGTOOp.OKGTOOpGrdet.grd_nomb">
+            <summary>
+            Atributo GRD_NOMB
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKGTOOp.OKGTOOpGrdet.sis_iden">
+            <summary>
+            Atributo SIS_IDEN
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKGTOOp.OKGTOOpGrdet.rfa_iden">
+            <summary>
+            Atributo RFA_IDEN
+            </summary>
+        </member>
+        <member name="T:Ophelia.Kactus.OKGTOOp.OKGTOPKOpGrdet">
+            <summary>
+            Objeto PK de transferencia de datos para Grdet
+            </summary>
+        </member>
+        <member name="M:Ophelia.Kactus.OKGTOOp.OKGTOPKOpGrdet.#ctor">
+            <summary>
+            Constructor de la clase
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKGTOOp.OKGTOPKOpGrdet.grd_iden">
+            <summary>
+            Atributo Grd_iden
+            </summary>
+        </member>
+        <member name="T:Ophelia.Kactus.OKGTOOp.OKGTOOpGrupo">
+            <summary>
+            Objeto de transferencia de datos para Grupo
+            </summary>
+        </member>
+        <member name="M:Ophelia.Kactus.OKGTOOp.OKGTOOpGrupo.#ctor">
+            <summary>
+            Constructor de la clase
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKGTOOp.OKGTOOpGrupo.act_usua">
+            <summary>
+            Atributo ACT_USUA
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKGTOOp.OKGTOOpGrupo.act_hora">
+            <summary>
+            Atributo ACT_HORA
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKGTOOp.OKGTOOpGrupo.act_esta">
+            <summary>
+            Atributo ACT_ESTA
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKGTOOp.OKGTOOpGrupo.cod_empr">
+            <summary>
+            Atributo COD_EMPR
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKGTOOp.OKGTOOpGrupo.cas_cont">
+            <summary>
+            Atributo CAS_CONT
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKGTOOp.OKGTOOpGrupo.rmt_grup">
+            <summary>
+            Atributo RMT_GRUP
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKGTOOp.OKGTOOpGrupo.nom_grup">
+            <summary>
+            Atributo NOM_GRUP
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKGTOOp.OKGTOOpGrupo.des_grup">
+            <summary>
+            Atributo DES_GRUP
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKGTOOp.OKGTOOpGrupo.fec_grup">
+            <summary>
+            Atributo FEC_GRUP
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKGTOOp.OKGTOOpGrupo.est_grup">
+            <summary>
+            Atributo EST_GRUP
+            </summary>
+        </member>
+        <member name="T:Ophelia.Kactus.OKGTOOp.OKGTOPKOpGrupo">
+            <summary>
+            Objeto PK de transferencia de datos para Grupo
+            </summary>
+        </member>
+        <member name="M:Ophelia.Kactus.OKGTOOp.OKGTOPKOpGrupo.#ctor">
+            <summary>
+            Constructor de la clase
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKGTOOp.OKGTOPKOpGrupo.cod_empr">
+            <summary>
+            Atributo Cod_empr
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKGTOOp.OKGTOPKOpGrupo.rmt_grup">
+            <summary>
+            Atributo Rmt_grup
+            </summary>
+        </member>
+        <member name="T:Ophelia.Kactus.OKGTOOp.OKGTOOpIndic">
+            <summary>
+            Objeto de transferencia de datos para Indic
+            </summary>
+        </member>
+        <member name="M:Ophelia.Kactus.OKGTOOp.OKGTOOpIndic.#ctor">
+            <summary>
+            Constructor de la clase
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKGTOOp.OKGTOOpIndic.act_hora">
+            <summary>
+            Atributo ACT_HORA
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKGTOOp.OKGTOOpIndic.act_usua">
+            <summary>
+            Atributo ACT_USUA
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKGTOOp.OKGTOOpIndic.act_esta">
+            <summary>
+            Atributo ACT_ESTA
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKGTOOp.OKGTOOpIndic.ind_iden">
+            <summary>
+            Atributo IND_IDEN
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKGTOOp.OKGTOOpIndic.ind_nomb">
+            <summary>
+            Atributo IND_NOMB
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKGTOOp.OKGTOOpIndic.ind_grup">
+            <summary>
+            Atributo IND_GRUP
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKGTOOp.OKGTOOpIndic.ind_sist">
+            <summary>
+            Atributo IND_SIST
+            </summary>
+        </member>
+        <member name="T:Ophelia.Kactus.OKGTOOp.OKGTOPKOpIndic">
+            <summary>
+            Objeto PK de transferencia de datos para Indic
+            </summary>
+        </member>
+        <member name="M:Ophelia.Kactus.OKGTOOp.OKGTOPKOpIndic.#ctor">
+            <summary>
+            Constructor de la clase
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKGTOOp.OKGTOPKOpIndic.ind_iden">
+            <summary>
+            Atributo Ind_iden
+            </summary>
+        </member>
+        <member name="T:Ophelia.Kactus.OKGTOOp.OKGTOOpItems">
+            <summary>
+            Objeto de transferencia de datos para Items
+            </summary>
+        </member>
+        <member name="M:Ophelia.Kactus.OKGTOOp.OKGTOOpItems.#ctor">
+            <summary>
+            Constructor de la clase
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKGTOOp.OKGTOOpItems.aud_esta">
+            <summary>
+            Atributo AUD_ESTA
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKGTOOp.OKGTOOpItems.aud_usua">
+            <summary>
+            Atributo AUD_USUA
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKGTOOp.OKGTOOpItems.aud_hora">
+            <summary>
+            Atributo AUD_HORA
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKGTOOp.OKGTOOpItems.ite_cont">
+            <summary>
+            Atributo ITE_CONT
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKGTOOp.OKGTOOpItems.tit_cont">
+            <summary>
+            Atributo TIT_CONT
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKGTOOp.OKGTOOpItems.ite_codi">
+            <summary>
+            Atributo ITE_CODI
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKGTOOp.OKGTOOpItems.ite_nomb">
+            <summary>
+            Atributo ITE_NOMB
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKGTOOp.OKGTOOpItems.ite_acti">
+            <summary>
+            Atributo ITE_ACTI
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKGTOOp.OKGTOOpItems.ite_desc">
+            <summary>
+            Atributo ITE_DESC
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKGTOOp.OKGTOOpItems.ite_coho">
+            <summary>
+            Atributo ITE_COHO
+            </summary>
+        </member>
+        <member name="T:Ophelia.Kactus.OKGTOOp.OKGTOPKOpItems">
+            <summary>
+            Objeto PK de transferencia de datos para Items
+            </summary>
+        </member>
+        <member name="M:Ophelia.Kactus.OKGTOOp.OKGTOPKOpItems.#ctor">
+            <summary>
+            Constructor de la clase
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKGTOOp.OKGTOPKOpItems.ite_cont">
+            <summary>
+            Atributo Ite_cont
+            </summary>
+        </member>
+        <member name="T:Ophelia.Kactus.OKGTOOp.OKGTOOpLogus">
+            <summary>
+            Objeto de transferencia de datos para Logus
+            </summary>
+        </member>
+        <member name="M:Ophelia.Kactus.OKGTOOp.OKGTOOpLogus.#ctor">
+            <summary>
+            Constructor de la clase
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKGTOOp.OKGTOOpLogus.act_usua">
+            <summary>
+            Atributo ACT_USUA
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKGTOOp.OKGTOOpLogus.act_hora">
+            <summary>
+            Atributo ACT_HORA
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKGTOOp.OKGTOOpLogus.act_esta">
+            <summary>
+            Atributo ACT_ESTA
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKGTOOp.OKGTOOpLogus.cod_empr">
+            <summary>
+            Atributo COD_EMPR
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKGTOOp.OKGTOOpLogus.cas_cont">
+            <summary>
+            Atributo CAS_CONT
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKGTOOp.OKGTOOpLogus.cod_empl">
+            <summary>
+            Atributo COD_EMPL
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKGTOOp.OKGTOOpLogus.fec_ingr">
+            <summary>
+            Atributo FEC_INGR
+            </summary>
+        </member>
+        <member name="T:Ophelia.Kactus.OKGTOOp.OKGTOPKOpLogus">
+            <summary>
+            Objeto PK de transferencia de datos para Logus
+            </summary>
+        </member>
+        <member name="M:Ophelia.Kactus.OKGTOOp.OKGTOPKOpLogus.#ctor">
+            <summary>
+            Constructor de la clase
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKGTOOp.OKGTOPKOpLogus.cod_empl">
+            <summary>
+            Atributo Cod_empl
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKGTOOp.OKGTOPKOpLogus.cod_empr">
+            <summary>
+            Atributo Cod_empr
+            </summary>
+        </member>
+        <member name="T:Ophelia.Kactus.OKGTOOp.OKGTOOpMdeta">
+            <summary>
+            Objeto de transferencia de datos para Mdeta
+            </summary>
+        </member>
+        <member name="M:Ophelia.Kactus.OKGTOOp.OKGTOOpMdeta.#ctor">
+            <summary>
+            Constructor de la clase
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKGTOOp.OKGTOOpMdeta.aud_esta">
+            <summary>
+            Atributo AUD_ESTA
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKGTOOp.OKGTOOpMdeta.aud_usua">
+            <summary>
+            Atributo AUD_USUA
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKGTOOp.OKGTOOpMdeta.aud_hora">
+            <summary>
+            Atributo AUD_HORA
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKGTOOp.OKGTOOpMdeta.mde_cons">
+            <summary>
+            Atributo MDE_CONS
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKGTOOp.OKGTOOpMdeta.mde_tmae">
+            <summary>
+            Atributo MDE_TMAE
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKGTOOp.OKGTOOpMdeta.mde_thij">
+            <summary>
+            Atributo MDE_THIJ
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKGTOOp.OKGTOOpMdeta.mde_card">
+            <summary>
+            Atributo MDE_CARD
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKGTOOp.OKGTOOpMdeta.mde_alia">
+            <summary>
+            Atributo MDE_ALIA
+            </summary>
+        </member>
+        <member name="T:Ophelia.Kactus.OKGTOOp.OKGTOPKOpMdeta">
+            <summary>
+            Objeto PK de transferencia de datos para Mdeta
+            </summary>
+        </member>
+        <member name="M:Ophelia.Kactus.OKGTOOp.OKGTOPKOpMdeta.#ctor">
+            <summary>
+            Constructor de la clase
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKGTOOp.OKGTOPKOpMdeta.mde_cons">
+            <summary>
+            Atributo Mde_cons
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKGTOOp.OKGTOPKOpMdeta.mde_tmae">
+            <summary>
+            Atributo Mde_tmae
+            </summary>
+        </member>
+        <member name="T:Ophelia.Kactus.OKGTOOp.OKGTOOpMenss">
+            <summary>
+            Objeto de transferencia de datos para Menss
+            </summary>
+        </member>
+        <member name="M:Ophelia.Kactus.OKGTOOp.OKGTOOpMenss.#ctor">
+            <summary>
+            Constructor de la clase
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKGTOOp.OKGTOOpMenss.act_usua">
+            <summary>
+            Atributo ACT_USUA
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKGTOOp.OKGTOOpMenss.act_hora">
+            <summary>
+            Atributo ACT_HORA
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKGTOOp.OKGTOOpMenss.act_esta">
+            <summary>
+            Atributo ACT_ESTA
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKGTOOp.OKGTOOpMenss.cod_empr">
+            <summary>
+            Atributo COD_EMPR
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKGTOOp.OKGTOOpMenss.cas_cont">
+            <summary>
+            Atributo CAS_CONT
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKGTOOp.OKGTOOpMenss.cod_empl">
+            <summary>
+            Atributo COD_EMPL
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKGTOOp.OKGTOOpMenss.rmt_room">
+            <summary>
+            Atributo RMT_ROOM
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKGTOOp.OKGTOOpMenss.rmt_mens">
+            <summary>
+            Atributo RMT_MENS
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKGTOOp.OKGTOOpMenss.men_chat">
+            <summary>
+            Atributo MEN_CHAT
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKGTOOp.OKGTOOpMenss.fec_mens">
+            <summary>
+            Atributo FEC_MENS
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKGTOOp.OKGTOOpMenss.adj_arch">
+            <summary>
+            Atributo ADJ_ARCH
+            </summary>
+        </member>
+        <member name="T:Ophelia.Kactus.OKGTOOp.OKGTOPKOpMenss">
+            <summary>
+            Objeto PK de transferencia de datos para Menss
+            </summary>
+        </member>
+        <member name="M:Ophelia.Kactus.OKGTOOp.OKGTOPKOpMenss.#ctor">
+            <summary>
+            Constructor de la clase
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKGTOOp.OKGTOPKOpMenss.cod_empl">
+            <summary>
+            Atributo Cod_empl
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKGTOOp.OKGTOPKOpMenss.cod_empr">
+            <summary>
+            Atributo Cod_empr
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKGTOOp.OKGTOPKOpMenss.rmt_mens">
+            <summary>
+            Atributo Rmt_mens
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKGTOOp.OKGTOPKOpMenss.rmt_room">
+            <summary>
+            Atributo Rmt_room
+            </summary>
+        </member>
+        <member name="T:Ophelia.Kactus.OKGTOOp.OKGTOOpRecal">
+            <summary>
+            Objeto de transferencia de datos para Recal
+            </summary>
+        </member>
+        <member name="M:Ophelia.Kactus.OKGTOOp.OKGTOOpRecal.#ctor">
+            <summary>
+            Constructor de la clase
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKGTOOp.OKGTOOpRecal.act_usua">
+            <summary>
+            Atributo ACT_USUA
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKGTOOp.OKGTOOpRecal.act_hora">
+            <summary>
+            Atributo ACT_HORA
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKGTOOp.OKGTOOpRecal.act_esta">
+            <summary>
+            Atributo ACT_ESTA
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKGTOOp.OKGTOOpRecal.cod_empr">
+            <summary>
+            Atributo COD_EMPR
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKGTOOp.OKGTOOpRecal.cas_cont">
+            <summary>
+            Atributo CAS_CONT
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKGTOOp.OKGTOOpRecal.rmt_reca">
+            <summary>
+            Atributo RMT_RECA
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKGTOOp.OKGTOOpRecal.rmt_resp">
+            <summary>
+            Atributo RMT_RESP
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKGTOOp.OKGTOOpRecal.cod_empl">
+            <summary>
+            Atributo COD_EMPL
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKGTOOp.OKGTOOpRecal.cal_tema">
+            <summary>
+            Atributo CAL_TEMA
+            </summary>
+        </member>
+        <member name="T:Ophelia.Kactus.OKGTOOp.OKGTOPKOpRecal">
+            <summary>
+            Objeto PK de transferencia de datos para Recal
+            </summary>
+        </member>
+        <member name="M:Ophelia.Kactus.OKGTOOp.OKGTOPKOpRecal.#ctor">
+            <summary>
+            Constructor de la clase
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKGTOOp.OKGTOPKOpRecal.cod_empr">
+            <summary>
+            Atributo Cod_empr
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKGTOOp.OKGTOPKOpRecal.rmt_reca">
+            <summary>
+            Atributo Rmt_reca
+            </summary>
+        </member>
+        <member name="T:Ophelia.Kactus.OKGTOOp.OKGTOOpRefas">
+            <summary>
+            Objeto de transferencia de datos para Refas
+            </summary>
+        </member>
+        <member name="M:Ophelia.Kactus.OKGTOOp.OKGTOOpRefas.#ctor">
+            <summary>
+            Constructor de la clase
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKGTOOp.OKGTOOpRefas.act_esta">
+            <summary>
+            Atributo ACT_ESTA
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKGTOOp.OKGTOOpRefas.act_hora">
+            <summary>
+            Atributo ACT_HORA
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKGTOOp.OKGTOOpRefas.act_usua">
+            <summary>
+            Atributo ACT_USUA
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKGTOOp.OKGTOOpRefas.ref_iden">
+            <summary>
+            Atributo REF_IDEN
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKGTOOp.OKGTOOpRefas.ref_nomb">
+            <summary>
+            Atributo REF_NOMB
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKGTOOp.OKGTOOpRefas.ref_qery">
+            <summary>
+            Atributo REF_QERY
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKGTOOp.OKGTOOpRefas.ind_iden">
+            <summary>
+            Atributo IND_IDEN
+            </summary>
+        </member>
+        <member name="T:Ophelia.Kactus.OKGTOOp.OKGTOPKOpRefas">
+            <summary>
+            Objeto PK de transferencia de datos para Refas
+            </summary>
+        </member>
+        <member name="M:Ophelia.Kactus.OKGTOOp.OKGTOPKOpRefas.#ctor">
+            <summary>
+            Constructor de la clase
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKGTOOp.OKGTOPKOpRefas.ref_iden">
+            <summary>
+            Atributo Ref_iden
+            </summary>
+        </member>
+        <member name="T:Ophelia.Kactus.OKGTOOp.OKGTOOpRespu">
+            <summary>
+            Objeto de transferencia de datos para Respu
+            </summary>
+        </member>
+        <member name="M:Ophelia.Kactus.OKGTOOp.OKGTOOpRespu.#ctor">
+            <summary>
+            Constructor de la clase
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKGTOOp.OKGTOOpRespu.act_usua">
+            <summary>
+            Atributo ACT_USUA
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKGTOOp.OKGTOOpRespu.act_hora">
+            <summary>
+            Atributo ACT_HORA
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKGTOOp.OKGTOOpRespu.act_esta">
+            <summary>
+            Atributo ACT_ESTA
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKGTOOp.OKGTOOpRespu.cod_empr">
+            <summary>
+            Atributo COD_EMPR
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKGTOOp.OKGTOOpRespu.cas_cont">
+            <summary>
+            Atributo CAS_CONT
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKGTOOp.OKGTOOpRespu.rmt_tema">
+            <summary>
+            Atributo RMT_TEMA
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKGTOOp.OKGTOOpRespu.rmt_resp">
+            <summary>
+            Atributo RMT_RESP
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKGTOOp.OKGTOOpRespu.cod_empl">
+            <summary>
+            Atributo COD_EMPL
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKGTOOp.OKGTOOpRespu.men_resp">
+            <summary>
+            Atributo MEN_RESP
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKGTOOp.OKGTOOpRespu.fec_resp">
+            <summary>
+            Atributo FEC_RESP
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKGTOOp.OKGTOOpRespu.rmt_reco">
+            <summary>
+            Atributo RMT_RECO
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKGTOOp.OKGTOOpRespu.arc_adju">
+            <summary>
+            Atributo ARC_ADJU
+            </summary>
+        </member>
+        <member name="T:Ophelia.Kactus.OKGTOOp.OKGTOPKOpRespu">
+            <summary>
+            Objeto PK de transferencia de datos para Respu
+            </summary>
+        </member>
+        <member name="M:Ophelia.Kactus.OKGTOOp.OKGTOPKOpRespu.#ctor">
+            <summary>
+            Constructor de la clase
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKGTOOp.OKGTOPKOpRespu.cod_empr">
+            <summary>
+            Atributo Cod_empr
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKGTOOp.OKGTOPKOpRespu.rmt_resp">
+            <summary>
+            Atributo Rmt_resp
+            </summary>
+        </member>
+        <member name="T:Ophelia.Kactus.OKGTOOp.OKGTOOpRooms">
+            <summary>
+            Objeto de transferencia de datos para Rooms
+            </summary>
+        </member>
+        <member name="M:Ophelia.Kactus.OKGTOOp.OKGTOOpRooms.#ctor">
+            <summary>
+            Constructor de la clase
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKGTOOp.OKGTOOpRooms.act_usua">
+            <summary>
+            Atributo ACT_USUA
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKGTOOp.OKGTOOpRooms.act_hora">
+            <summary>
+            Atributo ACT_HORA
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKGTOOp.OKGTOOpRooms.act_esta">
+            <summary>
+            Atributo ACT_ESTA
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKGTOOp.OKGTOOpRooms.cod_empr">
+            <summary>
+            Atributo COD_EMPR
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKGTOOp.OKGTOOpRooms.cas_cont">
+            <summary>
+            Atributo CAS_CONT
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKGTOOp.OKGTOOpRooms.rmt_room">
+            <summary>
+            Atributo RMT_ROOM
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKGTOOp.OKGTOOpRooms.tip_room">
+            <summary>
+            Atributo TIP_ROOM
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKGTOOp.OKGTOOpRooms.nom_room">
+            <summary>
+            Atributo NOM_ROOM
+            </summary>
+        </member>
+        <member name="T:Ophelia.Kactus.OKGTOOp.OKGTOPKOpRooms">
+            <summary>
+            Objeto PK de transferencia de datos para Rooms
+            </summary>
+        </member>
+        <member name="M:Ophelia.Kactus.OKGTOOp.OKGTOPKOpRooms.#ctor">
+            <summary>
+            Constructor de la clase
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKGTOOp.OKGTOPKOpRooms.cod_empr">
+            <summary>
+            Atributo Cod_empr
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKGTOOp.OKGTOPKOpRooms.rmt_room">
+            <summary>
+            Atributo Rmt_room
+            </summary>
+        </member>
+        <member name="T:Ophelia.Kactus.OKGTOOp.OKGTOOpRulco">
+            <summary>
+            Objeto de transferencia de datos para Rulco
+            </summary>
+        </member>
+        <member name="M:Ophelia.Kactus.OKGTOOp.OKGTOOpRulco.#ctor">
+            <summary>
+            Constructor de la clase
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKGTOOp.OKGTOOpRulco.act_esta">
+            <summary>
+            Atributo ACT_ESTA
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKGTOOp.OKGTOOpRulco.act_usua">
+            <summary>
+            Atributo ACT_USUA
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKGTOOp.OKGTOOpRulco.act_hora">
+            <summary>
+            Atributo ACT_HORA
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKGTOOp.OKGTOOpRulco.rmt_rula">
+            <summary>
+            Atributo RMT_RULA
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKGTOOp.OKGTOOpRulco.rmt_rulc">
+            <summary>
+            Atributo RMT_RULC
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKGTOOp.OKGTOOpRulco.rul_tipo">
+            <summary>
+            Atributo RUL_TIPO
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKGTOOp.OKGTOOpRulco.rul_cond">
+            <summary>
+            Atributo RUL_COND
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKGTOOp.OKGTOOpRulco.rul_acci">
+            <summary>
+            Atributo RUL_ACCI
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKGTOOp.OKGTOOpRulco.rul_mens">
+            <summary>
+            Atributo RUL_MENS
+            </summary>
+        </member>
+        <member name="T:Ophelia.Kactus.OKGTOOp.OKGTOPKOpRulco">
+            <summary>
+            Objeto PK de transferencia de datos para Rulco
+            </summary>
+        </member>
+        <member name="M:Ophelia.Kactus.OKGTOOp.OKGTOPKOpRulco.#ctor">
+            <summary>
+            Constructor de la clase
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKGTOOp.OKGTOPKOpRulco.rmt_rula">
+            <summary>
+            Atributo Rmt_rula
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKGTOOp.OKGTOPKOpRulco.rmt_rulc">
+            <summary>
+            Atributo Rmt_rulc
+            </summary>
+        </member>
+        <member name="T:Ophelia.Kactus.OKGTOOp.OKGTOOpRules">
+            <summary>
+            Objeto de transferencia de datos para Rules
+            </summary>
+        </member>
+        <member name="M:Ophelia.Kactus.OKGTOOp.OKGTOOpRules.#ctor">
+            <summary>
+            Constructor de la clase
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKGTOOp.OKGTOOpRules.act_esta">
+            <summary>
+            Atributo ACT_ESTA
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKGTOOp.OKGTOOpRules.act_usua">
+            <summary>
+            Atributo ACT_USUA
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKGTOOp.OKGTOOpRules.act_hora">
+            <summary>
+            Atributo ACT_HORA
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKGTOOp.OKGTOOpRules.rmt_rule">
+            <summary>
+            Atributo RMT_RULE
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKGTOOp.OKGTOOpRules.rul_nomb">
+            <summary>
+            Atributo RUL_NOMB
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKGTOOp.OKGTOOpRules.rul_desc">
+            <summary>
+            Atributo RUL_DESC
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKGTOOp.OKGTOOpRules.rul_fact">
+            <summary>
+            Atributo RUL_FACT
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKGTOOp.OKGTOOpRules.rul_fcre">
+            <summary>
+            Atributo RUL_FCRE
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKGTOOp.OKGTOOpRules.rul_ffin">
+            <summary>
+            Atributo RUL_FFIN
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKGTOOp.OKGTOOpRules.rul_esta">
+            <summary>
+            Atributo RUL_ESTA
+            </summary>
+        </member>
+        <member name="T:Ophelia.Kactus.OKGTOOp.OKGTOPKOpRules">
+            <summary>
+            Objeto PK de transferencia de datos para Rules
+            </summary>
+        </member>
+        <member name="M:Ophelia.Kactus.OKGTOOp.OKGTOPKOpRules.#ctor">
+            <summary>
+            Constructor de la clase
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKGTOOp.OKGTOPKOpRules.rmt_rule">
+            <summary>
+            Atributo Rmt_rule
+            </summary>
+        </member>
+        <member name="T:Ophelia.Kactus.OKGTOOp.OKGTOOpRulfo">
+            <summary>
+            Objeto de transferencia de datos para Rulfo
+            </summary>
+        </member>
+        <member name="M:Ophelia.Kactus.OKGTOOp.OKGTOOpRulfo.#ctor">
+            <summary>
+            Constructor de la clase
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKGTOOp.OKGTOOpRulfo.act_esta">
+            <summary>
+            Atributo ACT_ESTA
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKGTOOp.OKGTOOpRulfo.act_usua">
+            <summary>
+            Atributo ACT_USUA
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKGTOOp.OKGTOOpRulfo.act_hora">
+            <summary>
+            Atributo ACT_HORA
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKGTOOp.OKGTOOpRulfo.rmt_rulf">
+            <summary>
+            Atributo RMT_RULF
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKGTOOp.OKGTOOpRulfo.cod_empr">
+            <summary>
+            Atributo COD_EMPR
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKGTOOp.OKGTOOpRulfo.for_iden">
+            <summary>
+            Atributo FOR_IDEN
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKGTOOp.OKGTOOpRulfo.for_abre">
+            <summary>
+            Atributo FOR_ABRE
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKGTOOp.OKGTOOpRulfo.for_desc">
+            <summary>
+            Atributo FOR_DESC
+            </summary>
+        </member>
+        <member name="T:Ophelia.Kactus.OKGTOOp.OKGTOPKOpRulfo">
+            <summary>
+            Objeto PK de transferencia de datos para Rulfo
+            </summary>
+        </member>
+        <member name="M:Ophelia.Kactus.OKGTOOp.OKGTOPKOpRulfo.#ctor">
+            <summary>
+            Constructor de la clase
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKGTOOp.OKGTOPKOpRulfo.rmt_rulf">
+            <summary>
+            Atributo Rmt_rulf
+            </summary>
+        </member>
+        <member name="T:Ophelia.Kactus.OKGTOOp.OKGTOOpRulfr">
+            <summary>
+            Objeto de transferencia de datos para Rulfr
+            </summary>
+        </member>
+        <member name="M:Ophelia.Kactus.OKGTOOp.OKGTOOpRulfr.#ctor">
+            <summary>
+            Constructor de la clase
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKGTOOp.OKGTOOpRulfr.rmt_rulf">
+            <summary>
+            Atributo RMT_RULF
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKGTOOp.OKGTOOpRulfr.rmt_rule">
+            <summary>
+            Atributo RMT_RULE
+            </summary>
+        </member>
+        <member name="T:Ophelia.Kactus.OKGTOOp.OKGTOPKOpRulfr">
+            <summary>
+            Objeto PK de transferencia de datos para Rulfr
+            </summary>
+        </member>
+        <member name="M:Ophelia.Kactus.OKGTOOp.OKGTOPKOpRulfr.#ctor">
+            <summary>
+            Constructor de la clase
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKGTOOp.OKGTOPKOpRulfr.rmt_rule">
+            <summary>
+            Atributo Rmt_rule
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKGTOOp.OKGTOPKOpRulfr.rmt_rulf">
+            <summary>
+            Atributo Rmt_rulf
+            </summary>
+        </member>
+        <member name="T:Ophelia.Kactus.OKGTOOp.OKGTOOpRulva">
+            <summary>
+            Objeto de transferencia de datos para Rulva
+            </summary>
+        </member>
+        <member name="M:Ophelia.Kactus.OKGTOOp.OKGTOOpRulva.#ctor">
+            <summary>
+            Constructor de la clase
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKGTOOp.OKGTOOpRulva.act_esta">
+            <summary>
+            Atributo ACT_ESTA
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKGTOOp.OKGTOOpRulva.act_usua">
+            <summary>
+            Atributo ACT_USUA
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKGTOOp.OKGTOOpRulva.act_hora">
+            <summary>
+            Atributo ACT_HORA
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKGTOOp.OKGTOOpRulva.rmt_rule">
+            <summary>
+            Atributo RMT_RULE
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKGTOOp.OKGTOOpRulva.rmt_rula">
+            <summary>
+            Atributo RMT_RULA
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKGTOOp.OKGTOOpRulva.rul_codi">
+            <summary>
+            Atributo RUL_CODI
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKGTOOp.OKGTOOpRulva.rul_abre">
+            <summary>
+            Atributo RUL_ABRE
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKGTOOp.OKGTOOpRulva.rul_tipo">
+            <summary>
+            Atributo RUL_TIPO
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKGTOOp.OKGTOOpRulva.rul_desc">
+            <summary>
+            Atributo RUL_DESC
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKGTOOp.OKGTOOpRulva.rul_nive">
+            <summary>
+            Atributo RUL_NIVE
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKGTOOp.OKGTOOpRulva.rul_valo">
+            <summary>
+            Atributo RUL_VALO
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKGTOOp.OKGTOOpRulva.rul_orig">
+            <summary>
+            Atributo RUL_ORIG
+            </summary>
+        </member>
+        <member name="T:Ophelia.Kactus.OKGTOOp.OKGTOPKOpRulva">
+            <summary>
+            Objeto PK de transferencia de datos para Rulva
+            </summary>
+        </member>
+        <member name="M:Ophelia.Kactus.OKGTOOp.OKGTOPKOpRulva.#ctor">
+            <summary>
+            Constructor de la clase
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKGTOOp.OKGTOPKOpRulva.rmt_rula">
+            <summary>
+            Atributo Rmt_rula
+            </summary>
+        </member>
+        <member name="T:Ophelia.Kactus.OKGTOOp.OKGTOOpRutie">
+            <summary>
+            Objeto de transferencia de datos para Rutie
+            </summary>
+        </member>
+        <member name="M:Ophelia.Kactus.OKGTOOp.OKGTOOpRutie.#ctor">
+            <summary>
+            Constructor de la clase
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKGTOOp.OKGTOOpRutie.act_esta">
+            <summary>
+            Atributo ACT_ESTA
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKGTOOp.OKGTOOpRutie.act_usua">
+            <summary>
+            Atributo ACT_USUA
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKGTOOp.OKGTOOpRutie.act_hora">
+            <summary>
+            Atributo ACT_HORA
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKGTOOp.OKGTOOpRutie.rut_enti">
+            <summary>
+            Atributo RUT_ENTI
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKGTOOp.OKGTOOpRutie.rut_atri">
+            <summary>
+            Atributo RUT_ATRI
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKGTOOp.OKGTOOpRutie.tit_cont">
+            <summary>
+            Atributo TIT_CONT
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKGTOOp.OKGTOOpRutie.rut_dest">
+            <summary>
+            Atributo RUT_DEST
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKGTOOp.OKGTOOpRutie.rut_sele">
+            <summary>
+            Atributo RUT_SELE
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKGTOOp.OKGTOOpRutie.rut_cond">
+            <summary>
+            Atributo RUT_COND
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKGTOOp.OKGTOOpRutie.rut_repr">
+            <summary>
+            Atributo RUT_REPR
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKGTOOp.OKGTOOpRutie.rut_expr">
+            <summary>
+            Atributo RUT_EXPR
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKGTOOp.OKGTOOpRutie.rut_edit">
+            <summary>
+            Atributo RUT_EDIT
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKGTOOp.OKGTOOpRutie.rut_visi">
+            <summary>
+            Atributo RUT_VISI
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKGTOOp.OKGTOOpRutie.rmt_rula">
+            <summary>
+            Atributo RMT_RULA
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKGTOOp.OKGTOOpRutie.rut_defa">
+            <summary>
+            Atributo RUT_DEFA
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKGTOOp.OKGTOOpRutie.rut_sent">
+            <summary>
+            Atributo RUT_SENT
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKGTOOp.OKGTOOpRutie.rmt_cont">
+            <summary>
+            Atributo RMT_CONT
+            </summary>
+        </member>
+        <member name="T:Ophelia.Kactus.OKGTOOp.OKGTOPKOpRutie">
+            <summary>
+            Objeto PK de transferencia de datos para Rutie
+            </summary>
+        </member>
+        <member name="M:Ophelia.Kactus.OKGTOOp.OKGTOPKOpRutie.#ctor">
+            <summary>
+            Constructor de la clase
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKGTOOp.OKGTOPKOpRutie.rmt_cont">
+            <summary>
+            Atributo Rmt_cont
+            </summary>
+        </member>
+        <member name="T:Ophelia.Kactus.OKGTOOp.OKGTOOpSesio">
+            <summary>
+            Objeto de transferencia de datos para Sesio
+            </summary>
+        </member>
+        <member name="M:Ophelia.Kactus.OKGTOOp.OKGTOOpSesio.#ctor">
+            <summary>
+            Constructor de la clase
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKGTOOp.OKGTOOpSesio.act_usua">
+            <summary>
+            Atributo ACT_USUA
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKGTOOp.OKGTOOpSesio.act_hora">
+            <summary>
+            Atributo ACT_HORA
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKGTOOp.OKGTOOpSesio.act_esta">
+            <summary>
+            Atributo ACT_ESTA
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKGTOOp.OKGTOOpSesio.ses_apli">
+            <summary>
+            Atributo SES_APLI
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKGTOOp.OKGTOOpSesio.ses_tokn">
+            <summary>
+            Atributo SES_TOKN
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKGTOOp.OKGTOOpSesio.ses_ipad">
+            <summary>
+            Atributo SES_IPAD
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKGTOOp.OKGTOOpSesio.ses_usua">
+            <summary>
+            Atributo SES_USUA
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKGTOOp.OKGTOOpSesio.ses_fech">
+            <summary>
+            Atributo SES_FECH
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKGTOOp.OKGTOOpSesio.ses_esta">
+            <summary>
+            Atributo SES_ESTA
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKGTOOp.OKGTOOpSesio.ses_fecx">
+            <summary>
+            Atributo SES_FECX
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKGTOOp.OKGTOOpSesio.ses_tipa">
+            <summary>
+            Atributo SES_TIPA
+            </summary>
+        </member>
+        <member name="T:Ophelia.Kactus.OKGTOOp.OKGTOPKOpSesio">
+            <summary>
+            Objeto PK de transferencia de datos para Sesio
+            </summary>
+        </member>
+        <member name="M:Ophelia.Kactus.OKGTOOp.OKGTOPKOpSesio.#ctor">
+            <summary>
+            Constructor de la clase
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKGTOOp.OKGTOPKOpSesio.ses_apli">
+            <summary>
+            Atributo Ses_apli
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKGTOOp.OKGTOPKOpSesio.ses_ipad">
+            <summary>
+            Atributo Ses_ipad
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKGTOOp.OKGTOPKOpSesio.ses_tokn">
+            <summary>
+            Atributo Ses_tokn
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKGTOOp.OKGTOPKOpSesio.ses_usua">
+            <summary>
+            Atributo Ses_usua
+            </summary>
+        </member>
+        <member name="T:Ophelia.Kactus.OKGTOOp.OKGTOOpTemas">
+            <summary>
+            Objeto de transferencia de datos para Temas
+            </summary>
+        </member>
+        <member name="M:Ophelia.Kactus.OKGTOOp.OKGTOOpTemas.#ctor">
+            <summary>
+            Constructor de la clase
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKGTOOp.OKGTOOpTemas.act_usua">
+            <summary>
+            Atributo ACT_USUA
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKGTOOp.OKGTOOpTemas.act_hora">
+            <summary>
+            Atributo ACT_HORA
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKGTOOp.OKGTOOpTemas.act_esta">
+            <summary>
+            Atributo ACT_ESTA
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKGTOOp.OKGTOOpTemas.cod_empr">
+            <summary>
+            Atributo COD_EMPR
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKGTOOp.OKGTOOpTemas.cas_cont">
+            <summary>
+            Atributo CAS_CONT
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKGTOOp.OKGTOOpTemas.rmt_tema">
+            <summary>
+            Atributo RMT_TEMA
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKGTOOp.OKGTOOpTemas.rmt_foro">
+            <summary>
+            Atributo RMT_FORO
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKGTOOp.OKGTOOpTemas.nom_tema">
+            <summary>
+            Atributo NOM_TEMA
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKGTOOp.OKGTOOpTemas.des_tema">
+            <summary>
+            Atributo DES_TEMA
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKGTOOp.OKGTOOpTemas.tip_tema">
+            <summary>
+            Atributo TIP_TEMA
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKGTOOp.OKGTOOpTemas.fec_inic">
+            <summary>
+            Atributo FEC_INIC
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKGTOOp.OKGTOOpTemas.fec_fina">
+            <summary>
+            Atributo FEC_FINA
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKGTOOp.OKGTOOpTemas.est_tema">
+            <summary>
+            Atributo EST_TEMA
+            </summary>
+        </member>
+        <member name="T:Ophelia.Kactus.OKGTOOp.OKGTOPKOpTemas">
+            <summary>
+            Objeto PK de transferencia de datos para Temas
+            </summary>
+        </member>
+        <member name="M:Ophelia.Kactus.OKGTOOp.OKGTOPKOpTemas.#ctor">
+            <summary>
+            Constructor de la clase
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKGTOOp.OKGTOPKOpTemas.cod_empr">
+            <summary>
+            Atributo Cod_empr
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKGTOOp.OKGTOPKOpTemas.rmt_tema">
+            <summary>
+            Atributo Rmt_tema
+            </summary>
+        </member>
+        <member name="T:Ophelia.Kactus.OKGTOOp.OKGTOOpTitem">
+            <summary>
+            Objeto de transferencia de datos para Titem
+            </summary>
+        </member>
+        <member name="M:Ophelia.Kactus.OKGTOOp.OKGTOOpTitem.#ctor">
+            <summary>
+            Constructor de la clase
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKGTOOp.OKGTOOpTitem.aud_esta">
+            <summary>
+            Atributo AUD_ESTA
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKGTOOp.OKGTOOpTitem.aud_usua">
+            <summary>
+            Atributo AUD_USUA
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKGTOOp.OKGTOOpTitem.aud_hora">
+            <summary>
+            Atributo AUD_HORA
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKGTOOp.OKGTOOpTitem.tit_cont">
+            <summary>
+            Atributo TIT_CONT
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKGTOOp.OKGTOOpTitem.tit_codi">
+            <summary>
+            Atributo TIT_CODI
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKGTOOp.OKGTOOpTitem.tit_nomb">
+            <summary>
+            Atributo TIT_NOMB
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKGTOOp.OKGTOOpTitem.tit_codm">
+            <summary>
+            Atributo TIT_CODM
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKGTOOp.OKGTOOpTitem.tit_modi">
+            <summary>
+            Atributo TIT_MODI
+            </summary>
+        </member>
+        <member name="T:Ophelia.Kactus.OKGTOOp.OKGTOPKOpTitem">
+            <summary>
+            Objeto PK de transferencia de datos para Titem
+            </summary>
+        </member>
+        <member name="M:Ophelia.Kactus.OKGTOOp.OKGTOPKOpTitem.#ctor">
+            <summary>
+            Constructor de la clase
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKGTOOp.OKGTOPKOpTitem.tit_cont">
+            <summary>
+            Atributo Tit_cont
+            </summary>
+        </member>
+        <member name="T:Ophelia.Kactus.OKGTOOp.OKGTOOpUatem">
+            <summary>
+            Objeto de transferencia de datos para Uatem
+            </summary>
+        </member>
+        <member name="M:Ophelia.Kactus.OKGTOOp.OKGTOOpUatem.#ctor">
+            <summary>
+            Constructor de la clase
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKGTOOp.OKGTOOpUatem.act_usua">
+            <summary>
+            Atributo ACT_USUA
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKGTOOp.OKGTOOpUatem.act_hora">
+            <summary>
+            Atributo ACT_HORA
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKGTOOp.OKGTOOpUatem.act_esta">
+            <summary>
+            Atributo ACT_ESTA
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKGTOOp.OKGTOOpUatem.cod_empr">
+            <summary>
+            Atributo COD_EMPR
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKGTOOp.OKGTOOpUatem.cas_cont">
+            <summary>
+            Atributo CAS_CONT
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKGTOOp.OKGTOOpUatem.rmt_uate">
+            <summary>
+            Atributo RMT_UATE
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKGTOOp.OKGTOOpUatem.rmt_grup">
+            <summary>
+            Atributo RMT_GRUP
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKGTOOp.OKGTOOpUatem.rmt_tema">
+            <summary>
+            Atributo RMT_TEMA
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKGTOOp.OKGTOOpUatem.cod_empl">
+            <summary>
+            Atributo COD_EMPL
+            </summary>
+        </member>
+        <member name="T:Ophelia.Kactus.OKGTOOp.OKGTOPKOpUatem">
+            <summary>
+            Objeto PK de transferencia de datos para Uatem
+            </summary>
+        </member>
+        <member name="M:Ophelia.Kactus.OKGTOOp.OKGTOPKOpUatem.#ctor">
+            <summary>
+            Constructor de la clase
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKGTOOp.OKGTOPKOpUatem.cod_empr">
+            <summary>
+            Atributo Cod_empr
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKGTOOp.OKGTOPKOpUatem.rmt_uate">
+            <summary>
+            Atributo Rmt_uate
+            </summary>
+        </member>
+    </members>
+</doc>

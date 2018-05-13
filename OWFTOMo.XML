@@ -1,0 +1,53 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Ophelia.Ophelia.OWFTOMo</name>
+    </assembly>
+    <members>
+        <member name="T:Ophelia.Ophelia.OWFTOMo.OWFTOMoModel">
+            <summary>
+            Objeto de transferencia de datos para Model
+            </summary>
+        </member>
+        <member name="M:Ophelia.Ophelia.OWFTOMo.OWFTOMoModel.#ctor">
+            <summary>
+            Constructor de la clase
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OWFTOMo.OWFTOMoModel.code">
+            <summary>
+            Atributo CODE
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OWFTOMo.OWFTOMoModel.id">
+            <summary>
+            Atributo ID
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OWFTOMo.OWFTOMoModel.name">
+            <summary>
+            Atributo NAME
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OWFTOMo.OWFTOMoModel.version">
+            <summary>
+            Atributo VERSION
+            </summary>
+        </member>
+        <member name="T:Ophelia.Ophelia.OWFTOMo.OWFTOPKMoModel">
+            <summary>
+            Objeto PK de transferencia de datos para Model
+            </summary>
+        </member>
+        <member name="M:Ophelia.Ophelia.OWFTOMo.OWFTOPKMoModel.#ctor">
+            <summary>
+            Constructor de la clase
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OWFTOMo.OWFTOPKMoModel.id">
+            <summary>
+            Atributo Id
+            </summary>
+        </member>
+    </members>
+</doc>

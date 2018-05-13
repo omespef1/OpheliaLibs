@@ -1,0 +1,748 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Ophelia.BRMS.OBRMSTOOp</name>
+    </assembly>
+    <members>
+        <member name="T:Ophelia.BRMS.OBRMSTOOp.OBRMSTOOpBblio">
+            <summary>
+            Objeto de transferencia de datos para Bblio
+            </summary>
+        </member>
+        <member name="M:Ophelia.BRMS.OBRMSTOOp.OBRMSTOOpBblio.#ctor">
+            <summary>
+            Constructor de la clase
+            </summary>
+        </member>
+        <member name="P:Ophelia.BRMS.OBRMSTOOp.OBRMSTOOpBblio.act_esta">
+            <summary>
+            Atributo ACT_ESTA
+            </summary>
+        </member>
+        <member name="P:Ophelia.BRMS.OBRMSTOOp.OBRMSTOOpBblio.act_hora">
+            <summary>
+            Atributo ACT_HORA
+            </summary>
+        </member>
+        <member name="P:Ophelia.BRMS.OBRMSTOOp.OBRMSTOOpBblio.act_usua">
+            <summary>
+            Atributo ACT_USUA
+            </summary>
+        </member>
+        <member name="P:Ophelia.BRMS.OBRMSTOOp.OBRMSTOOpBblio.bbl_algt">
+            <summary>
+            Atributo BBL_ALGT
+            </summary>
+        </member>
+        <member name="P:Ophelia.BRMS.OBRMSTOOp.OBRMSTOOpBblio.bbl_desc">
+            <summary>
+            Atributo BBL_DESC
+            </summary>
+        </member>
+        <member name="P:Ophelia.BRMS.OBRMSTOOp.OBRMSTOOpBblio.bbl_nomb">
+            <summary>
+            Atributo BBL_NOMB
+            </summary>
+        </member>
+        <member name="P:Ophelia.BRMS.OBRMSTOOp.OBRMSTOOpBblio.bbl_ruta">
+            <summary>
+            Atributo BBL_RUTA
+            </summary>
+        </member>
+        <member name="P:Ophelia.BRMS.OBRMSTOOp.OBRMSTOOpBblio.bbl_ubic">
+            <summary>
+            Atributo BBL_UBIC
+            </summary>
+        </member>
+        <member name="P:Ophelia.BRMS.OBRMSTOOp.OBRMSTOOpBblio.cod_empr">
+            <summary>
+            Atributo COD_EMPR
+            </summary>
+        </member>
+        <member name="P:Ophelia.BRMS.OBRMSTOOp.OBRMSTOOpBblio.rmt_bbli">
+            <summary>
+            Atributo RMT_BBLI
+            </summary>
+        </member>
+        <member name="T:Ophelia.BRMS.OBRMSTOOp.OBRMSTOPKOpBblio">
+            <summary>
+            Objeto PK de transferencia de datos para Bblio
+            </summary>
+        </member>
+        <member name="M:Ophelia.BRMS.OBRMSTOOp.OBRMSTOPKOpBblio.#ctor">
+            <summary>
+            Constructor de la clase
+            </summary>
+        </member>
+        <member name="P:Ophelia.BRMS.OBRMSTOOp.OBRMSTOPKOpBblio.cod_empr">
+            <summary>
+            Atributo Cod_empr
+            </summary>
+        </member>
+        <member name="P:Ophelia.BRMS.OBRMSTOOp.OBRMSTOPKOpBblio.rmt_bbli">
+            <summary>
+            Atributo Rmt_bbli
+            </summary>
+        </member>
+        <member name="T:Ophelia.BRMS.OBRMSTOOp.OBRMSTOOpBblit">
+            <summary>
+            Objeto de transferencia de datos para Bblit
+            </summary>
+        </member>
+        <member name="M:Ophelia.BRMS.OBRMSTOOp.OBRMSTOOpBblit.#ctor">
+            <summary>
+            Constructor de la clase
+            </summary>
+        </member>
+        <member name="P:Ophelia.BRMS.OBRMSTOOp.OBRMSTOOpBblit.act_esta">
+            <summary>
+            Atributo ACT_ESTA
+            </summary>
+        </member>
+        <member name="P:Ophelia.BRMS.OBRMSTOOp.OBRMSTOOpBblit.act_hora">
+            <summary>
+            Atributo ACT_HORA
+            </summary>
+        </member>
+        <member name="P:Ophelia.BRMS.OBRMSTOOp.OBRMSTOOpBblit.act_usua">
+            <summary>
+            Atributo ACT_USUA
+            </summary>
+        </member>
+        <member name="P:Ophelia.BRMS.OBRMSTOOp.OBRMSTOOpBblit.blt_obli">
+            <summary>
+            Atributo BLT_OBLI
+            </summary>
+        </member>
+        <member name="P:Ophelia.BRMS.OBRMSTOOp.OBRMSTOOpBblit.blt_valu">
+            <summary>
+            Atributo BLT_VALU
+            </summary>
+        </member>
+        <member name="P:Ophelia.BRMS.OBRMSTOOp.OBRMSTOOpBblit.cod_empr">
+            <summary>
+            Atributo COD_EMPR
+            </summary>
+        </member>
+        <member name="P:Ophelia.BRMS.OBRMSTOOp.OBRMSTOOpBblit.rmt_bbli">
+            <summary>
+            Atributo RMT_BBLI
+            </summary>
+        </member>
+        <member name="P:Ophelia.BRMS.OBRMSTOOp.OBRMSTOOpBblit.rmt_btag">
+            <summary>
+            Atributo RMT_BTAG
+            </summary>
+        </member>
+        <member name="T:Ophelia.BRMS.OBRMSTOOp.OBRMSTOPKOpBblit">
+            <summary>
+            Objeto PK de transferencia de datos para Bblit
+            </summary>
+        </member>
+        <member name="M:Ophelia.BRMS.OBRMSTOOp.OBRMSTOPKOpBblit.#ctor">
+            <summary>
+            Constructor de la clase
+            </summary>
+        </member>
+        <member name="P:Ophelia.BRMS.OBRMSTOOp.OBRMSTOPKOpBblit.cod_empr">
+            <summary>
+            Atributo Cod_empr
+            </summary>
+        </member>
+        <member name="P:Ophelia.BRMS.OBRMSTOOp.OBRMSTOPKOpBblit.rmt_bbli">
+            <summary>
+            Atributo Rmt_bbli
+            </summary>
+        </member>
+        <member name="P:Ophelia.BRMS.OBRMSTOOp.OBRMSTOPKOpBblit.rmt_btag">
+            <summary>
+            Atributo Rmt_btag
+            </summary>
+        </member>
+        <member name="T:Ophelia.BRMS.OBRMSTOOp.OBRMSTOOpBlabd">
+            <summary>
+            Objeto de transferencia de datos para Blabd
+            </summary>
+        </member>
+        <member name="M:Ophelia.BRMS.OBRMSTOOp.OBRMSTOOpBlabd.#ctor">
+            <summary>
+            Constructor de la clase
+            </summary>
+        </member>
+        <member name="P:Ophelia.BRMS.OBRMSTOOp.OBRMSTOOpBlabd.abd_cont">
+            <summary>
+            Atributo ABD_CONT
+            </summary>
+        </member>
+        <member name="P:Ophelia.BRMS.OBRMSTOOp.OBRMSTOOpBlabd.abd_file">
+            <summary>
+            Atributo ABD_FILE
+            </summary>
+        </member>
+        <member name="P:Ophelia.BRMS.OBRMSTOOp.OBRMSTOOpBlabd.act_esta">
+            <summary>
+            Atributo ACT_ESTA
+            </summary>
+        </member>
+        <member name="P:Ophelia.BRMS.OBRMSTOOp.OBRMSTOOpBlabd.act_hora">
+            <summary>
+            Atributo ACT_HORA
+            </summary>
+        </member>
+        <member name="P:Ophelia.BRMS.OBRMSTOOp.OBRMSTOOpBlabd.act_usua">
+            <summary>
+            Atributo ACT_USUA
+            </summary>
+        </member>
+        <member name="P:Ophelia.BRMS.OBRMSTOOp.OBRMSTOOpBlabd.cod_empr">
+            <summary>
+            Atributo COD_EMPR
+            </summary>
+        </member>
+        <member name="P:Ophelia.BRMS.OBRMSTOOp.OBRMSTOOpBlabd.rmt_bbli">
+            <summary>
+            Atributo RMT_BBLI
+            </summary>
+        </member>
+        <member name="P:Ophelia.BRMS.OBRMSTOOp.OBRMSTOOpBlabd.rmt_blar">
+            <summary>
+            Atributo RMT_BLAR
+            </summary>
+        </member>
+        <member name="T:Ophelia.BRMS.OBRMSTOOp.OBRMSTOPKOpBlabd">
+            <summary>
+            Objeto PK de transferencia de datos para Blabd
+            </summary>
+        </member>
+        <member name="M:Ophelia.BRMS.OBRMSTOOp.OBRMSTOPKOpBlabd.#ctor">
+            <summary>
+            Constructor de la clase
+            </summary>
+        </member>
+        <member name="P:Ophelia.BRMS.OBRMSTOOp.OBRMSTOPKOpBlabd.cod_empr">
+            <summary>
+            Atributo Cod_empr
+            </summary>
+        </member>
+        <member name="P:Ophelia.BRMS.OBRMSTOOp.OBRMSTOPKOpBlabd.rmt_bbli">
+            <summary>
+            Atributo Rmt_bbli
+            </summary>
+        </member>
+        <member name="P:Ophelia.BRMS.OBRMSTOOp.OBRMSTOPKOpBlabd.rmt_blar">
+            <summary>
+            Atributo Rmt_blar
+            </summary>
+        </member>
+        <member name="T:Ophelia.BRMS.OBRMSTOOp.OBRMSTOOpBladj">
+            <summary>
+            Objeto de transferencia de datos para Bladj
+            </summary>
+        </member>
+        <member name="M:Ophelia.BRMS.OBRMSTOOp.OBRMSTOOpBladj.#ctor">
+            <summary>
+            Constructor de la clase
+            </summary>
+        </member>
+        <member name="P:Ophelia.BRMS.OBRMSTOOp.OBRMSTOOpBladj.act_esta">
+            <summary>
+            Atributo ACT_ESTA
+            </summary>
+        </member>
+        <member name="P:Ophelia.BRMS.OBRMSTOOp.OBRMSTOOpBladj.act_hora">
+            <summary>
+            Atributo ACT_HORA
+            </summary>
+        </member>
+        <member name="P:Ophelia.BRMS.OBRMSTOOp.OBRMSTOOpBladj.act_modf">
+            <summary>
+            Atributo ACT_MODF
+            </summary>
+        </member>
+        <member name="P:Ophelia.BRMS.OBRMSTOOp.OBRMSTOOpBladj.act_usua">
+            <summary>
+            Atributo ACT_USUA
+            </summary>
+        </member>
+        <member name="P:Ophelia.BRMS.OBRMSTOOp.OBRMSTOOpBladj.bai_esta">
+            <summary>
+            Atributo BAI_ESTA
+            </summary>
+        </member>
+        <member name="P:Ophelia.BRMS.OBRMSTOOp.OBRMSTOOpBladj.bai_extn">
+            <summary>
+            Atributo BAI_EXTN
+            </summary>
+        </member>
+        <member name="P:Ophelia.BRMS.OBRMSTOOp.OBRMSTOOpBladj.bai_nomb">
+            <summary>
+            Atributo BAI_NOMB
+            </summary>
+        </member>
+        <member name="P:Ophelia.BRMS.OBRMSTOOp.OBRMSTOOpBladj.bai_orig">
+            <summary>
+            Atributo BAI_ORIG
+            </summary>
+        </member>
+        <member name="P:Ophelia.BRMS.OBRMSTOOp.OBRMSTOOpBladj.bai_ruta">
+            <summary>
+            Atributo BAI_RUTA
+            </summary>
+        </member>
+        <member name="P:Ophelia.BRMS.OBRMSTOOp.OBRMSTOOpBladj.bai_sesc">
+            <summary>
+            Atributo BAI_SESC
+            </summary>
+        </member>
+        <member name="P:Ophelia.BRMS.OBRMSTOOp.OBRMSTOOpBladj.bai_tamn">
+            <summary>
+            Atributo BAI_TAMN
+            </summary>
+        </member>
+        <member name="P:Ophelia.BRMS.OBRMSTOOp.OBRMSTOOpBladj.bai_tmbl">
+            <summary>
+            Atributo BAI_TMBL
+            </summary>
+        </member>
+        <member name="P:Ophelia.BRMS.OBRMSTOOp.OBRMSTOOpBladj.bai_verc">
+            <summary>
+            Atributo BAI_VERC
+            </summary>
+        </member>
+        <member name="P:Ophelia.BRMS.OBRMSTOOp.OBRMSTOOpBladj.cod_empr">
+            <summary>
+            Atributo COD_EMPR
+            </summary>
+        </member>
+        <member name="P:Ophelia.BRMS.OBRMSTOOp.OBRMSTOOpBladj.rmt_bbli">
+            <summary>
+            Atributo RMT_BBLI
+            </summary>
+        </member>
+        <member name="P:Ophelia.BRMS.OBRMSTOOp.OBRMSTOOpBladj.rmt_blar">
+            <summary>
+            Atributo RMT_BLAR
+            </summary>
+        </member>
+        <member name="T:Ophelia.BRMS.OBRMSTOOp.OBRMSTOPKOpBladj">
+            <summary>
+            Objeto PK de transferencia de datos para Bladj
+            </summary>
+        </member>
+        <member name="M:Ophelia.BRMS.OBRMSTOOp.OBRMSTOPKOpBladj.#ctor">
+            <summary>
+            Constructor de la clase
+            </summary>
+        </member>
+        <member name="P:Ophelia.BRMS.OBRMSTOOp.OBRMSTOPKOpBladj.cod_empr">
+            <summary>
+            Atributo Cod_empr
+            </summary>
+        </member>
+        <member name="P:Ophelia.BRMS.OBRMSTOOp.OBRMSTOPKOpBladj.rmt_bbli">
+            <summary>
+            Atributo Rmt_bbli
+            </summary>
+        </member>
+        <member name="P:Ophelia.BRMS.OBRMSTOOp.OBRMSTOPKOpBladj.rmt_blar">
+            <summary>
+            Atributo Rmt_blar
+            </summary>
+        </member>
+        <member name="T:Ophelia.BRMS.OBRMSTOOp.OBRMSTOOpBladt">
+            <summary>
+            Objeto de transferencia de datos para Bladt
+            </summary>
+        </member>
+        <member name="M:Ophelia.BRMS.OBRMSTOOp.OBRMSTOOpBladt.#ctor">
+            <summary>
+            Constructor de la clase
+            </summary>
+        </member>
+        <member name="P:Ophelia.BRMS.OBRMSTOOp.OBRMSTOOpBladt.act_esta">
+            <summary>
+            Atributo ACT_ESTA
+            </summary>
+        </member>
+        <member name="P:Ophelia.BRMS.OBRMSTOOp.OBRMSTOOpBladt.act_hora">
+            <summary>
+            Atributo ACT_HORA
+            </summary>
+        </member>
+        <member name="P:Ophelia.BRMS.OBRMSTOOp.OBRMSTOOpBladt.act_usua">
+            <summary>
+            Atributo ACT_USUA
+            </summary>
+        </member>
+        <member name="P:Ophelia.BRMS.OBRMSTOOp.OBRMSTOOpBladt.blt_obli">
+            <summary>
+            Atributo BLT_OBLI
+            </summary>
+        </member>
+        <member name="P:Ophelia.BRMS.OBRMSTOOp.OBRMSTOOpBladt.blt_valu">
+            <summary>
+            Atributo BLT_VALU
+            </summary>
+        </member>
+        <member name="P:Ophelia.BRMS.OBRMSTOOp.OBRMSTOOpBladt.cod_empr">
+            <summary>
+            Atributo COD_EMPR
+            </summary>
+        </member>
+        <member name="P:Ophelia.BRMS.OBRMSTOOp.OBRMSTOOpBladt.rmt_bbli">
+            <summary>
+            Atributo RMT_BBLI
+            </summary>
+        </member>
+        <member name="P:Ophelia.BRMS.OBRMSTOOp.OBRMSTOOpBladt.rmt_blar">
+            <summary>
+            Atributo RMT_BLAR
+            </summary>
+        </member>
+        <member name="P:Ophelia.BRMS.OBRMSTOOp.OBRMSTOOpBladt.rmt_btag">
+            <summary>
+            Atributo RMT_BTAG
+            </summary>
+        </member>
+        <member name="T:Ophelia.BRMS.OBRMSTOOp.OBRMSTOPKOpBladt">
+            <summary>
+            Objeto PK de transferencia de datos para Bladt
+            </summary>
+        </member>
+        <member name="M:Ophelia.BRMS.OBRMSTOOp.OBRMSTOPKOpBladt.#ctor">
+            <summary>
+            Constructor de la clase
+            </summary>
+        </member>
+        <member name="P:Ophelia.BRMS.OBRMSTOOp.OBRMSTOPKOpBladt.cod_empr">
+            <summary>
+            Atributo Cod_empr
+            </summary>
+        </member>
+        <member name="P:Ophelia.BRMS.OBRMSTOOp.OBRMSTOPKOpBladt.rmt_bbli">
+            <summary>
+            Atributo Rmt_bbli
+            </summary>
+        </member>
+        <member name="P:Ophelia.BRMS.OBRMSTOOp.OBRMSTOPKOpBladt.rmt_blar">
+            <summary>
+            Atributo Rmt_blar
+            </summary>
+        </member>
+        <member name="P:Ophelia.BRMS.OBRMSTOOp.OBRMSTOPKOpBladt.rmt_btag">
+            <summary>
+            Atributo Rmt_btag
+            </summary>
+        </member>
+        <member name="T:Ophelia.BRMS.OBRMSTOOp.OBRMSTOOpBlrad">
+            <summary>
+            Objeto de transferencia de datos para Blrad
+            </summary>
+        </member>
+        <member name="M:Ophelia.BRMS.OBRMSTOOp.OBRMSTOOpBlrad.#ctor">
+            <summary>
+            Constructor de la clase
+            </summary>
+        </member>
+        <member name="P:Ophelia.BRMS.OBRMSTOOp.OBRMSTOOpBlrad.act_esta">
+            <summary>
+            Atributo ACT_ESTA
+            </summary>
+        </member>
+        <member name="P:Ophelia.BRMS.OBRMSTOOp.OBRMSTOOpBlrad.act_hora">
+            <summary>
+            Atributo ACT_HORA
+            </summary>
+        </member>
+        <member name="P:Ophelia.BRMS.OBRMSTOOp.OBRMSTOOpBlrad.act_usua">
+            <summary>
+            Atributo ACT_USUA
+            </summary>
+        </member>
+        <member name="P:Ophelia.BRMS.OBRMSTOOp.OBRMSTOOpBlrad.blr_cnst">
+            <summary>
+            Atributo BLR_CNST
+            </summary>
+        </member>
+        <member name="P:Ophelia.BRMS.OBRMSTOOp.OBRMSTOOpBlrad.blr_elim">
+            <summary>
+            Atributo BLR_ELIM
+            </summary>
+        </member>
+        <member name="P:Ophelia.BRMS.OBRMSTOOp.OBRMSTOOpBlrad.blr_guar">
+            <summary>
+            Atributo BLR_GUAR
+            </summary>
+        </member>
+        <member name="P:Ophelia.BRMS.OBRMSTOOp.OBRMSTOOpBlrad.blr_modf">
+            <summary>
+            Atributo BLR_MODF
+            </summary>
+        </member>
+        <member name="P:Ophelia.BRMS.OBRMSTOOp.OBRMSTOOpBlrad.cod_empr">
+            <summary>
+            Atributo COD_EMPR
+            </summary>
+        </member>
+        <member name="P:Ophelia.BRMS.OBRMSTOOp.OBRMSTOOpBlrad.rmt_bbli">
+            <summary>
+            Atributo RMT_BBLI
+            </summary>
+        </member>
+        <member name="P:Ophelia.BRMS.OBRMSTOOp.OBRMSTOOpBlrad.rmt_blar">
+            <summary>
+            Atributo RMT_BLAR
+            </summary>
+        </member>
+        <member name="P:Ophelia.BRMS.OBRMSTOOp.OBRMSTOOpBlrad.rmt_brol">
+            <summary>
+            Atributo RMT_BROL
+            </summary>
+        </member>
+        <member name="T:Ophelia.BRMS.OBRMSTOOp.OBRMSTOPKOpBlrad">
+            <summary>
+            Objeto PK de transferencia de datos para Blrad
+            </summary>
+        </member>
+        <member name="M:Ophelia.BRMS.OBRMSTOOp.OBRMSTOPKOpBlrad.#ctor">
+            <summary>
+            Constructor de la clase
+            </summary>
+        </member>
+        <member name="P:Ophelia.BRMS.OBRMSTOOp.OBRMSTOPKOpBlrad.cod_empr">
+            <summary>
+            Atributo Cod_empr
+            </summary>
+        </member>
+        <member name="P:Ophelia.BRMS.OBRMSTOOp.OBRMSTOPKOpBlrad.rmt_bbli">
+            <summary>
+            Atributo Rmt_bbli
+            </summary>
+        </member>
+        <member name="P:Ophelia.BRMS.OBRMSTOOp.OBRMSTOPKOpBlrad.rmt_blar">
+            <summary>
+            Atributo Rmt_blar
+            </summary>
+        </member>
+        <member name="P:Ophelia.BRMS.OBRMSTOOp.OBRMSTOPKOpBlrad.rmt_brol">
+            <summary>
+            Atributo Rmt_brol
+            </summary>
+        </member>
+        <member name="T:Ophelia.BRMS.OBRMSTOOp.OBRMSTOOpBlrbi">
+            <summary>
+            Objeto de transferencia de datos para Blrbi
+            </summary>
+        </member>
+        <member name="M:Ophelia.BRMS.OBRMSTOOp.OBRMSTOOpBlrbi.#ctor">
+            <summary>
+            Constructor de la clase
+            </summary>
+        </member>
+        <member name="P:Ophelia.BRMS.OBRMSTOOp.OBRMSTOOpBlrbi.act_esta">
+            <summary>
+            Atributo ACT_ESTA
+            </summary>
+        </member>
+        <member name="P:Ophelia.BRMS.OBRMSTOOp.OBRMSTOOpBlrbi.act_hora">
+            <summary>
+            Atributo ACT_HORA
+            </summary>
+        </member>
+        <member name="P:Ophelia.BRMS.OBRMSTOOp.OBRMSTOOpBlrbi.act_usua">
+            <summary>
+            Atributo ACT_USUA
+            </summary>
+        </member>
+        <member name="P:Ophelia.BRMS.OBRMSTOOp.OBRMSTOOpBlrbi.blr_cnst">
+            <summary>
+            Atributo BLR_CNST
+            </summary>
+        </member>
+        <member name="P:Ophelia.BRMS.OBRMSTOOp.OBRMSTOOpBlrbi.blr_elim">
+            <summary>
+            Atributo BLR_ELIM
+            </summary>
+        </member>
+        <member name="P:Ophelia.BRMS.OBRMSTOOp.OBRMSTOOpBlrbi.blr_guar">
+            <summary>
+            Atributo BLR_GUAR
+            </summary>
+        </member>
+        <member name="P:Ophelia.BRMS.OBRMSTOOp.OBRMSTOOpBlrbi.blr_modf">
+            <summary>
+            Atributo BLR_MODF
+            </summary>
+        </member>
+        <member name="P:Ophelia.BRMS.OBRMSTOOp.OBRMSTOOpBlrbi.cod_empr">
+            <summary>
+            Atributo COD_EMPR
+            </summary>
+        </member>
+        <member name="P:Ophelia.BRMS.OBRMSTOOp.OBRMSTOOpBlrbi.rmt_bbli">
+            <summary>
+            Atributo RMT_BBLI
+            </summary>
+        </member>
+        <member name="P:Ophelia.BRMS.OBRMSTOOp.OBRMSTOOpBlrbi.rmt_brol">
+            <summary>
+            Atributo RMT_BROL
+            </summary>
+        </member>
+        <member name="T:Ophelia.BRMS.OBRMSTOOp.OBRMSTOPKOpBlrbi">
+            <summary>
+            Objeto PK de transferencia de datos para Blrbi
+            </summary>
+        </member>
+        <member name="M:Ophelia.BRMS.OBRMSTOOp.OBRMSTOPKOpBlrbi.#ctor">
+            <summary>
+            Constructor de la clase
+            </summary>
+        </member>
+        <member name="P:Ophelia.BRMS.OBRMSTOOp.OBRMSTOPKOpBlrbi.cod_empr">
+            <summary>
+            Atributo Cod_empr
+            </summary>
+        </member>
+        <member name="P:Ophelia.BRMS.OBRMSTOOp.OBRMSTOPKOpBlrbi.rmt_bbli">
+            <summary>
+            Atributo Rmt_bbli
+            </summary>
+        </member>
+        <member name="P:Ophelia.BRMS.OBRMSTOOp.OBRMSTOPKOpBlrbi.rmt_brol">
+            <summary>
+            Atributo Rmt_brol
+            </summary>
+        </member>
+        <member name="T:Ophelia.BRMS.OBRMSTOOp.OBRMSTOOpBlrol">
+            <summary>
+            Objeto de transferencia de datos para Blrol
+            </summary>
+        </member>
+        <member name="M:Ophelia.BRMS.OBRMSTOOp.OBRMSTOOpBlrol.#ctor">
+            <summary>
+            Constructor de la clase
+            </summary>
+        </member>
+        <member name="P:Ophelia.BRMS.OBRMSTOOp.OBRMSTOOpBlrol.act_esta">
+            <summary>
+            Atributo ACT_ESTA
+            </summary>
+        </member>
+        <member name="P:Ophelia.BRMS.OBRMSTOOp.OBRMSTOOpBlrol.act_hora">
+            <summary>
+            Atributo ACT_HORA
+            </summary>
+        </member>
+        <member name="P:Ophelia.BRMS.OBRMSTOOp.OBRMSTOOpBlrol.act_usua">
+            <summary>
+            Atributo ACT_USUA
+            </summary>
+        </member>
+        <member name="P:Ophelia.BRMS.OBRMSTOOp.OBRMSTOOpBlrol.cod_empr">
+            <summary>
+            Atributo COD_EMPR
+            </summary>
+        </member>
+        <member name="P:Ophelia.BRMS.OBRMSTOOp.OBRMSTOOpBlrol.rmt_brol">
+            <summary>
+            Atributo RMT_BROL
+            </summary>
+        </member>
+        <member name="P:Ophelia.BRMS.OBRMSTOOp.OBRMSTOOpBlrol.rol_desc">
+            <summary>
+            Atributo ROL_DESC
+            </summary>
+        </member>
+        <member name="P:Ophelia.BRMS.OBRMSTOOp.OBRMSTOOpBlrol.rol_nomb">
+            <summary>
+            Atributo ROL_NOMB
+            </summary>
+        </member>
+        <member name="T:Ophelia.BRMS.OBRMSTOOp.OBRMSTOPKOpBlrol">
+            <summary>
+            Objeto PK de transferencia de datos para Blrol
+            </summary>
+        </member>
+        <member name="M:Ophelia.BRMS.OBRMSTOOp.OBRMSTOPKOpBlrol.#ctor">
+            <summary>
+            Constructor de la clase
+            </summary>
+        </member>
+        <member name="P:Ophelia.BRMS.OBRMSTOOp.OBRMSTOPKOpBlrol.cod_empr">
+            <summary>
+            Atributo Cod_empr
+            </summary>
+        </member>
+        <member name="P:Ophelia.BRMS.OBRMSTOOp.OBRMSTOPKOpBlrol.rmt_brol">
+            <summary>
+            Atributo Rmt_brol
+            </summary>
+        </member>
+        <member name="T:Ophelia.BRMS.OBRMSTOOp.OBRMSTOOpBltag">
+            <summary>
+            Objeto de transferencia de datos para Bltag
+            </summary>
+        </member>
+        <member name="M:Ophelia.BRMS.OBRMSTOOp.OBRMSTOOpBltag.#ctor">
+            <summary>
+            Constructor de la clase
+            </summary>
+        </member>
+        <member name="P:Ophelia.BRMS.OBRMSTOOp.OBRMSTOOpBltag.act_esta">
+            <summary>
+            Atributo ACT_ESTA
+            </summary>
+        </member>
+        <member name="P:Ophelia.BRMS.OBRMSTOOp.OBRMSTOOpBltag.act_hora">
+            <summary>
+            Atributo ACT_HORA
+            </summary>
+        </member>
+        <member name="P:Ophelia.BRMS.OBRMSTOOp.OBRMSTOOpBltag.act_usua">
+            <summary>
+            Atributo ACT_USUA
+            </summary>
+        </member>
+        <member name="P:Ophelia.BRMS.OBRMSTOOp.OBRMSTOOpBltag.rmt_btag">
+            <summary>
+            Atributo RMT_BTAG
+            </summary>
+        </member>
+        <member name="P:Ophelia.BRMS.OBRMSTOOp.OBRMSTOOpBltag.tag_desc">
+            <summary>
+            Atributo TAG_DESC
+            </summary>
+        </member>
+        <member name="P:Ophelia.BRMS.OBRMSTOOp.OBRMSTOOpBltag.tag_dtip">
+            <summary>
+            Atributo TAG_DTIP
+            </summary>
+        </member>
+        <member name="P:Ophelia.BRMS.OBRMSTOOp.OBRMSTOOpBltag.tag_idio">
+            <summary>
+            Atributo TAG_IDIO
+            </summary>
+        </member>
+        <member name="P:Ophelia.BRMS.OBRMSTOOp.OBRMSTOOpBltag.tag_nomb">
+            <summary>
+            Atributo TAG_NOMB
+            </summary>
+        </member>
+        <member name="T:Ophelia.BRMS.OBRMSTOOp.OBRMSTOPKOpBltag">
+            <summary>
+            Objeto PK de transferencia de datos para Bltag
+            </summary>
+        </member>
+        <member name="M:Ophelia.BRMS.OBRMSTOOp.OBRMSTOPKOpBltag.#ctor">
+            <summary>
+            Constructor de la clase
+            </summary>
+        </member>
+        <member name="P:Ophelia.BRMS.OBRMSTOOp.OBRMSTOPKOpBltag.rmt_btag">
+            <summary>
+            Atributo Rmt_btag
+            </summary>
+        </member>
+    </members>
+</doc>

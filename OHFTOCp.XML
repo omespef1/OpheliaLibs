@@ -1,0 +1,2363 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Ophelia.Hosvital.OHFTOCp</name>
+    </assembly>
+    <members>
+        <member name="T:Ophelia.Hosvital.OHFTOCp.OHFTOCpDESFINPRV">
+            <summary>
+            Objeto de transferencia de datos para DESFINPRV
+            </summary>
+        </member>
+        <member name="M:Ophelia.Hosvital.OHFTOCp.OHFTOCpDESFINPRV.#ctor">
+            <summary>
+            Constructor de la clase
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOCp.OHFTOCpDESFINPRV.cntcod">
+            <summary>
+            Atributo CNTCOD
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOCp.OHFTOCpDESFINPRV.cntvig">
+            <summary>
+            Atributo CNTVIG
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOCp.OHFTOCpDESFINPRV.desdiafin">
+            <summary>
+            Atributo DESDIAFIN
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOCp.OHFTOCpDESFINPRV.desdiaini">
+            <summary>
+            Atributo DESDIAINI
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOCp.OHFTOCpDESFINPRV.destaz">
+            <summary>
+            Atributo DESTAZ
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOCp.OHFTOCpDESFINPRV.desvaleje">
+            <summary>
+            Atributo DESVALEJE
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOCp.OHFTOCpDESFINPRV.desvalpry">
+            <summary>
+            Atributo DESVALPRY
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOCp.OHFTOCpDESFINPRV.empcod">
+            <summary>
+            Atributo EMPCOD
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOCp.OHFTOCpDESFINPRV.hopnoobl">
+            <summary>
+            Atributo HOPNOOBL
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOCp.OHFTOCpDESFINPRV.mcdpto">
+            <summary>
+            Atributo MCDPTO
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOCp.OHFTOCpDESFINPRV.prvcod">
+            <summary>
+            Atributo PRVCOD
+            </summary>
+        </member>
+        <member name="T:Ophelia.Hosvital.OHFTOCp.OHFTOPKCpDESFINPRV">
+            <summary>
+            Objeto PK de transferencia de datos para DESFINPRV
+            </summary>
+        </member>
+        <member name="M:Ophelia.Hosvital.OHFTOCp.OHFTOPKCpDESFINPRV.#ctor">
+            <summary>
+            Constructor de la clase
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOCp.OHFTOPKCpDESFINPRV.cntcod">
+            <summary>
+            Atributo Cntcod
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOCp.OHFTOPKCpDESFINPRV.cntvig">
+            <summary>
+            Atributo Cntvig
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOCp.OHFTOPKCpDESFINPRV.desdiaini">
+            <summary>
+            Atributo Desdiaini
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOCp.OHFTOPKCpDESFINPRV.empcod">
+            <summary>
+            Atributo Empcod
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOCp.OHFTOPKCpDESFINPRV.hopnoobl">
+            <summary>
+            Atributo Hopnoobl
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOCp.OHFTOPKCpDESFINPRV.mcdpto">
+            <summary>
+            Atributo Mcdpto
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOCp.OHFTOPKCpDESFINPRV.prvcod">
+            <summary>
+            Atributo Prvcod
+            </summary>
+        </member>
+        <member name="T:Ophelia.Hosvital.OHFTOCp.OHFTOCpDSCTPROV">
+            <summary>
+            Objeto de transferencia de datos para DSCTPROV
+            </summary>
+        </member>
+        <member name="M:Ophelia.Hosvital.OHFTOCp.OHFTOCpDSCTPROV.#ctor">
+            <summary>
+            Constructor de la clase
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOCp.OHFTOCpDSCTPROV.dscdia">
+            <summary>
+            Atributo DSCDIA
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOCp.OHFTOCpDSCTPROV.dscpor">
+            <summary>
+            Atributo DSCPOR
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOCp.OHFTOCpDSCTPROV.empcod">
+            <summary>
+            Atributo EMPCOD
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOCp.OHFTOCpDSCTPROV.prvcod">
+            <summary>
+            Atributo PRVCOD
+            </summary>
+        </member>
+        <member name="T:Ophelia.Hosvital.OHFTOCp.OHFTOPKCpDSCTPROV">
+            <summary>
+            Objeto PK de transferencia de datos para DSCTPROV
+            </summary>
+        </member>
+        <member name="M:Ophelia.Hosvital.OHFTOCp.OHFTOPKCpDSCTPROV.#ctor">
+            <summary>
+            Constructor de la clase
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOCp.OHFTOPKCpDSCTPROV.dscdia">
+            <summary>
+            Atributo Dscdia
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOCp.OHFTOPKCpDSCTPROV.empcod">
+            <summary>
+            Atributo Empcod
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOCp.OHFTOPKCpDSCTPROV.prvcod">
+            <summary>
+            Atributo Prvcod
+            </summary>
+        </member>
+        <member name="T:Ophelia.Hosvital.OHFTOCp.OHFTOCpHOJOBLPRV">
+            <summary>
+            Objeto de transferencia de datos para HOJOBLPRV
+            </summary>
+        </member>
+        <member name="M:Ophelia.Hosvital.OHFTOCp.OHFTOCpHOJOBLPRV.#ctor">
+            <summary>
+            Constructor de la clase
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOCp.OHFTOCpHOJOBLPRV.cnccod">
+            <summary>
+            Atributo CNCCOD
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOCp.OHFTOCpHOJOBLPRV.cntcod">
+            <summary>
+            Atributo CNTCOD
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOCp.OHFTOCpHOJOBLPRV.cntsub">
+            <summary>
+            Atributo CNTSUB
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOCp.OHFTOCpHOJOBLPRV.cntvig">
+            <summary>
+            Atributo CNTVIG
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOCp.OHFTOCpHOJOBLPRV.cnucod">
+            <summary>
+            Atributo CNUCOD
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOCp.OHFTOCpHOJOBLPRV.cnusub">
+            <summary>
+            Atributo CNUSUB
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOCp.OHFTOCpHOJOBLPRV.empcod">
+            <summary>
+            Atributo EMPCOD
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOCp.OHFTOCpHOJOBLPRV.hojbasdes">
+            <summary>
+            Atributo HOJBASDES
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOCp.OHFTOCpHOJOBLPRV.hojdococ">
+            <summary>
+            Atributo HOJDOCOC
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOCp.OHFTOCpHOJOBLPRV.hojfchcan">
+            <summary>
+            Atributo HOJFCHCAN
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOCp.OHFTOCpHOJOBLPRV.hojnrooc">
+            <summary>
+            Atributo HOJNROOC
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOCp.OHFTOCpHOJOBLPRV.hojsedoc">
+            <summary>
+            Atributo HOJSEDOC
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOCp.OHFTOCpHOJOBLPRV.hopcodcon">
+            <summary>
+            Atributo HOPCODCON
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOCp.OHFTOCpHOJOBLPRV.hopcodcor">
+            <summary>
+            Atributo HOPCODCOR
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOCp.OHFTOCpHOJOBLPRV.hopcuoini">
+            <summary>
+            Atributo HOPCUOINI
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOCp.OHFTOCpHOJOBLPRV.hopdoccau">
+            <summary>
+            Atributo HOPDOCCAU
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOCp.OHFTOCpHOJOBLPRV.hopestafpt">
+            <summary>
+            Atributo HOPESTAFPT
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOCp.OHFTOCpHOJOBLPRV.hopfchobl">
+            <summary>
+            Atributo HOPFCHOBL
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOCp.OHFTOCpHOJOBLPRV.hopfchrad">
+            <summary>
+            Atributo HOPFCHRAD
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOCp.OHFTOCpHOJOBLPRV.hophom">
+            <summary>
+            Atributo HOPHOM
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOCp.OHFTOCpHOJOBLPRV.hopmvter">
+            <summary>
+            Atributo HOPMVTER
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOCp.OHFTOCpHOJOBLPRV.hopnoobl">
+            <summary>
+            Atributo HOPNOOBL
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOCp.OHFTOCpHOJOBLPRV.hopnrocau">
+            <summary>
+            Atributo HOPNROCAU
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOCp.OHFTOCpHOJOBLPRV.hopsedcau">
+            <summary>
+            Atributo HOPSEDCAU
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOCp.OHFTOCpHOJOBLPRV.hoptotcre">
+            <summary>
+            Atributo HOPTOTCRE
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOCp.OHFTOCpHOJOBLPRV.hoptotdeb">
+            <summary>
+            Atributo HOPTOTDEB
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOCp.OHFTOCpHOJOBLPRV.hoptppz">
+            <summary>
+            Atributo HOPTPPZ
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOCp.OHFTOCpHOJOBLPRV.hopvlrcuo">
+            <summary>
+            Atributo HOPVLRCUO
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOCp.OHFTOCpHOJOBLPRV.hopvlrmex">
+            <summary>
+            Atributo HOPVLRMEX
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOCp.OHFTOCpHOJOBLPRV.hopvlrobl">
+            <summary>
+            Atributo HOPVLROBL
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOCp.OHFTOCpHOJOBLPRV.mcdpto">
+            <summary>
+            Atributo MCDPTO
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOCp.OHFTOCpHOJOBLPRV.prvcod">
+            <summary>
+            Atributo PRVCOD
+            </summary>
+        </member>
+        <member name="T:Ophelia.Hosvital.OHFTOCp.OHFTOPKCpHOJOBLPRV">
+            <summary>
+            Objeto PK de transferencia de datos para HOJOBLPRV
+            </summary>
+        </member>
+        <member name="M:Ophelia.Hosvital.OHFTOCp.OHFTOPKCpHOJOBLPRV.#ctor">
+            <summary>
+            Constructor de la clase
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOCp.OHFTOPKCpHOJOBLPRV.cntcod">
+            <summary>
+            Atributo Cntcod
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOCp.OHFTOPKCpHOJOBLPRV.cntvig">
+            <summary>
+            Atributo Cntvig
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOCp.OHFTOPKCpHOJOBLPRV.empcod">
+            <summary>
+            Atributo Empcod
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOCp.OHFTOPKCpHOJOBLPRV.hopnoobl">
+            <summary>
+            Atributo Hopnoobl
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOCp.OHFTOPKCpHOJOBLPRV.mcdpto">
+            <summary>
+            Atributo Mcdpto
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOCp.OHFTOPKCpHOJOBLPRV.prvcod">
+            <summary>
+            Atributo Prvcod
+            </summary>
+        </member>
+        <member name="T:Ophelia.Hosvital.OHFTOCp.OHFTOCpMACREQCON">
+            <summary>
+            Objeto de transferencia de datos para MACREQCON
+            </summary>
+        </member>
+        <member name="M:Ophelia.Hosvital.OHFTOCp.OHFTOCpMACREQCON.#ctor">
+            <summary>
+            Constructor de la clase
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOCp.OHFTOCpMACREQCON.maccod">
+            <summary>
+            Atributo MACCOD
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOCp.OHFTOCpMACREQCON.macindimg">
+            <summary>
+            Atributo MACINDIMG
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOCp.OHFTOCpMACREQCON.macoblreq">
+            <summary>
+            Atributo MACOBLREQ
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOCp.OHFTOCpMACREQCON.rqscod">
+            <summary>
+            Atributo RQSCOD
+            </summary>
+        </member>
+        <member name="T:Ophelia.Hosvital.OHFTOCp.OHFTOPKCpMACREQCON">
+            <summary>
+            Objeto PK de transferencia de datos para MACREQCON
+            </summary>
+        </member>
+        <member name="M:Ophelia.Hosvital.OHFTOCp.OHFTOPKCpMACREQCON.#ctor">
+            <summary>
+            Constructor de la clase
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOCp.OHFTOPKCpMACREQCON.maccod">
+            <summary>
+            Atributo Maccod
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOCp.OHFTOPKCpMACREQCON.rqscod">
+            <summary>
+            Atributo Rqscod
+            </summary>
+        </member>
+        <member name="T:Ophelia.Hosvital.OHFTOCp.OHFTOCpMACREQPER">
+            <summary>
+            Objeto de transferencia de datos para MACREQPER
+            </summary>
+        </member>
+        <member name="M:Ophelia.Hosvital.OHFTOCp.OHFTOCpMACREQPER.#ctor">
+            <summary>
+            Constructor de la clase
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOCp.OHFTOCpMACREQPER.maccod">
+            <summary>
+            Atributo MACCOD
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOCp.OHFTOCpMACREQPER.macconrep">
+            <summary>
+            Atributo MACCONREP
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOCp.OHFTOCpMACREQPER.macrutimp">
+            <summary>
+            Atributo MACRUTIMP
+            </summary>
+        </member>
+        <member name="T:Ophelia.Hosvital.OHFTOCp.OHFTOPKCpMACREQPER">
+            <summary>
+            Objeto PK de transferencia de datos para MACREQPER
+            </summary>
+        </member>
+        <member name="M:Ophelia.Hosvital.OHFTOCp.OHFTOPKCpMACREQPER.#ctor">
+            <summary>
+            Constructor de la clase
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOCp.OHFTOPKCpMACREQPER.maccod">
+            <summary>
+            Atributo Maccod
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOCp.OHFTOPKCpMACREQPER.macconrep">
+            <summary>
+            Atributo Macconrep
+            </summary>
+        </member>
+        <member name="T:Ophelia.Hosvital.OHFTOCp.OHFTOCpMACREQREG">
+            <summary>
+            Objeto de transferencia de datos para MACREQREG
+            </summary>
+        </member>
+        <member name="M:Ophelia.Hosvital.OHFTOCp.OHFTOCpMACREQREG.#ctor">
+            <summary>
+            Constructor de la clase
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOCp.OHFTOCpMACREQREG.maccnscon">
+            <summary>
+            Atributo MACCNSCON
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOCp.OHFTOCpMACREQREG.maccod">
+            <summary>
+            Atributo MACCOD
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOCp.OHFTOCpMACREQREG.macrutima">
+            <summary>
+            Atributo MACRUTIMA
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOCp.OHFTOCpMACREQREG.macvigcor">
+            <summary>
+            Atributo MACVIGCOR
+            </summary>
+        </member>
+        <member name="T:Ophelia.Hosvital.OHFTOCp.OHFTOPKCpMACREQREG">
+            <summary>
+            Objeto PK de transferencia de datos para MACREQREG
+            </summary>
+        </member>
+        <member name="M:Ophelia.Hosvital.OHFTOCp.OHFTOPKCpMACREQREG.#ctor">
+            <summary>
+            Constructor de la clase
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOCp.OHFTOPKCpMACREQREG.maccnscon">
+            <summary>
+            Atributo Maccnscon
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOCp.OHFTOPKCpMACREQREG.maccod">
+            <summary>
+            Atributo Maccod
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOCp.OHFTOPKCpMACREQREG.macvigcor">
+            <summary>
+            Atributo Macvigcor
+            </summary>
+        </member>
+        <member name="T:Ophelia.Hosvital.OHFTOCp.OHFTOCpMAECONT">
+            <summary>
+            Objeto de transferencia de datos para MAECONT
+            </summary>
+        </member>
+        <member name="M:Ophelia.Hosvital.OHFTOCp.OHFTOCpMAECONT.#ctor">
+            <summary>
+            Constructor de la clase
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOCp.OHFTOCpMAECONT.codban">
+            <summary>
+            Atributo CODBAN
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOCp.OHFTOCpMAECONT.macalerad">
+            <summary>
+            Atributo MACALERAD
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOCp.OHFTOCpMAECONT.maccod">
+            <summary>
+            Atributo MACCOD
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOCp.OHFTOCpMAECONT.maccodiac">
+            <summary>
+            Atributo MACCODIAC
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOCp.OHFTOCpMAECONT.maccodmat">
+            <summary>
+            Atributo MACCODMAT
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOCp.OHFTOCpMAECONT.maccodprp">
+            <summary>
+            Atributo MACCODPRP
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOCp.OHFTOCpMAECONT.macconrad">
+            <summary>
+            Atributo MACCONRAD
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOCp.OHFTOCpMAECONT.maccupcre">
+            <summary>
+            Atributo MACCUPCRE
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOCp.OHFTOCpMAECONT.macdirrad">
+            <summary>
+            Atributo MACDIRRAD
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOCp.OHFTOCpMAECONT.macdsccon">
+            <summary>
+            Atributo MACDSCCON
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOCp.OHFTOCpMAECONT.macempprp">
+            <summary>
+            Atributo MACEMPPRP
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOCp.OHFTOCpMAECONT.macfrmpag">
+            <summary>
+            Atributo MACFRMPAG
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOCp.OHFTOCpMAECONT.macnocue">
+            <summary>
+            Atributo MACNOCUE
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOCp.OHFTOCpMAECONT.macobser">
+            <summary>
+            Atributo MACOBSER
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOCp.OHFTOCpMAECONT.mactipcue">
+            <summary>
+            Atributo MACTIPCUE
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOCp.OHFTOCpMAECONT.mactipprp">
+            <summary>
+            Atributo MACTIPPRP
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOCp.OHFTOCpMAECONT.macultcns">
+            <summary>
+            Atributo MACULTCNS
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOCp.OHFTOCpMAECONT.tipconcod">
+            <summary>
+            Atributo TIPCONCOD
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOCp.OHFTOCpMAECONT.tippcod">
+            <summary>
+            Atributo TIPPCOD
+            </summary>
+        </member>
+        <member name="T:Ophelia.Hosvital.OHFTOCp.OHFTOPKCpMAECONT">
+            <summary>
+            Objeto PK de transferencia de datos para MAECONT
+            </summary>
+        </member>
+        <member name="M:Ophelia.Hosvital.OHFTOCp.OHFTOPKCpMAECONT.#ctor">
+            <summary>
+            Constructor de la clase
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOCp.OHFTOPKCpMAECONT.maccod">
+            <summary>
+            Atributo Maccod
+            </summary>
+        </member>
+        <member name="T:Ophelia.Hosvital.OHFTOCp.OHFTOCpMAECONTV">
+            <summary>
+            Objeto de transferencia de datos para MAECONTV
+            </summary>
+        </member>
+        <member name="M:Ophelia.Hosvital.OHFTOCp.OHFTOCpMAECONTV.#ctor">
+            <summary>
+            Constructor de la clase
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOCp.OHFTOCpMAECONTV.macareubi">
+            <summary>
+            Atributo MACAREUBI
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOCp.OHFTOCpMAECONTV.maccnscon">
+            <summary>
+            Atributo MACCNSCON
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOCp.OHFTOCpMAECONTV.maccod">
+            <summary>
+            Atributo MACCOD
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOCp.OHFTOCpMAECONTV.maccodv">
+            <summary>
+            Atributo MACCODV
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOCp.OHFTOCpMAECONTV.maccosgss">
+            <summary>
+            Atributo MACCOSGSS
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOCp.OHFTOCpMAECONTV.macdire">
+            <summary>
+            Atributo MACDIRE
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOCp.OHFTOCpMAECONTV.macempubi">
+            <summary>
+            Atributo MACEMPUBI
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOCp.OHFTOCpMAECONTV.macenccon">
+            <summary>
+            Atributo MACENCCON
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOCp.OHFTOCpMAECONTV.macestubi">
+            <summary>
+            Atributo MACESTUBI
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOCp.OHFTOCpMAECONTV.macfcfvig">
+            <summary>
+            Atributo MACFCFVIG
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOCp.OHFTOCpMAECONTV.macfcivig">
+            <summary>
+            Atributo MACFCIVIG
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOCp.OHFTOCpMAECONTV.macfvepol">
+            <summary>
+            Atributo MACFVEPOL
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOCp.OHFTOCpMAECONTV.maclugeje">
+            <summary>
+            Atributo MACLUGEJE
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOCp.OHFTOCpMAECONTV.macnivubi">
+            <summary>
+            Atributo MACNIVUBI
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOCp.OHFTOCpMAECONTV.macnumpol">
+            <summary>
+            Atributo MACNUMPOL
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOCp.OHFTOCpMAECONTV.macobspol">
+            <summary>
+            Atributo MACOBSPOL
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOCp.OHFTOCpMAECONTV.macsedubi">
+            <summary>
+            Atributo MACSEDUBI
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOCp.OHFTOCpMAECONTV.mactele">
+            <summary>
+            Atributo MACTELE
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOCp.OHFTOCpMAECONTV.mactippol">
+            <summary>
+            Atributo MACTIPPOL
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOCp.OHFTOCpMAECONTV.macvalcau">
+            <summary>
+            Atributo MACVALCAU
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOCp.OHFTOCpMAECONTV.macvalpol">
+            <summary>
+            Atributo MACVALPOL
+            </summary>
+        </member>
+        <member name="T:Ophelia.Hosvital.OHFTOCp.OHFTOPKCpMAECONTV">
+            <summary>
+            Objeto PK de transferencia de datos para MAECONTV
+            </summary>
+        </member>
+        <member name="M:Ophelia.Hosvital.OHFTOCp.OHFTOPKCpMAECONTV.#ctor">
+            <summary>
+            Constructor de la clase
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOCp.OHFTOPKCpMAECONTV.maccnscon">
+            <summary>
+            Atributo Maccnscon
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOCp.OHFTOPKCpMAECONTV.maccod">
+            <summary>
+            Atributo Maccod
+            </summary>
+        </member>
+        <member name="T:Ophelia.Hosvital.OHFTOCp.OHFTOCpMAEDSCCON">
+            <summary>
+            Objeto de transferencia de datos para MAEDSCCON
+            </summary>
+        </member>
+        <member name="M:Ophelia.Hosvital.OHFTOCp.OHFTOCpMAEDSCCON.#ctor">
+            <summary>
+            Constructor de la clase
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOCp.OHFTOCpMAEDSCCON.maccod">
+            <summary>
+            Atributo MACCOD
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOCp.OHFTOCpMAEDSCCON.macdiafin">
+            <summary>
+            Atributo MACDIAFIN
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOCp.OHFTOCpMAEDSCCON.macdiaini">
+            <summary>
+            Atributo MACDIAINI
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOCp.OHFTOCpMAEDSCCON.macpordes">
+            <summary>
+            Atributo MACPORDES
+            </summary>
+        </member>
+        <member name="T:Ophelia.Hosvital.OHFTOCp.OHFTOPKCpMAEDSCCON">
+            <summary>
+            Objeto PK de transferencia de datos para MAEDSCCON
+            </summary>
+        </member>
+        <member name="M:Ophelia.Hosvital.OHFTOCp.OHFTOPKCpMAEDSCCON.#ctor">
+            <summary>
+            Constructor de la clase
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOCp.OHFTOPKCpMAEDSCCON.maccod">
+            <summary>
+            Atributo Maccod
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOCp.OHFTOPKCpMAEDSCCON.macdiaini">
+            <summary>
+            Atributo Macdiaini
+            </summary>
+        </member>
+        <member name="T:Ophelia.Hosvital.OHFTOCp.OHFTOCpMOVCXP">
+            <summary>
+            Objeto de transferencia de datos para MOVCXP
+            </summary>
+        </member>
+        <member name="M:Ophelia.Hosvital.OHFTOCp.OHFTOCpMOVCXP.#ctor">
+            <summary>
+            Constructor de la clase
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOCp.OHFTOCpMOVCXP.cnccod">
+            <summary>
+            Atributo CNCCOD
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOCp.OHFTOCpMOVCXP.cntcod">
+            <summary>
+            Atributo CNTCOD
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOCp.OHFTOCpMOVCXP.cntsub">
+            <summary>
+            Atributo CNTSUB
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOCp.OHFTOCpMOVCXP.cntvig">
+            <summary>
+            Atributo CNTVIG
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOCp.OHFTOCpMOVCXP.cnucod">
+            <summary>
+            Atributo CNUCOD
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOCp.OHFTOCpMOVCXP.cnusub">
+            <summary>
+            Atributo CNUSUB
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOCp.OHFTOCpMOVCXP.doccod">
+            <summary>
+            Atributo DOCCOD
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOCp.OHFTOCpMOVCXP.empcod">
+            <summary>
+            Atributo EMPCOD
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOCp.OHFTOCpMOVCXP.fljcajcod">
+            <summary>
+            Atributo FLJCAJCOD
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOCp.OHFTOCpMOVCXP.fljcajcon">
+            <summary>
+            Atributo FLJCAJCON
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOCp.OHFTOCpMOVCXP.mcdpto">
+            <summary>
+            Atributo MCDPTO
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOCp.OHFTOCpMOVCXP.mvcxpact">
+            <summary>
+            Atributo MVCXPACT
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOCp.OHFTOCpMOVCXP.mvcxpcnc">
+            <summary>
+            Atributo MVCXPCNC
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOCp.OHFTOCpMOVCXP.mvcxpcsc">
+            <summary>
+            Atributo MVCXPCSC
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOCp.OHFTOCpMOVCXP.mvcxpfch">
+            <summary>
+            Atributo MVCXPFCH
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOCp.OHFTOCpMOVCXP.mvcxpmb">
+            <summary>
+            Atributo MVCXPMB
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOCp.OHFTOCpMOVCXP.mvcxpnat">
+            <summary>
+            Atributo MVCXPNAT
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOCp.OHFTOCpMOVCXP.mvcxpnro">
+            <summary>
+            Atributo MVCXPNRO
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOCp.OHFTOCpMOVCXP.mvcxpnuob">
+            <summary>
+            Atributo MVCXPNUOB
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOCp.OHFTOCpMOVCXP.mvcxptc">
+            <summary>
+            Atributo MVCXPTC
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOCp.OHFTOCpMOVCXP.mvcxpter">
+            <summary>
+            Atributo MVCXPTER
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOCp.OHFTOCpMOVCXP.mvcxpval">
+            <summary>
+            Atributo MVCXPVAL
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOCp.OHFTOCpMOVCXP.mvcxpvex">
+            <summary>
+            Atributo MVCXPVEX
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOCp.OHFTOCpMOVCXP.prvcod">
+            <summary>
+            Atributo PRVCOD
+            </summary>
+        </member>
+        <member name="T:Ophelia.Hosvital.OHFTOCp.OHFTOPKCpMOVCXP">
+            <summary>
+            Objeto PK de transferencia de datos para MOVCXP
+            </summary>
+        </member>
+        <member name="M:Ophelia.Hosvital.OHFTOCp.OHFTOPKCpMOVCXP.#ctor">
+            <summary>
+            Constructor de la clase
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOCp.OHFTOPKCpMOVCXP.cntvig">
+            <summary>
+            Atributo Cntvig
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOCp.OHFTOPKCpMOVCXP.doccod">
+            <summary>
+            Atributo Doccod
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOCp.OHFTOPKCpMOVCXP.empcod">
+            <summary>
+            Atributo Empcod
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOCp.OHFTOPKCpMOVCXP.mcdpto">
+            <summary>
+            Atributo Mcdpto
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOCp.OHFTOPKCpMOVCXP.mvcxpcsc">
+            <summary>
+            Atributo Mvcxpcsc
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOCp.OHFTOPKCpMOVCXP.mvcxpnro">
+            <summary>
+            Atributo Mvcxpnro
+            </summary>
+        </member>
+        <member name="T:Ophelia.Hosvital.OHFTOCp.OHFTOCpNICP1INT">
+            <summary>
+            Objeto de transferencia de datos para NICP1INT
+            </summary>
+        </member>
+        <member name="M:Ophelia.Hosvital.OHFTOCp.OHFTOCpNICP1INT.#ctor">
+            <summary>
+            Constructor de la clase
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOCp.OHFTOCpNICP1INT.nicp1sed">
+            <summary>
+            Atributo NICP1SED
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOCp.OHFTOCpNICP1INT.nicp1nu">
+            <summary>
+            Atributo NICP1NU
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOCp.OHFTOCpNICP1INT.nicp1nro">
+            <summary>
+            Atributo NICP1NRO
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOCp.OHFTOCpNICP1INT.nicp1nf">
+            <summary>
+            Atributo NICP1NF
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOCp.OHFTOCpNICP1INT.nicp1id">
+            <summary>
+            Atributo NICP1ID
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOCp.OHFTOCpNICP1INT.nicp1est">
+            <summary>
+            Atributo NICP1EST
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOCp.OHFTOCpNICP1INT.nicp1emp">
+            <summary>
+            Atributo NICP1EMP
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOCp.OHFTOCpNICP1INT.nicp1doc">
+            <summary>
+            Atributo NICP1DOC
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOCp.OHFTOCpNICP1INT.nicp1cu">
+            <summary>
+            Atributo NICP1CU
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOCp.OHFTOCpNICP1INT.nicp1cf">
+            <summary>
+            Atributo NICP1CF
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOCp.OHFTOCpNICP1INT.nicp1au">
+            <summary>
+            Atributo NICP1AU
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOCp.OHFTOCpNICP1INT.nicp1af">
+            <summary>
+            Atributo NICP1AF
+            </summary>
+        </member>
+        <member name="T:Ophelia.Hosvital.OHFTOCp.OHFTOPKCpNICP1INT">
+            <summary>
+            Objeto PK de transferencia de datos para NICP1INT
+            </summary>
+        </member>
+        <member name="M:Ophelia.Hosvital.OHFTOCp.OHFTOPKCpNICP1INT.#ctor">
+            <summary>
+            Constructor de la clase
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOCp.OHFTOPKCpNICP1INT.nicp1id">
+            <summary>
+            Atributo Nicp1id
+            </summary>
+        </member>
+        <member name="T:Ophelia.Hosvital.OHFTOCp.OHFTOCpNICP2INT">
+            <summary>
+            Objeto de transferencia de datos para NICP2INT
+            </summary>
+        </member>
+        <member name="M:Ophelia.Hosvital.OHFTOCp.OHFTOCpNICP2INT.#ctor">
+            <summary>
+            Constructor de la clase
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOCp.OHFTOCpNICP2INT.nicp1id">
+            <summary>
+            Atributo NICP1ID
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOCp.OHFTOCpNICP2INT.nicp2cre">
+            <summary>
+            Atributo NICP2CRE
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOCp.OHFTOCpNICP2INT.nicp2ct">
+            <summary>
+            Atributo NICP2CT
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOCp.OHFTOCpNICP2INT.nicp2deb">
+            <summary>
+            Atributo NICP2DEB
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOCp.OHFTOCpNICP2INT.nicp2dv">
+            <summary>
+            Atributo NICP2DV
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOCp.OHFTOCpNICP2INT.nicp2emp">
+            <summary>
+            Atributo NICP2EMP
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOCp.OHFTOCpNICP2INT.nicp2est">
+            <summary>
+            Atributo NICP2EST
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOCp.OHFTOCpNICP2INT.nicp2id">
+            <summary>
+            Atributo NICP2ID
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOCp.OHFTOCpNICP2INT.nicp2oc">
+            <summary>
+            Atributo NICP2OC
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOCp.OHFTOCpNICP2INT.nicp2on">
+            <summary>
+            Atributo NICP2ON
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOCp.OHFTOCpNICP2INT.nicp2op">
+            <summary>
+            Atributo NICP2OP
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOCp.OHFTOCpNICP2INT.nicp2os">
+            <summary>
+            Atributo NICP2OS
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOCp.OHFTOCpNICP2INT.nicp2ti">
+            <summary>
+            Atributo NICP2TI
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOCp.OHFTOCpNICP2INT.nicp2vi">
+            <summary>
+            Atributo NICP2VI
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOCp.OHFTOCpNICP2INT.nicp2vig">
+            <summary>
+            Atributo NICP2VIG
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOCp.OHFTOCpNICP2INT.nicp2vp">
+            <summary>
+            Atributo NICP2VP
+            </summary>
+        </member>
+        <member name="T:Ophelia.Hosvital.OHFTOCp.OHFTOPKCpNICP2INT">
+            <summary>
+            Objeto PK de transferencia de datos para NICP2INT
+            </summary>
+        </member>
+        <member name="M:Ophelia.Hosvital.OHFTOCp.OHFTOPKCpNICP2INT.#ctor">
+            <summary>
+            Constructor de la clase
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOCp.OHFTOPKCpNICP2INT.nicp2id">
+            <summary>
+            Atributo Nicp2id
+            </summary>
+        </member>
+        <member name="T:Ophelia.Hosvital.OHFTOCp.OHFTOCpNIDESFINP">
+            <summary>
+            Objeto de transferencia de datos para NIDESFINP
+            </summary>
+        </member>
+        <member name="M:Ophelia.Hosvital.OHFTOCp.OHFTOCpNIDESFINP.#ctor">
+            <summary>
+            Constructor de la clase
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOCp.OHFTOCpNIDESFINP.empcod">
+            <summary>
+            Atributo EMPCOD
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOCp.OHFTOCpNIDESFINP.mcdpto">
+            <summary>
+            Atributo MCDPTO
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOCp.OHFTOCpNIDESFINP.nicntcod">
+            <summary>
+            Atributo NICNTCOD
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOCp.OHFTOCpNIDESFINP.nicntvig">
+            <summary>
+            Atributo NICNTVIG
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOCp.OHFTOCpNIDESFINP.nihopddf">
+            <summary>
+            Atributo NIHOPDDF
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOCp.OHFTOCpNIDESFINP.nihopddi">
+            <summary>
+            Atributo NIHOPDDI
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOCp.OHFTOCpNIDESFINP.nihopdtz">
+            <summary>
+            Atributo NIHOPDTZ
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOCp.OHFTOCpNIDESFINP.nihopdve">
+            <summary>
+            Atributo NIHOPDVE
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOCp.OHFTOCpNIDESFINP.nihopdvp">
+            <summary>
+            Atributo NIHOPDVP
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOCp.OHFTOCpNIDESFINP.nihopno">
+            <summary>
+            Atributo NIHOPNO
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOCp.OHFTOCpNIDESFINP.prvcod">
+            <summary>
+            Atributo PRVCOD
+            </summary>
+        </member>
+        <member name="T:Ophelia.Hosvital.OHFTOCp.OHFTOPKCpNIDESFINP">
+            <summary>
+            Objeto PK de transferencia de datos para NIDESFINP
+            </summary>
+        </member>
+        <member name="M:Ophelia.Hosvital.OHFTOCp.OHFTOPKCpNIDESFINP.#ctor">
+            <summary>
+            Constructor de la clase
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOCp.OHFTOPKCpNIDESFINP.empcod">
+            <summary>
+            Atributo Empcod
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOCp.OHFTOPKCpNIDESFINP.mcdpto">
+            <summary>
+            Atributo Mcdpto
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOCp.OHFTOPKCpNIDESFINP.nicntcod">
+            <summary>
+            Atributo Nicntcod
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOCp.OHFTOPKCpNIDESFINP.nicntvig">
+            <summary>
+            Atributo Nicntvig
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOCp.OHFTOPKCpNIDESFINP.nihopddi">
+            <summary>
+            Atributo Nihopddi
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOCp.OHFTOPKCpNIDESFINP.nihopno">
+            <summary>
+            Atributo Nihopno
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOCp.OHFTOPKCpNIDESFINP.prvcod">
+            <summary>
+            Atributo Prvcod
+            </summary>
+        </member>
+        <member name="T:Ophelia.Hosvital.OHFTOCp.OHFTOCpNIHOJOBLP">
+            <summary>
+            Objeto de transferencia de datos para NIHOJOBLP
+            </summary>
+        </member>
+        <member name="M:Ophelia.Hosvital.OHFTOCp.OHFTOCpNIHOJOBLP.#ctor">
+            <summary>
+            Constructor de la clase
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOCp.OHFTOCpNIHOJOBLP.cnccod">
+            <summary>
+            Atributo CNCCOD
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOCp.OHFTOCpNIHOJOBLP.cntsub">
+            <summary>
+            Atributo CNTSUB
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOCp.OHFTOCpNIHOJOBLP.cnucod">
+            <summary>
+            Atributo CNUCOD
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOCp.OHFTOCpNIHOJOBLP.cnusub">
+            <summary>
+            Atributo CNUSUB
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOCp.OHFTOCpNIHOJOBLP.empcod">
+            <summary>
+            Atributo EMPCOD
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOCp.OHFTOCpNIHOJOBLP.mcdpto">
+            <summary>
+            Atributo MCDPTO
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOCp.OHFTOCpNIHOJOBLP.nicntcod">
+            <summary>
+            Atributo NICNTCOD
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOCp.OHFTOCpNIHOJOBLP.nicntvig">
+            <summary>
+            Atributo NICNTVIG
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOCp.OHFTOCpNIHOJOBLP.nihopap">
+            <summary>
+            Atributo NIHOPAP
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOCp.OHFTOCpNIHOJOBLP.nihopbd">
+            <summary>
+            Atributo NIHOPBD
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOCp.OHFTOCpNIHOJOBLP.nihopcd">
+            <summary>
+            Atributo NIHOPCD
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOCp.OHFTOCpNIHOJOBLP.nihopcf">
+            <summary>
+            Atributo NIHOPCF
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOCp.OHFTOCpNIHOJOBLP.nihopci">
+            <summary>
+            Atributo NIHOPCI
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOCp.OHFTOCpNIHOJOBLP.nihopcn">
+            <summary>
+            Atributo NIHOPCN
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOCp.OHFTOCpNIHOJOBLP.nihopcr">
+            <summary>
+            Atributo NIHOPCR
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOCp.OHFTOCpNIHOJOBLP.nihopcs">
+            <summary>
+            Atributo NIHOPCS
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOCp.OHFTOCpNIHOJOBLP.nihopeh">
+            <summary>
+            Atributo NIHOPEH
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOCp.OHFTOCpNIHOJOBLP.nihopfc">
+            <summary>
+            Atributo NIHOPFC
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOCp.OHFTOCpNIHOJOBLP.nihopfo">
+            <summary>
+            Atributo NIHOPFO
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOCp.OHFTOCpNIHOJOBLP.nihopfrd">
+            <summary>
+            Atributo NIHOPFRD
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOCp.OHFTOCpNIHOJOBLP.nihopmt">
+            <summary>
+            Atributo NIHOPMT
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOCp.OHFTOCpNIHOJOBLP.nihopno">
+            <summary>
+            Atributo NIHOPNO
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOCp.OHFTOCpNIHOJOBLP.nihopocd">
+            <summary>
+            Atributo NIHOPOCD
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOCp.OHFTOCpNIHOJOBLP.nihopocn">
+            <summary>
+            Atributo NIHOPOCN
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOCp.OHFTOCpNIHOJOBLP.nihopocs">
+            <summary>
+            Atributo NIHOPOCS
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOCp.OHFTOCpNIHOJOBLP.nihoptc">
+            <summary>
+            Atributo NIHOPTC
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOCp.OHFTOCpNIHOJOBLP.nihoptd">
+            <summary>
+            Atributo NIHOPTD
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOCp.OHFTOCpNIHOJOBLP.nihoptpc">
+            <summary>
+            Atributo NIHOPTPC
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOCp.OHFTOCpNIHOJOBLP.nihopvc">
+            <summary>
+            Atributo NIHOPVC
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOCp.OHFTOCpNIHOJOBLP.nihopve">
+            <summary>
+            Atributo NIHOPVE
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOCp.OHFTOCpNIHOJOBLP.nihopvo">
+            <summary>
+            Atributo NIHOPVO
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOCp.OHFTOCpNIHOJOBLP.prvcod">
+            <summary>
+            Atributo PRVCOD
+            </summary>
+        </member>
+        <member name="T:Ophelia.Hosvital.OHFTOCp.OHFTOPKCpNIHOJOBLP">
+            <summary>
+            Objeto PK de transferencia de datos para NIHOJOBLP
+            </summary>
+        </member>
+        <member name="M:Ophelia.Hosvital.OHFTOCp.OHFTOPKCpNIHOJOBLP.#ctor">
+            <summary>
+            Constructor de la clase
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOCp.OHFTOPKCpNIHOJOBLP.empcod">
+            <summary>
+            Atributo Empcod
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOCp.OHFTOPKCpNIHOJOBLP.mcdpto">
+            <summary>
+            Atributo Mcdpto
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOCp.OHFTOPKCpNIHOJOBLP.nicntcod">
+            <summary>
+            Atributo Nicntcod
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOCp.OHFTOPKCpNIHOJOBLP.nicntvig">
+            <summary>
+            Atributo Nicntvig
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOCp.OHFTOPKCpNIHOJOBLP.nihopno">
+            <summary>
+            Atributo Nihopno
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOCp.OHFTOPKCpNIHOJOBLP.prvcod">
+            <summary>
+            Atributo Prvcod
+            </summary>
+        </member>
+        <member name="T:Ophelia.Hosvital.OHFTOCp.OHFTOCpNIMOVCXP">
+            <summary>
+            Objeto de transferencia de datos para NIMOVCXP
+            </summary>
+        </member>
+        <member name="M:Ophelia.Hosvital.OHFTOCp.OHFTOCpNIMOVCXP.#ctor">
+            <summary>
+            Constructor de la clase
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOCp.OHFTOCpNIMOVCXP.cnccod">
+            <summary>
+            Atributo CNCCOD
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOCp.OHFTOCpNIMOVCXP.cntsub">
+            <summary>
+            Atributo CNTSUB
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOCp.OHFTOCpNIMOVCXP.cnucod">
+            <summary>
+            Atributo CNUCOD
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOCp.OHFTOCpNIMOVCXP.cnusub">
+            <summary>
+            Atributo CNUSUB
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOCp.OHFTOCpNIMOVCXP.doccod">
+            <summary>
+            Atributo DOCCOD
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOCp.OHFTOCpNIMOVCXP.empcod">
+            <summary>
+            Atributo EMPCOD
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOCp.OHFTOCpNIMOVCXP.fljcajcod">
+            <summary>
+            Atributo FLJCAJCOD
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOCp.OHFTOCpNIMOVCXP.fljcajcon">
+            <summary>
+            Atributo FLJCAJCON
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOCp.OHFTOCpNIMOVCXP.mcdpto">
+            <summary>
+            Atributo MCDPTO
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOCp.OHFTOCpNIMOVCXP.nicmpve">
+            <summary>
+            Atributo NICMPVE
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOCp.OHFTOCpNIMOVCXP.nicntcod">
+            <summary>
+            Atributo NICNTCOD
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOCp.OHFTOCpNIMOVCXP.nicntvig">
+            <summary>
+            Atributo NICNTVIG
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOCp.OHFTOCpNIMOVCXP.nimcpact">
+            <summary>
+            Atributo NIMCPACT
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOCp.OHFTOCpNIMOVCXP.nimcpcnc">
+            <summary>
+            Atributo NIMCPCNC
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOCp.OHFTOCpNIMOVCXP.nimcpcsc">
+            <summary>
+            Atributo NIMCPCSC
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOCp.OHFTOCpNIMOVCXP.nimcpfch">
+            <summary>
+            Atributo NIMCPFCH
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOCp.OHFTOCpNIMOVCXP.nimcpmon">
+            <summary>
+            Atributo NIMCPMON
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOCp.OHFTOCpNIMOVCXP.nimcpmt">
+            <summary>
+            Atributo NIMCPMT
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOCp.OHFTOCpNIMOVCXP.nimcpnat">
+            <summary>
+            Atributo NIMCPNAT
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOCp.OHFTOCpNIMOVCXP.nimcpno">
+            <summary>
+            Atributo NIMCPNO
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOCp.OHFTOCpNIMOVCXP.nimcpnro">
+            <summary>
+            Atributo NIMCPNRO
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOCp.OHFTOCpNIMOVCXP.nimcptas">
+            <summary>
+            Atributo NIMCPTAS
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOCp.OHFTOCpNIMOVCXP.nimcpvlr">
+            <summary>
+            Atributo NIMCPVLR
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOCp.OHFTOCpNIMOVCXP.prvcod">
+            <summary>
+            Atributo PRVCOD
+            </summary>
+        </member>
+        <member name="T:Ophelia.Hosvital.OHFTOCp.OHFTOPKCpNIMOVCXP">
+            <summary>
+            Objeto PK de transferencia de datos para NIMOVCXP
+            </summary>
+        </member>
+        <member name="M:Ophelia.Hosvital.OHFTOCp.OHFTOPKCpNIMOVCXP.#ctor">
+            <summary>
+            Constructor de la clase
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOCp.OHFTOPKCpNIMOVCXP.doccod">
+            <summary>
+            Atributo Doccod
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOCp.OHFTOPKCpNIMOVCXP.empcod">
+            <summary>
+            Atributo Empcod
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOCp.OHFTOPKCpNIMOVCXP.mcdpto">
+            <summary>
+            Atributo Mcdpto
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOCp.OHFTOPKCpNIMOVCXP.nicntvig">
+            <summary>
+            Atributo Nicntvig
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOCp.OHFTOPKCpNIMOVCXP.nimcpcsc">
+            <summary>
+            Atributo Nimcpcsc
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOCp.OHFTOPKCpNIMOVCXP.nimcpnro">
+            <summary>
+            Atributo Nimcpnro
+            </summary>
+        </member>
+        <member name="T:Ophelia.Hosvital.OHFTOCp.OHFTOCpNIMVCXP">
+            <summary>
+            Objeto de transferencia de datos para NIMVCXP
+            </summary>
+        </member>
+        <member name="M:Ophelia.Hosvital.OHFTOCp.OHFTOCpNIMVCXP.#ctor">
+            <summary>
+            Constructor de la clase
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOCp.OHFTOCpNIMVCXP.doccod">
+            <summary>
+            Atributo DOCCOD
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOCp.OHFTOCpNIMVCXP.doccodope">
+            <summary>
+            Atributo DOCCODOPE
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOCp.OHFTOCpNIMVCXP.docconope">
+            <summary>
+            Atributo DOCCONOPE
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOCp.OHFTOCpNIMVCXP.empcod">
+            <summary>
+            Atributo EMPCOD
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOCp.OHFTOCpNIMVCXP.mcdpto">
+            <summary>
+            Atributo MCDPTO
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOCp.OHFTOCpNIMVCXP.nimcnro">
+            <summary>
+            Atributo NIMCNRO
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOCp.OHFTOCpNIMVCXP.nimvva">
+            <summary>
+            Atributo NIMVVA
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOCp.OHFTOCpNIMVCXP.rcuid">
+            <summary>
+            Atributo RCUID
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOCp.OHFTOCpNIMVCXP.salprecod">
+            <summary>
+            Atributo SALPRECOD
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOCp.OHFTOCpNIMVCXP.salprevig">
+            <summary>
+            Atributo SALPREVIG
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOCp.OHFTOCpNIMVCXP.uninegid">
+            <summary>
+            Atributo UNINEGID
+            </summary>
+        </member>
+        <member name="T:Ophelia.Hosvital.OHFTOCp.OHFTOPKCpNIMVCXP">
+            <summary>
+            Objeto PK de transferencia de datos para NIMVCXP
+            </summary>
+        </member>
+        <member name="M:Ophelia.Hosvital.OHFTOCp.OHFTOPKCpNIMVCXP.#ctor">
+            <summary>
+            Constructor de la clase
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOCp.OHFTOPKCpNIMVCXP.doccod">
+            <summary>
+            Atributo Doccod
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOCp.OHFTOPKCpNIMVCXP.doccodope">
+            <summary>
+            Atributo Doccodope
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOCp.OHFTOPKCpNIMVCXP.docconope">
+            <summary>
+            Atributo Docconope
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOCp.OHFTOPKCpNIMVCXP.empcod">
+            <summary>
+            Atributo Empcod
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOCp.OHFTOPKCpNIMVCXP.mcdpto">
+            <summary>
+            Atributo Mcdpto
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOCp.OHFTOPKCpNIMVCXP.nimcnro">
+            <summary>
+            Atributo Nimcnro
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOCp.OHFTOPKCpNIMVCXP.rcuid">
+            <summary>
+            Atributo Rcuid
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOCp.OHFTOPKCpNIMVCXP.salprecod">
+            <summary>
+            Atributo Salprecod
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOCp.OHFTOPKCpNIMVCXP.salprevig">
+            <summary>
+            Atributo Salprevig
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOCp.OHFTOPKCpNIMVCXP.uninegid">
+            <summary>
+            Atributo Uninegid
+            </summary>
+        </member>
+        <member name="T:Ophelia.Hosvital.OHFTOCp.OHFTOCpPRMCXP">
+            <summary>
+            Objeto de transferencia de datos para PRMCXP
+            </summary>
+        </member>
+        <member name="M:Ophelia.Hosvital.OHFTOCp.OHFTOCpPRMCXP.#ctor">
+            <summary>
+            Constructor de la clase
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOCp.OHFTOCpPRMCXP.empcod">
+            <summary>
+            Atributo EMPCOD
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOCp.OHFTOCpPRMCXP.pcxpcret">
+            <summary>
+            Atributo PCXPCRET
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOCp.OHFTOCpPRMCXP.pcxpdoceq">
+            <summary>
+            Atributo PCXPDOCEQ
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOCp.OHFTOCpPRMCXP.pcxpfchemi">
+            <summary>
+            Atributo PCXPFCHEMI
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOCp.OHFTOCpPRMCXP.pcxpfchvn">
+            <summary>
+            Atributo PCXPFCHVN
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOCp.OHFTOCpPRMCXP.pcxpidetrb">
+            <summary>
+            Atributo PCXPIDETRB
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOCp.OHFTOCpPRMCXP.pcxpnoobl">
+            <summary>
+            Atributo PCXPNOOBL
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOCp.OHFTOCpPRMCXP.pcxpnroaut">
+            <summary>
+            Atributo PCXPNROAUT
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOCp.OHFTOCpPRMCXP.pcxpobldrf">
+            <summary>
+            Atributo PCXPOBLDRF
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOCp.OHFTOCpPRMCXP.pcxpredcl">
+            <summary>
+            Atributo PCXPREDCL
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOCp.OHFTOCpPRMCXP.prmcxpcod">
+            <summary>
+            Atributo PRMCXPCOD
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOCp.OHFTOCpPRMCXP.prmcxpdrt">
+            <summary>
+            Atributo PRMCXPDRT
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOCp.OHFTOCpPRMCXP.prmcxpdsc">
+            <summary>
+            Atributo PRMCXPDSC
+            </summary>
+        </member>
+        <member name="T:Ophelia.Hosvital.OHFTOCp.OHFTOPKCpPRMCXP">
+            <summary>
+            Objeto PK de transferencia de datos para PRMCXP
+            </summary>
+        </member>
+        <member name="M:Ophelia.Hosvital.OHFTOCp.OHFTOPKCpPRMCXP.#ctor">
+            <summary>
+            Constructor de la clase
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOCp.OHFTOPKCpPRMCXP.empcod">
+            <summary>
+            Atributo Empcod
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOCp.OHFTOPKCpPRMCXP.prmcxpcod">
+            <summary>
+            Atributo Prmcxpcod
+            </summary>
+        </member>
+        <member name="T:Ophelia.Hosvital.OHFTOCp.OHFTOCpPROVEEDOR">
+            <summary>
+            Objeto de transferencia de datos para PROVEEDOR
+            </summary>
+        </member>
+        <member name="M:Ophelia.Hosvital.OHFTOCp.OHFTOCpPROVEEDOR.#ctor">
+            <summary>
+            Constructor de la clase
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOCp.OHFTOCpPROVEEDOR.empcod">
+            <summary>
+            Atributo EMPCOD
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOCp.OHFTOCpPROVEEDOR.prvcod">
+            <summary>
+            Atributo PRVCOD
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOCp.OHFTOCpPROVEEDOR.prvdiafin">
+            <summary>
+            Atributo PRVDIAFIN
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOCp.OHFTOCpPROVEEDOR.prvdiaini">
+            <summary>
+            Atributo PRVDIAINI
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOCp.OHFTOCpPROVEEDOR.prvpordes">
+            <summary>
+            Atributo PRVPORDES
+            </summary>
+        </member>
+        <member name="T:Ophelia.Hosvital.OHFTOCp.OHFTOPKCpPROVEEDOR">
+            <summary>
+            Objeto PK de transferencia de datos para PROVEEDOR
+            </summary>
+        </member>
+        <member name="M:Ophelia.Hosvital.OHFTOCp.OHFTOPKCpPROVEEDOR.#ctor">
+            <summary>
+            Constructor de la clase
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOCp.OHFTOPKCpPROVEEDOR.empcod">
+            <summary>
+            Atributo Empcod
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOCp.OHFTOPKCpPROVEEDOR.prvcod">
+            <summary>
+            Atributo Prvcod
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOCp.OHFTOPKCpPROVEEDOR.prvdiaini">
+            <summary>
+            Atributo Prvdiaini
+            </summary>
+        </member>
+        <member name="T:Ophelia.Hosvital.OHFTOCp.OHFTOCpPROVEEDOR1">
+            <summary>
+            Objeto de transferencia de datos para PROVEEDOR1
+            </summary>
+        </member>
+        <member name="M:Ophelia.Hosvital.OHFTOCp.OHFTOCpPROVEEDOR1.#ctor">
+            <summary>
+            Constructor de la clase
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOCp.OHFTOCpPROVEEDOR1.codban">
+            <summary>
+            Atributo CODBAN
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOCp.OHFTOCpPROVEEDOR1.empcod">
+            <summary>
+            Atributo EMPCOD
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOCp.OHFTOCpPROVEEDOR1.prvclc1">
+            <summary>
+            Atributo PRVCLC1
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOCp.OHFTOCpPROVEEDOR1.prvclc2">
+            <summary>
+            Atributo PRVCLC2
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOCp.OHFTOCpPROVEEDOR1.prvcod">
+            <summary>
+            Atributo PRVCOD
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOCp.OHFTOCpPROVEEDOR1.prvcodiac">
+            <summary>
+            Atributo PRVCODIAC
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOCp.OHFTOCpPROVEEDOR1.prvcodmat">
+            <summary>
+            Atributo PRVCODMAT
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOCp.OHFTOCpPROVEEDOR1.prvcon">
+            <summary>
+            Atributo PRVCON
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOCp.OHFTOCpPROVEEDOR1.prvcrgcon">
+            <summary>
+            Atributo PRVCRGCON
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOCp.OHFTOCpPROVEEDOR1.prvcupcre">
+            <summary>
+            Atributo PRVCUPCRE
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOCp.OHFTOCpPROVEEDOR1.prvfchulc">
+            <summary>
+            Atributo PRVFCHULC
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOCp.OHFTOCpPROVEEDOR1.prvfchvnf">
+            <summary>
+            Atributo PRVFCHVNF
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOCp.OHFTOCpPROVEEDOR1.prvfrmpag">
+            <summary>
+            Atributo PRVFRMPAG
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOCp.OHFTOCpPROVEEDOR1.prvnoautf">
+            <summary>
+            Atributo PRVNOAUTF
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOCp.OHFTOCpPROVEEDOR1.prvnocue">
+            <summary>
+            Atributo PRVNOCUE
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOCp.OHFTOCpPROVEEDOR1.prvtipcue">
+            <summary>
+            Atributo PRVTIPCUE
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOCp.OHFTOCpPROVEEDOR1.tippcod">
+            <summary>
+            Atributo TIPPCOD
+            </summary>
+        </member>
+        <member name="T:Ophelia.Hosvital.OHFTOCp.OHFTOPKCpPROVEEDOR1">
+            <summary>
+            Objeto PK de transferencia de datos para PROVEEDOR1
+            </summary>
+        </member>
+        <member name="M:Ophelia.Hosvital.OHFTOCp.OHFTOPKCpPROVEEDOR1.#ctor">
+            <summary>
+            Constructor de la clase
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOCp.OHFTOPKCpPROVEEDOR1.empcod">
+            <summary>
+            Atributo Empcod
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOCp.OHFTOPKCpPROVEEDOR1.prvcod">
+            <summary>
+            Atributo Prvcod
+            </summary>
+        </member>
+        <member name="T:Ophelia.Hosvital.OHFTOCp.OHFTOCpPROVEEDOR2">
+            <summary>
+            Objeto de transferencia de datos para PROVEEDOR2
+            </summary>
+        </member>
+        <member name="M:Ophelia.Hosvital.OHFTOCp.OHFTOCpPROVEEDOR2.#ctor">
+            <summary>
+            Constructor de la clase
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOCp.OHFTOCpPROVEEDOR2.empcod">
+            <summary>
+            Atributo EMPCOD
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOCp.OHFTOCpPROVEEDOR2.mcdpto">
+            <summary>
+            Atributo MCDPTO
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOCp.OHFTOCpPROVEEDOR2.prvcod">
+            <summary>
+            Atributo PRVCOD
+            </summary>
+        </member>
+        <member name="T:Ophelia.Hosvital.OHFTOCp.OHFTOPKCpPROVEEDOR2">
+            <summary>
+            Objeto PK de transferencia de datos para PROVEEDOR2
+            </summary>
+        </member>
+        <member name="M:Ophelia.Hosvital.OHFTOCp.OHFTOPKCpPROVEEDOR2.#ctor">
+            <summary>
+            Constructor de la clase
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOCp.OHFTOPKCpPROVEEDOR2.empcod">
+            <summary>
+            Atributo Empcod
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOCp.OHFTOPKCpPROVEEDOR2.mcdpto">
+            <summary>
+            Atributo Mcdpto
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOCp.OHFTOPKCpPROVEEDOR2.prvcod">
+            <summary>
+            Atributo Prvcod
+            </summary>
+        </member>
+        <member name="T:Ophelia.Hosvital.OHFTOCp.OHFTOCpPROVEEDOR3">
+            <summary>
+            Objeto de transferencia de datos para PROVEEDOR3
+            </summary>
+        </member>
+        <member name="M:Ophelia.Hosvital.OHFTOCp.OHFTOCpPROVEEDOR3.#ctor">
+            <summary>
+            Constructor de la clase
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOCp.OHFTOCpPROVEEDOR3.empcod">
+            <summary>
+            Atributo EMPCOD
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOCp.OHFTOCpPROVEEDOR3.prvcod">
+            <summary>
+            Atributo PRVCOD
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOCp.OHFTOCpPROVEEDOR3.prvcodmor">
+            <summary>
+            Atributo PRVCODMOR
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOCp.OHFTOCpPROVEEDOR3.prvdiamorf">
+            <summary>
+            Atributo PRVDIAMORF
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOCp.OHFTOCpPROVEEDOR3.prvdiamori">
+            <summary>
+            Atributo PRVDIAMORI
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOCp.OHFTOCpPROVEEDOR3.prvestmor">
+            <summary>
+            Atributo PRVESTMOR
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOCp.OHFTOCpPROVEEDOR3.prvmorcre">
+            <summary>
+            Atributo PRVMORCRE
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOCp.OHFTOCpPROVEEDOR3.prvmordeb">
+            <summary>
+            Atributo PRVMORDEB
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOCp.OHFTOCpPROVEEDOR3.prvtasmor">
+            <summary>
+            Atributo PRVTASMOR
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOCp.OHFTOCpPROVEEDOR3.prvvigmor">
+            <summary>
+            Atributo PRVVIGMOR
+            </summary>
+        </member>
+        <member name="T:Ophelia.Hosvital.OHFTOCp.OHFTOPKCpPROVEEDOR3">
+            <summary>
+            Objeto PK de transferencia de datos para PROVEEDOR3
+            </summary>
+        </member>
+        <member name="M:Ophelia.Hosvital.OHFTOCp.OHFTOPKCpPROVEEDOR3.#ctor">
+            <summary>
+            Constructor de la clase
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOCp.OHFTOPKCpPROVEEDOR3.empcod">
+            <summary>
+            Atributo Empcod
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOCp.OHFTOPKCpPROVEEDOR3.prvcod">
+            <summary>
+            Atributo Prvcod
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOCp.OHFTOPKCpPROVEEDOR3.prvcodmor">
+            <summary>
+            Atributo Prvcodmor
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOCp.OHFTOPKCpPROVEEDOR3.prvvigmor">
+            <summary>
+            Atributo Prvvigmor
+            </summary>
+        </member>
+        <member name="T:Ophelia.Hosvital.OHFTOCp.OHFTOCpPRVPROD">
+            <summary>
+            Objeto de transferencia de datos para PRVPROD
+            </summary>
+        </member>
+        <member name="M:Ophelia.Hosvital.OHFTOCp.OHFTOCpPRVPROD.#ctor">
+            <summary>
+            Constructor de la clase
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOCp.OHFTOCpPRVPROD.empcod">
+            <summary>
+            Atributo EMPCOD
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOCp.OHFTOCpPRVPROD.mscdfab">
+            <summary>
+            Atributo MSCDFAB
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOCp.OHFTOCpPRVPROD.mscodean">
+            <summary>
+            Atributo MSCODEAN
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOCp.OHFTOCpPRVPROD.msfctcnve">
+            <summary>
+            Atributo MSFCTCNVE
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOCp.OHFTOCpPRVPROD.msreso">
+            <summary>
+            Atributo MSRESO
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOCp.OHFTOCpPRVPROD.prvcod">
+            <summary>
+            Atributo PRVCOD
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOCp.OHFTOCpPRVPROD.prvprc">
+            <summary>
+            Atributo PRVPRC
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOCp.OHFTOCpPRVPROD.prvtpoent">
+            <summary>
+            Atributo PRVTPOENT
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOCp.OHFTOCpPRVPROD.prvulprce">
+            <summary>
+            Atributo PRVULPRCE
+            </summary>
+        </member>
+        <member name="T:Ophelia.Hosvital.OHFTOCp.OHFTOPKCpPRVPROD">
+            <summary>
+            Objeto PK de transferencia de datos para PRVPROD
+            </summary>
+        </member>
+        <member name="M:Ophelia.Hosvital.OHFTOCp.OHFTOPKCpPRVPROD.#ctor">
+            <summary>
+            Constructor de la clase
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOCp.OHFTOPKCpPRVPROD.empcod">
+            <summary>
+            Atributo Empcod
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOCp.OHFTOPKCpPRVPROD.msreso">
+            <summary>
+            Atributo Msreso
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOCp.OHFTOPKCpPRVPROD.prvcod">
+            <summary>
+            Atributo Prvcod
+            </summary>
+        </member>
+        <member name="T:Ophelia.Hosvital.OHFTOCp.OHFTOCpPRVSER">
+            <summary>
+            Objeto de transferencia de datos para PRVSER
+            </summary>
+        </member>
+        <member name="M:Ophelia.Hosvital.OHFTOCp.OHFTOCpPRVSER.#ctor">
+            <summary>
+            Constructor de la clase
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOCp.OHFTOCpPRVSER.empcod">
+            <summary>
+            Atributo EMPCOD
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOCp.OHFTOCpPRVSER.maesercod">
+            <summary>
+            Atributo MAESERCOD
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOCp.OHFTOCpPRVSER.prvcod">
+            <summary>
+            Atributo PRVCOD
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOCp.OHFTOCpPRVSER.prvserpli">
+            <summary>
+            Atributo PRVSERPLI
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOCp.OHFTOCpPRVSER.prvserultp">
+            <summary>
+            Atributo PRVSERULTP
+            </summary>
+        </member>
+        <member name="T:Ophelia.Hosvital.OHFTOCp.OHFTOPKCpPRVSER">
+            <summary>
+            Objeto PK de transferencia de datos para PRVSER
+            </summary>
+        </member>
+        <member name="M:Ophelia.Hosvital.OHFTOCp.OHFTOPKCpPRVSER.#ctor">
+            <summary>
+            Constructor de la clase
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOCp.OHFTOPKCpPRVSER.empcod">
+            <summary>
+            Atributo Empcod
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOCp.OHFTOPKCpPRVSER.maesercod">
+            <summary>
+            Atributo Maesercod
+            </summary>
+        </member>
+        <member name="P:Ophelia.Hosvital.OHFTOCp.OHFTOPKCpPRVSER.prvcod">
+            <summary>
+            Atributo Prvcod
+            </summary>
+        </member>
+    </members>
+</doc>

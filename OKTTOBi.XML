@@ -1,0 +1,853 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Ophelia.Kactus.OKTTOBi</name>
+    </assembly>
+    <members>
+        <member name="T:Ophelia.Kactus.OKTTOBi.OKTTOBiEmidi">
+            <summary>
+            Objeto de transferencia de datos para Emidi
+            </summary>
+        </member>
+        <member name="M:Ophelia.Kactus.OKTTOBi.OKTTOBiEmidi.#ctor">
+            <summary>
+            Constructor de la clase
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKTTOBi.OKTTOBiEmidi.cod_empr">
+            <summary>
+            Atributo COD_EMPR
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKTTOBi.OKTTOBiEmidi.cod_empl">
+            <summary>
+            Atributo COD_EMPL
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKTTOBi.OKTTOBiEmidi.nom_idio">
+            <summary>
+            Atributo NOM_IDIO
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKTTOBi.OKTTOBiEmidi.hab_idio">
+            <summary>
+            Atributo HAB_IDIO
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKTTOBi.OKTTOBiEmidi.lee_idio">
+            <summary>
+            Atributo LEE_IDIO
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKTTOBi.OKTTOBiEmidi.esc_idio">
+            <summary>
+            Atributo ESC_IDIO
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKTTOBi.OKTTOBiEmidi.obs_erva">
+            <summary>
+            Atributo OBS_ERVA
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKTTOBi.OKTTOBiEmidi.act_usua">
+            <summary>
+            Atributo ACT_USUA
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKTTOBi.OKTTOBiEmidi.act_hora">
+            <summary>
+            Atributo ACT_HORA
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKTTOBi.OKTTOBiEmidi.act_esta">
+            <summary>
+            Atributo ACT_ESTA
+            </summary>
+        </member>
+        <member name="T:Ophelia.Kactus.OKTTOBi.OKTTOPKBiEmidi">
+            <summary>
+            Objeto PK de transferencia de datos para Emidi
+            </summary>
+        </member>
+        <member name="M:Ophelia.Kactus.OKTTOBi.OKTTOPKBiEmidi.#ctor">
+            <summary>
+            Constructor de la clase
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKTTOBi.OKTTOPKBiEmidi.cod_empl">
+            <summary>
+            Atributo Cod_empl
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKTTOBi.OKTTOPKBiEmidi.cod_empr">
+            <summary>
+            Atributo Cod_empr
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKTTOBi.OKTTOPKBiEmidi.nom_idio">
+            <summary>
+            Atributo Nom_idio
+            </summary>
+        </member>
+        <member name="T:Ophelia.Kactus.OKTTOBi.OKTTOBiEmpdo">
+            <summary>
+            Objeto de transferencia de datos para Empdo
+            </summary>
+        </member>
+        <member name="M:Ophelia.Kactus.OKTTOBi.OKTTOBiEmpdo.#ctor">
+            <summary>
+            Constructor de la clase
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKTTOBi.OKTTOBiEmpdo.cod_empr">
+            <summary>
+            Atributo COD_EMPR
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKTTOBi.OKTTOBiEmpdo.cod_empl">
+            <summary>
+            Atributo COD_EMPL
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKTTOBi.OKTTOBiEmpdo.cod_docu">
+            <summary>
+            Atributo COD_DOCU
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKTTOBi.OKTTOBiEmpdo.num_docu">
+            <summary>
+            Atributo NUM_DOCU
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKTTOBi.OKTTOBiEmpdo.fec_expe">
+            <summary>
+            Atributo FEC_EXPE
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKTTOBi.OKTTOBiEmpdo.pai_expe">
+            <summary>
+            Atributo PAI_EXPE
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKTTOBi.OKTTOBiEmpdo.dto_expe">
+            <summary>
+            Atributo DTO_EXPE
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKTTOBi.OKTTOBiEmpdo.mpi_expe">
+            <summary>
+            Atributo MPI_EXPE
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKTTOBi.OKTTOBiEmpdo.fec_venc">
+            <summary>
+            Atributo FEC_VENC
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKTTOBi.OKTTOBiEmpdo.obs_erva">
+            <summary>
+            Atributo OBS_ERVA
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKTTOBi.OKTTOBiEmpdo.act_usua">
+            <summary>
+            Atributo ACT_USUA
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKTTOBi.OKTTOBiEmpdo.act_hora">
+            <summary>
+            Atributo ACT_HORA
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKTTOBi.OKTTOBiEmpdo.act_esta">
+            <summary>
+            Atributo ACT_ESTA
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKTTOBi.OKTTOBiEmpdo.rmt_imag">
+            <summary>
+            Atributo RMT_IMAG
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKTTOBi.OKTTOBiEmpdo.ind_entr">
+            <summary>
+            Atributo IND_ENTR
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKTTOBi.OKTTOBiEmpdo.loc_expe">
+            <summary>
+            Atributo LOC_EXPE
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKTTOBi.OKTTOBiEmpdo.est_docu">
+            <summary>
+            Atributo EST_DOCU
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKTTOBi.OKTTOBiEmpdo.fol_inic">
+            <summary>
+            Atributo FOL_INIC
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKTTOBi.OKTTOBiEmpdo.fol_fina">
+            <summary>
+            Atributo FOL_FINA
+            </summary>
+        </member>
+        <member name="T:Ophelia.Kactus.OKTTOBi.OKTTOPKBiEmpdo">
+            <summary>
+            Objeto PK de transferencia de datos para Empdo
+            </summary>
+        </member>
+        <member name="M:Ophelia.Kactus.OKTTOBi.OKTTOPKBiEmpdo.#ctor">
+            <summary>
+            Constructor de la clase
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKTTOBi.OKTTOPKBiEmpdo.cod_docu">
+            <summary>
+            Atributo Cod_docu
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKTTOBi.OKTTOPKBiEmpdo.cod_empl">
+            <summary>
+            Atributo Cod_empl
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKTTOBi.OKTTOPKBiEmpdo.cod_empr">
+            <summary>
+            Atributo Cod_empr
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKTTOBi.OKTTOPKBiEmpdo.num_docu">
+            <summary>
+            Atributo Num_docu
+            </summary>
+        </member>
+        <member name="T:Ophelia.Kactus.OKTTOBi.OKTTOBiEmple">
+            <summary>
+            Objeto de transferencia de datos para Emple
+            </summary>
+        </member>
+        <member name="M:Ophelia.Kactus.OKTTOBi.OKTTOBiEmple.#ctor">
+            <summary>
+            Constructor de la clase
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKTTOBi.OKTTOBiEmple.cod_empr">
+            <summary>
+            Atributo COD_EMPR
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKTTOBi.OKTTOBiEmple.tip_docu">
+            <summary>
+            Atributo TIP_DOCU
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKTTOBi.OKTTOBiEmple.cod_empl">
+            <summary>
+            Atributo COD_EMPL
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKTTOBi.OKTTOBiEmple.dto_expe">
+            <summary>
+            Atributo DTO_EXPE
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKTTOBi.OKTTOBiEmple.pai_expe">
+            <summary>
+            Atributo PAI_EXPE
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKTTOBi.OKTTOBiEmple.mpi_expe">
+            <summary>
+            Atributo MPI_EXPE
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKTTOBi.OKTTOBiEmple.cod_inte">
+            <summary>
+            Atributo COD_INTE
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKTTOBi.OKTTOBiEmple.ape_empl">
+            <summary>
+            Atributo APE_EMPL
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKTTOBi.OKTTOBiEmple.nom_empl">
+            <summary>
+            Atributo NOM_EMPL
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKTTOBi.OKTTOBiEmple.nac_iona">
+            <summary>
+            Atributo NAC_IONA
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKTTOBi.OKTTOBiEmple.pai_extr">
+            <summary>
+            Atributo PAI_EXTR
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKTTOBi.OKTTOBiEmple.sex_empl">
+            <summary>
+            Atributo SEX_EMPL
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKTTOBi.OKTTOBiEmple.cla_lmil">
+            <summary>
+            Atributo CLA_LMIL
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKTTOBi.OKTTOBiEmple.num_lmil">
+            <summary>
+            Atributo NUM_LMIL
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKTTOBi.OKTTOBiEmple.dis_lmil">
+            <summary>
+            Atributo DIS_LMIL
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKTTOBi.OKTTOBiEmple.pai_naci">
+            <summary>
+            Atributo PAI_NACI
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKTTOBi.OKTTOBiEmple.dto_naci">
+            <summary>
+            Atributo DTO_NACI
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKTTOBi.OKTTOBiEmple.mpi_naci">
+            <summary>
+            Atributo MPI_NACI
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKTTOBi.OKTTOBiEmple.fec_naci">
+            <summary>
+            Atributo FEC_NACI
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKTTOBi.OKTTOBiEmple.pai_resi">
+            <summary>
+            Atributo PAI_RESI
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKTTOBi.OKTTOBiEmple.dto_resi">
+            <summary>
+            Atributo DTO_RESI
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKTTOBi.OKTTOBiEmple.mpi_resi">
+            <summary>
+            Atributo MPI_RESI
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKTTOBi.OKTTOBiEmple.dir_resi">
+            <summary>
+            Atributo DIR_RESI
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKTTOBi.OKTTOBiEmple.bar_resi">
+            <summary>
+            Atributo BAR_RESI
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKTTOBi.OKTTOBiEmple.rut_resi">
+            <summary>
+            Atributo RUT_RESI
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKTTOBi.OKTTOBiEmple.tel_resi">
+            <summary>
+            Atributo TEL_RESI
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKTTOBi.OKTTOBiEmple.est_civi">
+            <summary>
+            Atributo EST_CIVI
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKTTOBi.OKTTOBiEmple.per_carg">
+            <summary>
+            Atributo PER_CARG
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKTTOBi.OKTTOBiEmple.gra_educ">
+            <summary>
+            Atributo GRA_EDUC
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKTTOBi.OKTTOBiEmple.tit_obte">
+            <summary>
+            Atributo TIT_OBTE
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKTTOBi.OKTTOBiEmple.pro_titu">
+            <summary>
+            Atributo PRO_TITU
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKTTOBi.OKTTOBiEmple.mat_prof">
+            <summary>
+            Atributo MAT_PROF
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKTTOBi.OKTTOBiEmple.ano_serp">
+            <summary>
+            Atributo ANO_SERP
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKTTOBi.OKTTOBiEmple.mes_serp">
+            <summary>
+            Atributo MES_SERP
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKTTOBi.OKTTOBiEmple.dia_serp">
+            <summary>
+            Atributo DIA_SERP
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKTTOBi.OKTTOBiEmple.vin_serp">
+            <summary>
+            Atributo VIN_SERP
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKTTOBi.OKTTOBiEmple.ano_spri">
+            <summary>
+            Atributo ANO_SPRI
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKTTOBi.OKTTOBiEmple.mes_spri">
+            <summary>
+            Atributo MES_SPRI
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKTTOBi.OKTTOBiEmple.dia_spri">
+            <summary>
+            Atributo DIA_SPRI
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKTTOBi.OKTTOBiEmple.vin_spri">
+            <summary>
+            Atributo VIN_SPRI
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKTTOBi.OKTTOBiEmple.ano_trai">
+            <summary>
+            Atributo ANO_TRAI
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKTTOBi.OKTTOBiEmple.mes_trai">
+            <summary>
+            Atributo MES_TRAI
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKTTOBi.OKTTOBiEmple.dia_trai">
+            <summary>
+            Atributo DIA_TRAI
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKTTOBi.OKTTOBiEmple.vin_trai">
+            <summary>
+            Atributo VIN_TRAI
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKTTOBi.OKTTOBiEmple.ult_enti">
+            <summary>
+            Atributo ULT_ENTI
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKTTOBi.OKTTOBiEmple.pub_real">
+            <summary>
+            Atributo PUB_REAL
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKTTOBi.OKTTOBiEmple.tie_inha">
+            <summary>
+            Atributo TIE_INHA
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKTTOBi.OKTTOBiEmple.obs_inha">
+            <summary>
+            Atributo OBS_INHA
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKTTOBi.OKTTOBiEmple.obs_erva">
+            <summary>
+            Atributo OBS_ERVA
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKTTOBi.OKTTOBiEmple.act_usua">
+            <summary>
+            Atributo ACT_USUA
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKTTOBi.OKTTOBiEmple.act_hora">
+            <summary>
+            Atributo ACT_HORA
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKTTOBi.OKTTOBiEmple.act_esta">
+            <summary>
+            Atributo ACT_ESTA
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKTTOBi.OKTTOBiEmple.box_mail">
+            <summary>
+            Atributo BOX_MAIL
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKTTOBi.OKTTOBiEmple.eee_mail">
+            <summary>
+            Atributo EEE_MAIL
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKTTOBi.OKTTOBiEmple.tel_trab">
+            <summary>
+            Atributo TEL_TRAB
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKTTOBi.OKTTOBiEmple.tel_movi">
+            <summary>
+            Atributo TEL_MOVI
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKTTOBi.OKTTOBiEmple.tel_faxi">
+            <summary>
+            Atributo TEL_FAXI
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKTTOBi.OKTTOBiEmple.dir_part">
+            <summary>
+            Atributo DIR_PART
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKTTOBi.OKTTOBiEmple.rel_empl">
+            <summary>
+            Atributo REL_EMPL
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKTTOBi.OKTTOBiEmple.rmt_imag">
+            <summary>
+            Atributo RMT_IMAG
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKTTOBi.OKTTOBiEmple.for_acad">
+            <summary>
+            Atributo FOR_ACAD
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKTTOBi.OKTTOBiEmple.ind_rest">
+            <summary>
+            Atributo IND_REST
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKTTOBi.OKTTOBiEmple.obs_rest">
+            <summary>
+            Atributo OBS_REST
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKTTOBi.OKTTOBiEmple.fec_desr">
+            <summary>
+            Atributo FEC_DESR
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKTTOBi.OKTTOBiEmple.fec_hasr">
+            <summary>
+            Atributo FEC_HASR
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKTTOBi.OKTTOBiEmple.fec_reso">
+            <summary>
+            Atributo FEC_RESO
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKTTOBi.OKTTOBiEmple.num_reso">
+            <summary>
+            Atributo NUM_RESO
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKTTOBi.OKTTOBiEmple.pro_espe">
+            <summary>
+            Atributo PRO_ESPE
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKTTOBi.OKTTOBiEmple.adi_usua">
+            <summary>
+            Atributo ADI_USUA
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKTTOBi.OKTTOBiEmple.fec_fall">
+            <summary>
+            Atributo FEC_FALL
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKTTOBi.OKTTOBiEmple.pag_exte">
+            <summary>
+            Atributo PAG_EXTE
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKTTOBi.OKTTOBiEmple.ind_disc">
+            <summary>
+            Atributo IND_DISC
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKTTOBi.OKTTOBiEmple.por_disc">
+            <summary>
+            Atributo POR_DISC
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKTTOBi.OKTTOBiEmple.num_casa">
+            <summary>
+            Atributo NUM_CASA
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKTTOBi.OKTTOBiEmple.loc_expe">
+            <summary>
+            Atributo LOC_EXPE
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKTTOBi.OKTTOBiEmple.loc_naci">
+            <summary>
+            Atributo LOC_NACI
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKTTOBi.OKTTOBiEmple.loc_resi">
+            <summary>
+            Atributo LOC_RESI
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKTTOBi.OKTTOBiEmple.pre_cona">
+            <summary>
+            Atributo PRE_CONA
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKTTOBi.OKTTOBiEmple.num_cona">
+            <summary>
+            Atributo NUM_CONA
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKTTOBi.OKTTOBiEmple.cod_zona">
+            <summary>
+            Atributo COD_ZONA
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKTTOBi.OKTTOBiEmple.cod_vias">
+            <summary>
+            Atributo COD_VIAS
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKTTOBi.OKTTOBiEmple.nom_vias">
+            <summary>
+            Atributo NOM_VIAS
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKTTOBi.OKTTOBiEmple.sus_patr">
+            <summary>
+            Atributo SUS_PATR
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKTTOBi.OKTTOBiEmple.fam_empr">
+            <summary>
+            Atributo FAM_EMPR
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKTTOBi.OKTTOBiEmple.nom_fami">
+            <summary>
+            Atributo NOM_FAMI
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKTTOBi.OKTTOBiEmple.nom_reco">
+            <summary>
+            Atributo NOM_RECO
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKTTOBi.OKTTOBiEmple.fec_expe">
+            <summary>
+            Atributo FEC_EXPE
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKTTOBi.OKTTOBiEmple.cas_cont">
+            <summary>
+            Atributo CAS_CONT
+            </summary>
+        </member>
+        <member name="T:Ophelia.Kactus.OKTTOBi.OKTTOPKBiEmple">
+            <summary>
+            Objeto PK de transferencia de datos para Emple
+            </summary>
+        </member>
+        <member name="M:Ophelia.Kactus.OKTTOBi.OKTTOPKBiEmple.#ctor">
+            <summary>
+            Constructor de la clase
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKTTOBi.OKTTOPKBiEmple.cod_empl">
+            <summary>
+            Atributo Cod_empl
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKTTOBi.OKTTOPKBiEmple.cod_empr">
+            <summary>
+            Atributo Cod_empr
+            </summary>
+        </member>
+        <member name="T:Ophelia.Kactus.OKTTOBi.OKTTOBiEmpsu">
+            <summary>
+            Objeto de transferencia de datos para Empsu
+            </summary>
+        </member>
+        <member name="M:Ophelia.Kactus.OKTTOBi.OKTTOBiEmpsu.#ctor">
+            <summary>
+            Constructor de la clase
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKTTOBi.OKTTOBiEmpsu.act_usua">
+            <summary>
+            Atributo ACT_USUA
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKTTOBi.OKTTOBiEmpsu.act_hora">
+            <summary>
+            Atributo ACT_HORA
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKTTOBi.OKTTOBiEmpsu.act_esta">
+            <summary>
+            Atributo ACT_ESTA
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKTTOBi.OKTTOBiEmpsu.cod_empr">
+            <summary>
+            Atributo COD_EMPR
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKTTOBi.OKTTOBiEmpsu.cod_empl">
+            <summary>
+            Atributo COD_EMPL
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKTTOBi.OKTTOBiEmpsu.cod_resu">
+            <summary>
+            Atributo COD_RESU
+            </summary>
+        </member>
+        <member name="T:Ophelia.Kactus.OKTTOBi.OKTTOPKBiEmpsu">
+            <summary>
+            Objeto PK de transferencia de datos para Empsu
+            </summary>
+        </member>
+        <member name="M:Ophelia.Kactus.OKTTOBi.OKTTOPKBiEmpsu.#ctor">
+            <summary>
+            Constructor de la clase
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKTTOBi.OKTTOPKBiEmpsu.cod_empl">
+            <summary>
+            Atributo Cod_empl
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKTTOBi.OKTTOPKBiEmpsu.cod_empr">
+            <summary>
+            Atributo Cod_empr
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKTTOBi.OKTTOPKBiEmpsu.cod_resu">
+            <summary>
+            Atributo Cod_resu
+            </summary>
+        </member>
+        <member name="T:Ophelia.Kactus.OKTTOBi.OKTTOBiEmtal">
+            <summary>
+            Objeto de transferencia de datos para Emtal
+            </summary>
+        </member>
+        <member name="M:Ophelia.Kactus.OKTTOBi.OKTTOBiEmtal.#ctor">
+            <summary>
+            Constructor de la clase
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKTTOBi.OKTTOBiEmtal.act_usua">
+            <summary>
+            Atributo ACT_USUA
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKTTOBi.OKTTOBiEmtal.act_hora">
+            <summary>
+            Atributo ACT_HORA
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKTTOBi.OKTTOBiEmtal.act_esta">
+            <summary>
+            Atributo ACT_ESTA
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKTTOBi.OKTTOBiEmtal.cod_empr">
+            <summary>
+            Atributo COD_EMPR
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKTTOBi.OKTTOBiEmtal.cod_empl">
+            <summary>
+            Atributo COD_EMPL
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKTTOBi.OKTTOBiEmtal.nro_cont">
+            <summary>
+            Atributo NRO_CONT
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKTTOBi.OKTTOBiEmtal.cod_pren">
+            <summary>
+            Atributo COD_PREN
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKTTOBi.OKTTOBiEmtal.cod_tall">
+            <summary>
+            Atributo COD_TALL
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKTTOBi.OKTTOBiEmtal.cas_cont">
+            <summary>
+            Atributo CAS_CONT
+            </summary>
+        </member>
+        <member name="T:Ophelia.Kactus.OKTTOBi.OKTTOPKBiEmtal">
+            <summary>
+            Objeto PK de transferencia de datos para Emtal
+            </summary>
+        </member>
+        <member name="M:Ophelia.Kactus.OKTTOBi.OKTTOPKBiEmtal.#ctor">
+            <summary>
+            Constructor de la clase
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKTTOBi.OKTTOPKBiEmtal.cod_empl">
+            <summary>
+            Atributo Cod_empl
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKTTOBi.OKTTOPKBiEmtal.cod_empr">
+            <summary>
+            Atributo Cod_empr
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKTTOBi.OKTTOPKBiEmtal.cod_pren">
+            <summary>
+            Atributo Cod_pren
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKTTOBi.OKTTOPKBiEmtal.cod_tall">
+            <summary>
+            Atributo Cod_tall
+            </summary>
+        </member>
+        <member name="P:Ophelia.Kactus.OKTTOBi.OKTTOPKBiEmtal.nro_cont">
+            <summary>
+            Atributo Nro_cont
+            </summary>
+        </member>
+    </members>
+</doc>

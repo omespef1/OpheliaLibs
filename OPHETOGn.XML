@@ -1,0 +1,138 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Ophelia.Ophelia.OPHETOGn</name>
+    </assembly>
+    <members>
+        <member name="T:Ophelia.Ophelia.OPHETOGn.OPHETOOpSesio">
+            <summary>
+            Objeto de transferencia de datos para Rfugr
+            </summary>
+        </member>
+        <member name="M:Ophelia.Ophelia.OPHETOGn.OPHETOOpSesio.#ctor">
+            <summary>
+            Constructor de la clase
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OPHETOGn.OPHETOOpSesio.Ses_apli">
+            <summary>
+            Obtiene o asigna el valor de la propiedad
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OPHETOGn.OPHETOOpSesio.Ses_tokn">
+            <summary>
+            Obtiene o asigna el valor de la propiedad
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OPHETOGn.OPHETOOpSesio.Ses_ipad">
+            <summary>
+            Obtiene o asigna el valor de la propiedad
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OPHETOGn.OPHETOOpSesio.Ses_usua">
+            <summary>
+            Obtiene o asigna el valor de la propiedad
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OPHETOGn.OPHETOOpSesio.Ses_fech">
+            <summary>
+            Obtiene o asigna el valor de la propiedad
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OPHETOGn.OPHETOOpSesio.Ses_esta">
+            <summary>
+            Obtiene o asigna el valor de la propiedad
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OPHETOGn.OPHETOOpSesio.Ses_fecx">
+            <summary>
+            Obtiene o asigna el valor de la propiedad
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OPHETOGn.OPHETOOpSesio.Ses_tipa">
+            <summary>
+            Obtiene o asigna el valor de la propiedad
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OPHETOGn.OPHETOOpSesio.Act_esta">
+            <summary>
+            Obtiene o asigna el valor de la propiedad
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OPHETOGn.OPHETOOpSesio.Act_usua">
+            <summary>
+            Obtiene o asigna el valor de la propiedad
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OPHETOGn.OPHETOOpSesio.Act_hora">
+            <summary>
+            Obtiene o asigna el valor de la propiedad
+            </summary>
+        </member>
+        <member name="T:Ophelia.Ophelia.OPHETOGn.OPHETOPermissions">
+            <summary>
+            Objeto de transferencia de datos para Rfugr
+            </summary>
+        </member>
+        <member name="M:Ophelia.Ophelia.OPHETOGn.OPHETOPermissions.#ctor">
+            <summary>
+            Constructor de la clase
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OPHETOGn.OPHETOPermissions.Rpr_adic">
+            <summary>
+            Obtiene o asigna el permiso
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OPHETOGn.OPHETOPermissions.Rpr_modi">
+            <summary>
+            Obtiene o asigna el permiso
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OPHETOGn.OPHETOPermissions.Rpr_borr">
+            <summary>
+            Obtiene o asigna el permiso
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OPHETOGn.OPHETOPermissions.Rpr_repo">
+            <summary>
+            Obtiene o asigna el permiso
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OPHETOGn.OPHETOPermissions.Rpr_expo">
+            <summary>
+            Obtiene o asigna el permiso
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OPHETOGn.OPHETOPermissions.Rpr_reve">
+            <summary>
+            Obtiene o asigna el permiso
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OPHETOGn.OPHETOPermissions.Rpr_anul">
+            <summary>
+            Obtiene o asigna el permiso
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OPHETOGn.OPHETOPermissions.Rpr_apli">
+            <summary>
+            Obtiene o asigna el permiso
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OPHETOGn.OPHETOPermissions.Rpr_rdic">
+            <summary>
+            Obtiene o asigna el permiso
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OPHETOGn.OPHETOPermissions.Rpr_caud">
+            <summary>
+            Obtiene o asigna el permiso
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OPHETOGn.OPHETOPermissions.Rpr_menu">
+            <summary>
+            Obtiene o asigna el permiso
+            </summary>
+        </member>
+    </members>
+</doc>

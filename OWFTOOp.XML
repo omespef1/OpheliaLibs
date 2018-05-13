@@ -1,0 +1,2038 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Ophelia.Ophelia.OWFTOOp</name>
+    </assembly>
+    <members>
+        <member name="T:Ophelia.Ophelia.OWFTOOp.OWFTOOpApeop">
+            <summary>
+            Objeto de transferencia de datos para Apeop
+            </summary>
+        </member>
+        <member name="M:Ophelia.Ophelia.OWFTOOp.OWFTOOpApeop.#ctor">
+            <summary>
+            Constructor de la clase
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OWFTOOp.OWFTOOpApeop.ape_alia">
+            <summary>
+            Atributo APE_ALIA
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OWFTOOp.OWFTOOpApeop.ape_cont">
+            <summary>
+            Atributo APE_CONT
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OWFTOOp.OWFTOOpApeop.aud_esta">
+            <summary>
+            Atributo AUD_ESTA
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OWFTOOp.OWFTOOpApeop.aud_ufac">
+            <summary>
+            Atributo AUD_UFAC
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OWFTOOp.OWFTOOpApeop.aud_usua">
+            <summary>
+            Atributo AUD_USUA
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OWFTOOp.OWFTOOpApeop.emp_codi">
+            <summary>
+            Atributo EMP_CODI
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OWFTOOp.OWFTOOpApeop.emp_cont">
+            <summary>
+            Atributo EMP_CONT
+            </summary>
+        </member>
+        <member name="T:Ophelia.Ophelia.OWFTOOp.OWFTOPKOpApeop">
+            <summary>
+            Objeto PK de transferencia de datos para Apeop
+            </summary>
+        </member>
+        <member name="M:Ophelia.Ophelia.OWFTOOp.OWFTOPKOpApeop.#ctor">
+            <summary>
+            Constructor de la clase
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OWFTOOp.OWFTOPKOpApeop.ape_cont">
+            <summary>
+            Atributo Ape_cont
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OWFTOOp.OWFTOPKOpApeop.emp_codi">
+            <summary>
+            Atributo Emp_codi
+            </summary>
+        </member>
+        <member name="T:Ophelia.Ophelia.OWFTOOp.OWFTOOpComcm">
+            <summary>
+            Objeto de transferencia de datos para Comcm
+            </summary>
+        </member>
+        <member name="M:Ophelia.Ophelia.OWFTOOp.OWFTOOpComcm.#ctor">
+            <summary>
+            Constructor de la clase
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OWFTOOp.OWFTOOpComcm.act_esta">
+            <summary>
+            Atributo ACT_ESTA
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OWFTOOp.OWFTOOpComcm.act_hora">
+            <summary>
+            Atributo ACT_HORA
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OWFTOOp.OWFTOOpComcm.act_usua">
+            <summary>
+            Atributo ACT_USUA
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OWFTOOp.OWFTOOpComcm.cas_cont">
+            <summary>
+            Atributo CAS_CONT
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OWFTOOp.OWFTOOpComcm.com_cont">
+            <summary>
+            Atributo COM_CONT
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OWFTOOp.OWFTOOpComcm.com_cote">
+            <summary>
+            Atributo COM_COTE
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OWFTOOp.OWFTOOpComcm.com_desc">
+            <summary>
+            Atributo COM_DESC
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OWFTOOp.OWFTOOpComcm.com_fecf">
+            <summary>
+            Atributo COM_FECF
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OWFTOOp.OWFTOOpComcm.com_feci">
+            <summary>
+            Atributo COM_FECI
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OWFTOOp.OWFTOOpComcm.com_imag">
+            <summary>
+            Atributo COM_IMAG
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OWFTOOp.OWFTOOpComcm.com_nomb">
+            <summary>
+            Atributo COM_NOMB
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OWFTOOp.OWFTOOpComcm.com_tipc">
+            <summary>
+            Atributo COM_TIPC
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OWFTOOp.OWFTOOpComcm.com_titu">
+            <summary>
+            Atributo COM_TITU
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OWFTOOp.OWFTOOpComcm.emp_codi">
+            <summary>
+            Atributo EMP_CODI
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OWFTOOp.OWFTOOpComcm.zop_cont">
+            <summary>
+            Atributo ZOP_CONT
+            </summary>
+        </member>
+        <member name="T:Ophelia.Ophelia.OWFTOOp.OWFTOPKOpComcm">
+            <summary>
+            Objeto PK de transferencia de datos para Comcm
+            </summary>
+        </member>
+        <member name="M:Ophelia.Ophelia.OWFTOOp.OWFTOPKOpComcm.#ctor">
+            <summary>
+            Constructor de la clase
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OWFTOOp.OWFTOPKOpComcm.cas_cont">
+            <summary>
+            Atributo Cas_cont
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OWFTOOp.OWFTOPKOpComcm.com_cont">
+            <summary>
+            Atributo Com_cont
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OWFTOOp.OWFTOPKOpComcm.emp_codi">
+            <summary>
+            Atributo Emp_codi
+            </summary>
+        </member>
+        <member name="T:Ophelia.Ophelia.OWFTOOp.OWFTOOpDentt">
+            <summary>
+            Objeto de transferencia de datos para Dentt
+            </summary>
+        </member>
+        <member name="M:Ophelia.Ophelia.OWFTOOp.OWFTOOpDentt.#ctor">
+            <summary>
+            Constructor de la clase
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OWFTOOp.OWFTOOpDentt.aud_esta">
+            <summary>
+            Atributo AUD_ESTA
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OWFTOOp.OWFTOOpDentt.aud_ufac">
+            <summary>
+            Atributo AUD_UFAC
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OWFTOOp.OWFTOOpDentt.aud_usua">
+            <summary>
+            Atributo AUD_USUA
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OWFTOOp.OWFTOOpDentt.cli_codi">
+            <summary>
+            Atributo CLI_CODI
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OWFTOOp.OWFTOOpDentt.den_cont">
+            <summary>
+            Atributo DEN_CONT
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OWFTOOp.OWFTOOpDentt.den_esta">
+            <summary>
+            Atributo DEN_ESTA
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OWFTOOp.OWFTOOpDentt.den_fech">
+            <summary>
+            Atributo DEN_FECH
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OWFTOOp.OWFTOOpDentt.den_feci">
+            <summary>
+            Atributo DEN_FECI
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OWFTOOp.OWFTOOpDentt.den_hoci">
+            <summary>
+            Atributo DEN_HOCI
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OWFTOOp.OWFTOOpDentt.den_hora">
+            <summary>
+            Atributo DEN_HORA
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OWFTOOp.OWFTOOpDentt.den_obse">
+            <summary>
+            Atributo DEN_OBSE
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OWFTOOp.OWFTOOpDentt.dep_codi">
+            <summary>
+            Atributo DEP_CODI
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OWFTOOp.OWFTOOpDentt.emp_codi">
+            <summary>
+            Atributo EMP_CODI
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OWFTOOp.OWFTOOpDentt.ite_asun">
+            <summary>
+            Atributo ITE_ASUN
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OWFTOOp.OWFTOOpDentt.mun_codi">
+            <summary>
+            Atributo MUN_CODI
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OWFTOOp.OWFTOOpDentt.pai_codi">
+            <summary>
+            Atributo PAI_CODI
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OWFTOOp.OWFTOOpDentt.reg_codi">
+            <summary>
+            Atributo REG_CODI
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OWFTOOp.OWFTOOpDentt.usu_cier">
+            <summary>
+            Atributo USU_CIER
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OWFTOOp.OWFTOOpDentt.usu_codi">
+            <summary>
+            Atributo USU_CODI
+            </summary>
+        </member>
+        <member name="T:Ophelia.Ophelia.OWFTOOp.OWFTOPKOpDentt">
+            <summary>
+            Objeto PK de transferencia de datos para Dentt
+            </summary>
+        </member>
+        <member name="M:Ophelia.Ophelia.OWFTOOp.OWFTOPKOpDentt.#ctor">
+            <summary>
+            Constructor de la clase
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OWFTOOp.OWFTOPKOpDentt.den_cont">
+            <summary>
+            Atributo Den_cont
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OWFTOOp.OWFTOPKOpDentt.emp_codi">
+            <summary>
+            Atributo Emp_codi
+            </summary>
+        </member>
+        <member name="T:Ophelia.Ophelia.OWFTOOp.OWFTOOpDetin">
+            <summary>
+            Objeto de transferencia de datos para Detin
+            </summary>
+        </member>
+        <member name="M:Ophelia.Ophelia.OWFTOOp.OWFTOOpDetin.#ctor">
+            <summary>
+            Constructor de la clase
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OWFTOOp.OWFTOOpDetin.act_esta">
+            <summary>
+            Atributo ACT_ESTA
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OWFTOOp.OWFTOOpDetin.act_hora">
+            <summary>
+            Atributo ACT_HORA
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OWFTOOp.OWFTOOpDetin.act_usua">
+            <summary>
+            Atributo ACT_USUA
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OWFTOOp.OWFTOOpDetin.det_cons">
+            <summary>
+            Atributo DET_CONS
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OWFTOOp.OWFTOOpDetin.det_desc">
+            <summary>
+            Atributo DET_DESC
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OWFTOOp.OWFTOOpDetin.det_iden">
+            <summary>
+            Atributo DET_IDEN
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OWFTOOp.OWFTOOpDetin.det_nomb">
+            <summary>
+            Atributo DET_NOMB
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OWFTOOp.OWFTOOpDetin.det_qery">
+            <summary>
+            Atributo DET_QERY
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OWFTOOp.OWFTOOpDetin.grd_iden">
+            <summary>
+            Atributo GRD_IDEN
+            </summary>
+        </member>
+        <member name="T:Ophelia.Ophelia.OWFTOOp.OWFTOPKOpDetin">
+            <summary>
+            Objeto PK de transferencia de datos para Detin
+            </summary>
+        </member>
+        <member name="M:Ophelia.Ophelia.OWFTOOp.OWFTOPKOpDetin.#ctor">
+            <summary>
+            Constructor de la clase
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OWFTOOp.OWFTOPKOpDetin.det_iden">
+            <summary>
+            Atributo Det_iden
+            </summary>
+        </member>
+        <member name="T:Ophelia.Ophelia.OWFTOOp.OWFTOOpEnttu">
+            <summary>
+            Objeto de transferencia de datos para Enttu
+            </summary>
+        </member>
+        <member name="M:Ophelia.Ophelia.OWFTOOp.OWFTOOpEnttu.#ctor">
+            <summary>
+            Constructor de la clase
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OWFTOOp.OWFTOOpEnttu.aud_esta">
+            <summary>
+            Atributo AUD_ESTA
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OWFTOOp.OWFTOOpEnttu.aud_ufac">
+            <summary>
+            Atributo AUD_UFAC
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OWFTOOp.OWFTOOpEnttu.aud_usua">
+            <summary>
+            Atributo AUD_USUA
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OWFTOOp.OWFTOOpEnttu.emp_codi">
+            <summary>
+            Atributo EMP_CODI
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OWFTOOp.OWFTOOpEnttu.ent_cont">
+            <summary>
+            Atributo ENT_CONT
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OWFTOOp.OWFTOOpEnttu.ent_esta">
+            <summary>
+            Atributo ENT_ESTA
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OWFTOOp.OWFTOOpEnttu.ent_fech">
+            <summary>
+            Atributo ENT_FECH
+            </summary>
+        </member>
+        <member name="T:Ophelia.Ophelia.OWFTOOp.OWFTOPKOpEnttu">
+            <summary>
+            Objeto PK de transferencia de datos para Enttu
+            </summary>
+        </member>
+        <member name="M:Ophelia.Ophelia.OWFTOOp.OWFTOPKOpEnttu.#ctor">
+            <summary>
+            Constructor de la clase
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OWFTOOp.OWFTOPKOpEnttu.emp_codi">
+            <summary>
+            Atributo Emp_codi
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OWFTOOp.OWFTOPKOpEnttu.ent_cont">
+            <summary>
+            Atributo Ent_cont
+            </summary>
+        </member>
+        <member name="T:Ophelia.Ophelia.OWFTOOp.OWFTOOpGrdet">
+            <summary>
+            Objeto de transferencia de datos para Grdet
+            </summary>
+        </member>
+        <member name="M:Ophelia.Ophelia.OWFTOOp.OWFTOOpGrdet.#ctor">
+            <summary>
+            Constructor de la clase
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OWFTOOp.OWFTOOpGrdet.act_esta">
+            <summary>
+            Atributo ACT_ESTA
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OWFTOOp.OWFTOOpGrdet.act_hora">
+            <summary>
+            Atributo ACT_HORA
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OWFTOOp.OWFTOOpGrdet.act_usua">
+            <summary>
+            Atributo ACT_USUA
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OWFTOOp.OWFTOOpGrdet.grd_iden">
+            <summary>
+            Atributo GRD_IDEN
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OWFTOOp.OWFTOOpGrdet.grd_nomb">
+            <summary>
+            Atributo GRD_NOMB
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OWFTOOp.OWFTOOpGrdet.rfa_iden">
+            <summary>
+            Atributo RFA_IDEN
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OWFTOOp.OWFTOOpGrdet.sis_iden">
+            <summary>
+            Atributo SIS_IDEN
+            </summary>
+        </member>
+        <member name="T:Ophelia.Ophelia.OWFTOOp.OWFTOPKOpGrdet">
+            <summary>
+            Objeto PK de transferencia de datos para Grdet
+            </summary>
+        </member>
+        <member name="M:Ophelia.Ophelia.OWFTOOp.OWFTOPKOpGrdet.#ctor">
+            <summary>
+            Constructor de la clase
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OWFTOOp.OWFTOPKOpGrdet.grd_iden">
+            <summary>
+            Atributo Grd_iden
+            </summary>
+        </member>
+        <member name="T:Ophelia.Ophelia.OWFTOOp.OWFTOOpIndic">
+            <summary>
+            Objeto de transferencia de datos para Indic
+            </summary>
+        </member>
+        <member name="M:Ophelia.Ophelia.OWFTOOp.OWFTOOpIndic.#ctor">
+            <summary>
+            Constructor de la clase
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OWFTOOp.OWFTOOpIndic.act_esta">
+            <summary>
+            Atributo ACT_ESTA
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OWFTOOp.OWFTOOpIndic.act_hora">
+            <summary>
+            Atributo ACT_HORA
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OWFTOOp.OWFTOOpIndic.act_usua">
+            <summary>
+            Atributo ACT_USUA
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OWFTOOp.OWFTOOpIndic.ind_grup">
+            <summary>
+            Atributo IND_GRUP
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OWFTOOp.OWFTOOpIndic.ind_iden">
+            <summary>
+            Atributo IND_IDEN
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OWFTOOp.OWFTOOpIndic.ind_nomb">
+            <summary>
+            Atributo IND_NOMB
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OWFTOOp.OWFTOOpIndic.ind_sist">
+            <summary>
+            Atributo IND_SIST
+            </summary>
+        </member>
+        <member name="T:Ophelia.Ophelia.OWFTOOp.OWFTOPKOpIndic">
+            <summary>
+            Objeto PK de transferencia de datos para Indic
+            </summary>
+        </member>
+        <member name="M:Ophelia.Ophelia.OWFTOOp.OWFTOPKOpIndic.#ctor">
+            <summary>
+            Constructor de la clase
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OWFTOOp.OWFTOPKOpIndic.ind_iden">
+            <summary>
+            Atributo Ind_iden
+            </summary>
+        </member>
+        <member name="T:Ophelia.Ophelia.OWFTOOp.OWFTOOpItems">
+            <summary>
+            Objeto de transferencia de datos para Items
+            </summary>
+        </member>
+        <member name="M:Ophelia.Ophelia.OWFTOOp.OWFTOOpItems.#ctor">
+            <summary>
+            Constructor de la clase
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OWFTOOp.OWFTOOpItems.aud_esta">
+            <summary>
+            Atributo AUD_ESTA
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OWFTOOp.OWFTOOpItems.aud_hora">
+            <summary>
+            Atributo AUD_HORA
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OWFTOOp.OWFTOOpItems.aud_usua">
+            <summary>
+            Atributo AUD_USUA
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OWFTOOp.OWFTOOpItems.ite_acti">
+            <summary>
+            Atributo ITE_ACTI
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OWFTOOp.OWFTOOpItems.ite_codi">
+            <summary>
+            Atributo ITE_CODI
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OWFTOOp.OWFTOOpItems.ite_coho">
+            <summary>
+            Atributo ITE_COHO
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OWFTOOp.OWFTOOpItems.ite_cont">
+            <summary>
+            Atributo ITE_CONT
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OWFTOOp.OWFTOOpItems.ite_desc">
+            <summary>
+            Atributo ITE_DESC
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OWFTOOp.OWFTOOpItems.ite_nomb">
+            <summary>
+            Atributo ITE_NOMB
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OWFTOOp.OWFTOOpItems.tit_cont">
+            <summary>
+            Atributo TIT_CONT
+            </summary>
+        </member>
+        <member name="T:Ophelia.Ophelia.OWFTOOp.OWFTOPKOpItems">
+            <summary>
+            Objeto PK de transferencia de datos para Items
+            </summary>
+        </member>
+        <member name="M:Ophelia.Ophelia.OWFTOOp.OWFTOPKOpItems.#ctor">
+            <summary>
+            Constructor de la clase
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OWFTOOp.OWFTOPKOpItems.ite_cont">
+            <summary>
+            Atributo Ite_cont
+            </summary>
+        </member>
+        <member name="T:Ophelia.Ophelia.OWFTOOp.OWFTOOpLoger">
+            <summary>
+            Objeto de transferencia de datos para Loger
+            </summary>
+        </member>
+        <member name="M:Ophelia.Ophelia.OWFTOOp.OWFTOOpLoger.#ctor">
+            <summary>
+            Constructor de la clase
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OWFTOOp.OWFTOOpLoger.aud_esta">
+            <summary>
+            Atributo AUD_ESTA
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OWFTOOp.OWFTOOpLoger.aud_ufac">
+            <summary>
+            Atributo AUD_UFAC
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OWFTOOp.OWFTOOpLoger.aud_usua">
+            <summary>
+            Atributo AUD_USUA
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OWFTOOp.OWFTOOpLoger.log_erro">
+            <summary>
+            Atributo LOG_ERRO
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OWFTOOp.OWFTOOpLoger.log_tipo">
+            <summary>
+            Atributo LOG_TIPO
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OWFTOOp.OWFTOOpLoger.prc_cont">
+            <summary>
+            Atributo PRC_CONT
+            </summary>
+        </member>
+        <member name="T:Ophelia.Ophelia.OWFTOOp.OWFTOPKOpLoger">
+            <summary>
+            Objeto PK de transferencia de datos para Loger
+            </summary>
+        </member>
+        <member name="M:Ophelia.Ophelia.OWFTOOp.OWFTOPKOpLoger.#ctor">
+            <summary>
+            Constructor de la clase
+            </summary>
+        </member>
+        <member name="T:Ophelia.Ophelia.OWFTOOp.OWFTOOpMdeta">
+            <summary>
+            Objeto de transferencia de datos para Mdeta
+            </summary>
+        </member>
+        <member name="M:Ophelia.Ophelia.OWFTOOp.OWFTOOpMdeta.#ctor">
+            <summary>
+            Constructor de la clase
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OWFTOOp.OWFTOOpMdeta.aud_esta">
+            <summary>
+            Atributo AUD_ESTA
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OWFTOOp.OWFTOOpMdeta.aud_hora">
+            <summary>
+            Atributo AUD_HORA
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OWFTOOp.OWFTOOpMdeta.aud_usua">
+            <summary>
+            Atributo AUD_USUA
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OWFTOOp.OWFTOOpMdeta.mde_alia">
+            <summary>
+            Atributo MDE_ALIA
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OWFTOOp.OWFTOOpMdeta.mde_card">
+            <summary>
+            Atributo MDE_CARD
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OWFTOOp.OWFTOOpMdeta.mde_cons">
+            <summary>
+            Atributo MDE_CONS
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OWFTOOp.OWFTOOpMdeta.mde_thij">
+            <summary>
+            Atributo MDE_THIJ
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OWFTOOp.OWFTOOpMdeta.mde_tmae">
+            <summary>
+            Atributo MDE_TMAE
+            </summary>
+        </member>
+        <member name="T:Ophelia.Ophelia.OWFTOOp.OWFTOPKOpMdeta">
+            <summary>
+            Objeto PK de transferencia de datos para Mdeta
+            </summary>
+        </member>
+        <member name="M:Ophelia.Ophelia.OWFTOOp.OWFTOPKOpMdeta.#ctor">
+            <summary>
+            Constructor de la clase
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OWFTOOp.OWFTOPKOpMdeta.mde_cons">
+            <summary>
+            Atributo Mde_cons
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OWFTOOp.OWFTOPKOpMdeta.mde_tmae">
+            <summary>
+            Atributo Mde_tmae
+            </summary>
+        </member>
+        <member name="T:Ophelia.Ophelia.OWFTOOp.OWFTOOpMejec">
+            <summary>
+            Objeto de transferencia de datos para Mejec
+            </summary>
+        </member>
+        <member name="M:Ophelia.Ophelia.OWFTOOp.OWFTOOpMejec.#ctor">
+            <summary>
+            Constructor de la clase
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OWFTOOp.OWFTOOpMejec.aud_esta">
+            <summary>
+            Atributo AUD_ESTA
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OWFTOOp.OWFTOOpMejec.aud_ufac">
+            <summary>
+            Atributo AUD_UFAC
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OWFTOOp.OWFTOOpMejec.aud_usua">
+            <summary>
+            Atributo AUD_USUA
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OWFTOOp.OWFTOOpMejec.cli_codi">
+            <summary>
+            Atributo CLI_CODI
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OWFTOOp.OWFTOOpMejec.emp_codi">
+            <summary>
+            Atributo EMP_CODI
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OWFTOOp.OWFTOOpMejec.mej_apel">
+            <summary>
+            Atributo MEJ_APEL
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OWFTOOp.OWFTOOpMejec.mej_carg">
+            <summary>
+            Atributo MEJ_CARG
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OWFTOOp.OWFTOOpMejec.mej_cedu">
+            <summary>
+            Atributo MEJ_CEDU
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OWFTOOp.OWFTOOpMejec.mej_cees">
+            <summary>
+            Atributo MEJ_CEES
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OWFTOOp.OWFTOOpMejec.mej_coer">
+            <summary>
+            Atributo MEJ_COER
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OWFTOOp.OWFTOOpMejec.mej_colo">
+            <summary>
+            Atributo MEJ_COLO
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OWFTOOp.OWFTOOpMejec.mej_cont">
+            <summary>
+            Atributo MEJ_CONT
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OWFTOOp.OWFTOOpMejec.mej_corr">
+            <summary>
+            Atributo MEJ_CORR
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OWFTOOp.OWFTOOpMejec.mej_dilu">
+            <summary>
+            Atributo MEJ_DILU
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OWFTOOp.OWFTOOpMejec.mej_dire">
+            <summary>
+            Atributo MEJ_DIRE
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OWFTOOp.OWFTOOpMejec.mej_diro">
+            <summary>
+            Atributo MEJ_DIRO
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OWFTOOp.OWFTOOpMejec.mej_enfe">
+            <summary>
+            Atributo MEJ_ENFE
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OWFTOOp.OWFTOOpMejec.mej_esco">
+            <summary>
+            Atributo MEJ_ESCO
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OWFTOOp.OWFTOOpMejec.mej_hobb">
+            <summary>
+            Atributo MEJ_HOBB
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OWFTOOp.OWFTOOpMejec.mej_luat">
+            <summary>
+            Atributo MEJ_LUAT
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OWFTOOp.OWFTOOpMejec.mej_marc">
+            <summary>
+            Atributo MEJ_MARC
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OWFTOOp.OWFTOOpMejec.mej_medi">
+            <summary>
+            Atributo MEJ_MEDI
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OWFTOOp.OWFTOOpMejec.mej_nava">
+            <summary>
+            Atributo MEJ_NAVA
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OWFTOOp.OWFTOOpMejec.mej_ncel">
+            <summary>
+            Atributo MEJ_NCEL
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OWFTOOp.OWFTOOpMejec.mej_ncoy">
+            <summary>
+            Atributo MEJ_NCOY
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OWFTOOp.OWFTOOpMejec.mej_nhij">
+            <summary>
+            Atributo MEJ_NHIJ
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OWFTOOp.OWFTOOpMejec.mej_nomb">
+            <summary>
+            Atributo MEJ_NOMB
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OWFTOOp.OWFTOOpMejec.mej_ntel">
+            <summary>
+            Atributo MEJ_NTEL
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OWFTOOp.OWFTOOpMejec.mej_nteo">
+            <summary>
+            Atributo MEJ_NTEO
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OWFTOOp.OWFTOOpMejec.mej_obse">
+            <summary>
+            Atributo MEJ_OBSE
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OWFTOOp.OWFTOOpMejec.mej_pasa">
+            <summary>
+            Atributo MEJ_PASA
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OWFTOOp.OWFTOOpMejec.mej_plac">
+            <summary>
+            Atributo MEJ_PLAC
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OWFTOOp.OWFTOOpMejec.mej_rrhh">
+            <summary>
+            Atributo MEJ_RRHH
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OWFTOOp.OWFTOOpMejec.mej_teco">
+            <summary>
+            Atributo MEJ_TECO
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OWFTOOp.OWFTOOpMejec.mej_tisa">
+            <summary>
+            Atributo MEJ_TISA
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OWFTOOp.OWFTOOpMejec.mej_tise">
+            <summary>
+            Atributo MEJ_TISE
+            </summary>
+        </member>
+        <member name="T:Ophelia.Ophelia.OWFTOOp.OWFTOPKOpMejec">
+            <summary>
+            Objeto PK de transferencia de datos para Mejec
+            </summary>
+        </member>
+        <member name="M:Ophelia.Ophelia.OWFTOOp.OWFTOPKOpMejec.#ctor">
+            <summary>
+            Constructor de la clase
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OWFTOOp.OWFTOPKOpMejec.emp_codi">
+            <summary>
+            Atributo Emp_codi
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OWFTOOp.OWFTOPKOpMejec.mej_cont">
+            <summary>
+            Atributo Mej_cont
+            </summary>
+        </member>
+        <member name="T:Ophelia.Ophelia.OWFTOOp.OWFTOOpObrea">
+            <summary>
+            Objeto de transferencia de datos para Obrea
+            </summary>
+        </member>
+        <member name="M:Ophelia.Ophelia.OWFTOOp.OWFTOOpObrea.#ctor">
+            <summary>
+            Constructor de la clase
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OWFTOOp.OWFTOOpObrea.aud_esta">
+            <summary>
+            Atributo AUD_ESTA
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OWFTOOp.OWFTOOpObrea.aud_ufac">
+            <summary>
+            Atributo AUD_UFAC
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OWFTOOp.OWFTOOpObrea.aud_usua">
+            <summary>
+            Atributo AUD_USUA
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OWFTOOp.OWFTOOpObrea.emp_codi">
+            <summary>
+            Atributo EMP_CODI
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OWFTOOp.OWFTOOpObrea.obr_cont">
+            <summary>
+            Atributo OBR_CONT
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OWFTOOp.OWFTOOpObrea.obr_fech">
+            <summary>
+            Atributo OBR_FECH
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OWFTOOp.OWFTOOpObrea.obr_obse">
+            <summary>
+            Atributo OBR_OBSE
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OWFTOOp.OWFTOOpObrea.obr_tipo">
+            <summary>
+            Atributo OBR_TIPO
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OWFTOOp.OWFTOOpObrea.rea_cont">
+            <summary>
+            Atributo REA_CONT
+            </summary>
+        </member>
+        <member name="T:Ophelia.Ophelia.OWFTOOp.OWFTOPKOpObrea">
+            <summary>
+            Objeto PK de transferencia de datos para Obrea
+            </summary>
+        </member>
+        <member name="M:Ophelia.Ophelia.OWFTOOp.OWFTOPKOpObrea.#ctor">
+            <summary>
+            Constructor de la clase
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OWFTOOp.OWFTOPKOpObrea.emp_codi">
+            <summary>
+            Atributo Emp_codi
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OWFTOOp.OWFTOPKOpObrea.obr_cont">
+            <summary>
+            Atributo Obr_cont
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OWFTOOp.OWFTOPKOpObrea.rea_cont">
+            <summary>
+            Atributo Rea_cont
+            </summary>
+        </member>
+        <member name="T:Ophelia.Ophelia.OWFTOOp.OWFTOOpReacc">
+            <summary>
+            Objeto de transferencia de datos para Reacc
+            </summary>
+        </member>
+        <member name="M:Ophelia.Ophelia.OWFTOOp.OWFTOOpReacc.#ctor">
+            <summary>
+            Constructor de la clase
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OWFTOOp.OWFTOOpReacc.arb_sucu">
+            <summary>
+            Atributo ARB_SUCU
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OWFTOOp.OWFTOOpReacc.aud_esta">
+            <summary>
+            Atributo AUD_ESTA
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OWFTOOp.OWFTOOpReacc.aud_ufac">
+            <summary>
+            Atributo AUD_UFAC
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OWFTOOp.OWFTOOpReacc.aud_usua">
+            <summary>
+            Atributo AUD_USUA
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OWFTOOp.OWFTOOpReacc.cli_codi">
+            <summary>
+            Atributo CLI_CODI
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OWFTOOp.OWFTOOpReacc.com_cont">
+            <summary>
+            Atributo COM_CONT
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OWFTOOp.OWFTOOpReacc.dcl_codd">
+            <summary>
+            Atributo DCL_CODD
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OWFTOOp.OWFTOOpReacc.dpu_cont">
+            <summary>
+            Atributo DPU_CONT
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OWFTOOp.OWFTOOpReacc.emp_codi">
+            <summary>
+            Atributo EMP_CODI
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OWFTOOp.OWFTOOpReacc.emp_core">
+            <summary>
+            Atributo EMP_CORE
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OWFTOOp.OWFTOOpReacc.emp_corp">
+            <summary>
+            Atributo EMP_CORP
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OWFTOOp.OWFTOOpReacc.ite_clae">
+            <summary>
+            Atributo ITE_CLAE
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OWFTOOp.OWFTOOpReacc.ite_rete">
+            <summary>
+            Atributo ITE_RETE
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OWFTOOp.OWFTOOpReacc.ite_zona">
+            <summary>
+            Atributo ITE_ZONA
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OWFTOOp.OWFTOOpReacc.rea_cont">
+            <summary>
+            Atributo REA_CONT
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OWFTOOp.OWFTOOpReacc.rea_esta">
+            <summary>
+            Atributo REA_ESTA
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OWFTOOp.OWFTOOpReacc.rea_fecr">
+            <summary>
+            Atributo REA_FECR
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OWFTOOp.OWFTOOpReacc.rea_feev">
+            <summary>
+            Atributo REA_FEEV
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OWFTOOp.OWFTOOpReacc.rea_fefi">
+            <summary>
+            Atributo REA_FEFI
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OWFTOOp.OWFTOOpReacc.rea_fini">
+            <summary>
+            Atributo REA_FINI
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OWFTOOp.OWFTOOpReacc.rea_fllr">
+            <summary>
+            Atributo REA_FLLR
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OWFTOOp.OWFTOOpReacc.rea_hllr">
+            <summary>
+            Atributo REA_HLLR
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OWFTOOp.OWFTOOpReacc.rea_hoev">
+            <summary>
+            Atributo REA_HOEV
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OWFTOOp.OWFTOOpReacc.rea_hofi">
+            <summary>
+            Atributo REA_HOFI
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OWFTOOp.OWFTOOpReacc.rea_hori">
+            <summary>
+            Atributo REA_HORI
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OWFTOOp.OWFTOOpReacc.rea_nove">
+            <summary>
+            Atributo REA_NOVE
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OWFTOOp.OWFTOOpReacc.rea_obse">
+            <summary>
+            Atributo REA_OBSE
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OWFTOOp.OWFTOOpReacc.rea_obsr">
+            <summary>
+            Atributo REA_OBSR
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OWFTOOp.OWFTOOpReacc.rea_tadi">
+            <summary>
+            Atributo REA_TADI
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OWFTOOp.OWFTOOpReacc.rea_tiem">
+            <summary>
+            Atributo REA_TIEM
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OWFTOOp.OWFTOOpReacc.rea_timt">
+            <summary>
+            Atributo REA_TIMT
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OWFTOOp.OWFTOOpReacc.rea_tipo">
+            <summary>
+            Atributo REA_TIPO
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OWFTOOp.OWFTOOpReacc.usu_codi">
+            <summary>
+            Atributo USU_CODI
+            </summary>
+        </member>
+        <member name="T:Ophelia.Ophelia.OWFTOOp.OWFTOPKOpReacc">
+            <summary>
+            Objeto PK de transferencia de datos para Reacc
+            </summary>
+        </member>
+        <member name="M:Ophelia.Ophelia.OWFTOOp.OWFTOPKOpReacc.#ctor">
+            <summary>
+            Constructor de la clase
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OWFTOOp.OWFTOPKOpReacc.emp_codi">
+            <summary>
+            Atributo Emp_codi
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OWFTOOp.OWFTOPKOpReacc.rea_cont">
+            <summary>
+            Atributo Rea_cont
+            </summary>
+        </member>
+        <member name="T:Ophelia.Ophelia.OWFTOOp.OWFTOOpRefas">
+            <summary>
+            Objeto de transferencia de datos para Refas
+            </summary>
+        </member>
+        <member name="M:Ophelia.Ophelia.OWFTOOp.OWFTOOpRefas.#ctor">
+            <summary>
+            Constructor de la clase
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OWFTOOp.OWFTOOpRefas.act_esta">
+            <summary>
+            Atributo ACT_ESTA
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OWFTOOp.OWFTOOpRefas.act_hora">
+            <summary>
+            Atributo ACT_HORA
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OWFTOOp.OWFTOOpRefas.act_usua">
+            <summary>
+            Atributo ACT_USUA
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OWFTOOp.OWFTOOpRefas.ind_iden">
+            <summary>
+            Atributo IND_IDEN
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OWFTOOp.OWFTOOpRefas.ref_iden">
+            <summary>
+            Atributo REF_IDEN
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OWFTOOp.OWFTOOpRefas.ref_nomb">
+            <summary>
+            Atributo REF_NOMB
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OWFTOOp.OWFTOOpRefas.ref_qery">
+            <summary>
+            Atributo REF_QERY
+            </summary>
+        </member>
+        <member name="T:Ophelia.Ophelia.OWFTOOp.OWFTOPKOpRefas">
+            <summary>
+            Objeto PK de transferencia de datos para Refas
+            </summary>
+        </member>
+        <member name="M:Ophelia.Ophelia.OWFTOOp.OWFTOPKOpRefas.#ctor">
+            <summary>
+            Constructor de la clase
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OWFTOOp.OWFTOPKOpRefas.ref_iden">
+            <summary>
+            Atributo Ref_iden
+            </summary>
+        </member>
+        <member name="T:Ophelia.Ophelia.OWFTOOp.OWFTOOpRulco">
+            <summary>
+            Objeto de transferencia de datos para Rulco
+            </summary>
+        </member>
+        <member name="M:Ophelia.Ophelia.OWFTOOp.OWFTOOpRulco.#ctor">
+            <summary>
+            Constructor de la clase
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OWFTOOp.OWFTOOpRulco.act_esta">
+            <summary>
+            Atributo ACT_ESTA
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OWFTOOp.OWFTOOpRulco.act_hora">
+            <summary>
+            Atributo ACT_HORA
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OWFTOOp.OWFTOOpRulco.act_usua">
+            <summary>
+            Atributo ACT_USUA
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OWFTOOp.OWFTOOpRulco.rmt_rula">
+            <summary>
+            Atributo RMT_RULA
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OWFTOOp.OWFTOOpRulco.rmt_rulc">
+            <summary>
+            Atributo RMT_RULC
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OWFTOOp.OWFTOOpRulco.rul_acci">
+            <summary>
+            Atributo RUL_ACCI
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OWFTOOp.OWFTOOpRulco.rul_cond">
+            <summary>
+            Atributo RUL_COND
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OWFTOOp.OWFTOOpRulco.rul_mens">
+            <summary>
+            Atributo RUL_MENS
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OWFTOOp.OWFTOOpRulco.rul_tipo">
+            <summary>
+            Atributo RUL_TIPO
+            </summary>
+        </member>
+        <member name="T:Ophelia.Ophelia.OWFTOOp.OWFTOPKOpRulco">
+            <summary>
+            Objeto PK de transferencia de datos para Rulco
+            </summary>
+        </member>
+        <member name="M:Ophelia.Ophelia.OWFTOOp.OWFTOPKOpRulco.#ctor">
+            <summary>
+            Constructor de la clase
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OWFTOOp.OWFTOPKOpRulco.rmt_rula">
+            <summary>
+            Atributo Rmt_rula
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OWFTOOp.OWFTOPKOpRulco.rmt_rulc">
+            <summary>
+            Atributo Rmt_rulc
+            </summary>
+        </member>
+        <member name="T:Ophelia.Ophelia.OWFTOOp.OWFTOOpRules">
+            <summary>
+            Objeto de transferencia de datos para Rules
+            </summary>
+        </member>
+        <member name="M:Ophelia.Ophelia.OWFTOOp.OWFTOOpRules.#ctor">
+            <summary>
+            Constructor de la clase
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OWFTOOp.OWFTOOpRules.act_esta">
+            <summary>
+            Atributo ACT_ESTA
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OWFTOOp.OWFTOOpRules.act_hora">
+            <summary>
+            Atributo ACT_HORA
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OWFTOOp.OWFTOOpRules.act_usua">
+            <summary>
+            Atributo ACT_USUA
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OWFTOOp.OWFTOOpRules.rmt_rule">
+            <summary>
+            Atributo RMT_RULE
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OWFTOOp.OWFTOOpRules.rul_desc">
+            <summary>
+            Atributo RUL_DESC
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OWFTOOp.OWFTOOpRules.rul_esta">
+            <summary>
+            Atributo RUL_ESTA
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OWFTOOp.OWFTOOpRules.rul_fact">
+            <summary>
+            Atributo RUL_FACT
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OWFTOOp.OWFTOOpRules.rul_fcre">
+            <summary>
+            Atributo RUL_FCRE
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OWFTOOp.OWFTOOpRules.rul_ffin">
+            <summary>
+            Atributo RUL_FFIN
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OWFTOOp.OWFTOOpRules.rul_nomb">
+            <summary>
+            Atributo RUL_NOMB
+            </summary>
+        </member>
+        <member name="T:Ophelia.Ophelia.OWFTOOp.OWFTOPKOpRules">
+            <summary>
+            Objeto PK de transferencia de datos para Rules
+            </summary>
+        </member>
+        <member name="M:Ophelia.Ophelia.OWFTOOp.OWFTOPKOpRules.#ctor">
+            <summary>
+            Constructor de la clase
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OWFTOOp.OWFTOPKOpRules.rmt_rule">
+            <summary>
+            Atributo Rmt_rule
+            </summary>
+        </member>
+        <member name="T:Ophelia.Ophelia.OWFTOOp.OWFTOOpRulfo">
+            <summary>
+            Objeto de transferencia de datos para Rulfo
+            </summary>
+        </member>
+        <member name="M:Ophelia.Ophelia.OWFTOOp.OWFTOOpRulfo.#ctor">
+            <summary>
+            Constructor de la clase
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OWFTOOp.OWFTOOpRulfo.act_esta">
+            <summary>
+            Atributo ACT_ESTA
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OWFTOOp.OWFTOOpRulfo.act_hora">
+            <summary>
+            Atributo ACT_HORA
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OWFTOOp.OWFTOOpRulfo.act_usua">
+            <summary>
+            Atributo ACT_USUA
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OWFTOOp.OWFTOOpRulfo.cod_empr">
+            <summary>
+            Atributo COD_EMPR
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OWFTOOp.OWFTOOpRulfo.for_abre">
+            <summary>
+            Atributo FOR_ABRE
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OWFTOOp.OWFTOOpRulfo.for_desc">
+            <summary>
+            Atributo FOR_DESC
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OWFTOOp.OWFTOOpRulfo.for_iden">
+            <summary>
+            Atributo FOR_IDEN
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OWFTOOp.OWFTOOpRulfo.rmt_rulf">
+            <summary>
+            Atributo RMT_RULF
+            </summary>
+        </member>
+        <member name="T:Ophelia.Ophelia.OWFTOOp.OWFTOPKOpRulfo">
+            <summary>
+            Objeto PK de transferencia de datos para Rulfo
+            </summary>
+        </member>
+        <member name="M:Ophelia.Ophelia.OWFTOOp.OWFTOPKOpRulfo.#ctor">
+            <summary>
+            Constructor de la clase
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OWFTOOp.OWFTOPKOpRulfo.rmt_rulf">
+            <summary>
+            Atributo Rmt_rulf
+            </summary>
+        </member>
+        <member name="T:Ophelia.Ophelia.OWFTOOp.OWFTOOpRulfr">
+            <summary>
+            Objeto de transferencia de datos para Rulfr
+            </summary>
+        </member>
+        <member name="M:Ophelia.Ophelia.OWFTOOp.OWFTOOpRulfr.#ctor">
+            <summary>
+            Constructor de la clase
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OWFTOOp.OWFTOOpRulfr.rmt_rule">
+            <summary>
+            Atributo RMT_RULE
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OWFTOOp.OWFTOOpRulfr.rmt_rulf">
+            <summary>
+            Atributo RMT_RULF
+            </summary>
+        </member>
+        <member name="T:Ophelia.Ophelia.OWFTOOp.OWFTOPKOpRulfr">
+            <summary>
+            Objeto PK de transferencia de datos para Rulfr
+            </summary>
+        </member>
+        <member name="M:Ophelia.Ophelia.OWFTOOp.OWFTOPKOpRulfr.#ctor">
+            <summary>
+            Constructor de la clase
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OWFTOOp.OWFTOPKOpRulfr.rmt_rule">
+            <summary>
+            Atributo Rmt_rule
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OWFTOOp.OWFTOPKOpRulfr.rmt_rulf">
+            <summary>
+            Atributo Rmt_rulf
+            </summary>
+        </member>
+        <member name="T:Ophelia.Ophelia.OWFTOOp.OWFTOOpRulva">
+            <summary>
+            Objeto de transferencia de datos para Rulva
+            </summary>
+        </member>
+        <member name="M:Ophelia.Ophelia.OWFTOOp.OWFTOOpRulva.#ctor">
+            <summary>
+            Constructor de la clase
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OWFTOOp.OWFTOOpRulva.act_esta">
+            <summary>
+            Atributo ACT_ESTA
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OWFTOOp.OWFTOOpRulva.act_hora">
+            <summary>
+            Atributo ACT_HORA
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OWFTOOp.OWFTOOpRulva.act_usua">
+            <summary>
+            Atributo ACT_USUA
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OWFTOOp.OWFTOOpRulva.rmt_rula">
+            <summary>
+            Atributo RMT_RULA
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OWFTOOp.OWFTOOpRulva.rmt_rule">
+            <summary>
+            Atributo RMT_RULE
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OWFTOOp.OWFTOOpRulva.rul_abre">
+            <summary>
+            Atributo RUL_ABRE
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OWFTOOp.OWFTOOpRulva.rul_codi">
+            <summary>
+            Atributo RUL_CODI
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OWFTOOp.OWFTOOpRulva.rul_desc">
+            <summary>
+            Atributo RUL_DESC
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OWFTOOp.OWFTOOpRulva.rul_nive">
+            <summary>
+            Atributo RUL_NIVE
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OWFTOOp.OWFTOOpRulva.rul_orig">
+            <summary>
+            Atributo RUL_ORIG
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OWFTOOp.OWFTOOpRulva.rul_tipo">
+            <summary>
+            Atributo RUL_TIPO
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OWFTOOp.OWFTOOpRulva.rul_valo">
+            <summary>
+            Atributo RUL_VALO
+            </summary>
+        </member>
+        <member name="T:Ophelia.Ophelia.OWFTOOp.OWFTOPKOpRulva">
+            <summary>
+            Objeto PK de transferencia de datos para Rulva
+            </summary>
+        </member>
+        <member name="M:Ophelia.Ophelia.OWFTOOp.OWFTOPKOpRulva.#ctor">
+            <summary>
+            Constructor de la clase
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OWFTOOp.OWFTOPKOpRulva.rmt_rula">
+            <summary>
+            Atributo Rmt_rula
+            </summary>
+        </member>
+        <member name="T:Ophelia.Ophelia.OWFTOOp.OWFTOOpRutie">
+            <summary>
+            Objeto de transferencia de datos para Rutie
+            </summary>
+        </member>
+        <member name="M:Ophelia.Ophelia.OWFTOOp.OWFTOOpRutie.#ctor">
+            <summary>
+            Constructor de la clase
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OWFTOOp.OWFTOOpRutie.act_esta">
+            <summary>
+            Atributo ACT_ESTA
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OWFTOOp.OWFTOOpRutie.act_hora">
+            <summary>
+            Atributo ACT_HORA
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OWFTOOp.OWFTOOpRutie.act_usua">
+            <summary>
+            Atributo ACT_USUA
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OWFTOOp.OWFTOOpRutie.rmt_cont">
+            <summary>
+            Atributo RMT_CONT
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OWFTOOp.OWFTOOpRutie.rmt_rula">
+            <summary>
+            Atributo RMT_RULA
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OWFTOOp.OWFTOOpRutie.rut_atri">
+            <summary>
+            Atributo RUT_ATRI
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OWFTOOp.OWFTOOpRutie.rut_cond">
+            <summary>
+            Atributo RUT_COND
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OWFTOOp.OWFTOOpRutie.rut_defa">
+            <summary>
+            Atributo RUT_DEFA
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OWFTOOp.OWFTOOpRutie.rut_dest">
+            <summary>
+            Atributo RUT_DEST
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OWFTOOp.OWFTOOpRutie.rut_edit">
+            <summary>
+            Atributo RUT_EDIT
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OWFTOOp.OWFTOOpRutie.rut_enti">
+            <summary>
+            Atributo RUT_ENTI
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OWFTOOp.OWFTOOpRutie.rut_expr">
+            <summary>
+            Atributo RUT_EXPR
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OWFTOOp.OWFTOOpRutie.rut_repr">
+            <summary>
+            Atributo RUT_REPR
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OWFTOOp.OWFTOOpRutie.rut_sele">
+            <summary>
+            Atributo RUT_SELE
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OWFTOOp.OWFTOOpRutie.rut_sent">
+            <summary>
+            Atributo RUT_SENT
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OWFTOOp.OWFTOOpRutie.rut_visi">
+            <summary>
+            Atributo RUT_VISI
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OWFTOOp.OWFTOOpRutie.tit_cont">
+            <summary>
+            Atributo TIT_CONT
+            </summary>
+        </member>
+        <member name="T:Ophelia.Ophelia.OWFTOOp.OWFTOPKOpRutie">
+            <summary>
+            Objeto PK de transferencia de datos para Rutie
+            </summary>
+        </member>
+        <member name="M:Ophelia.Ophelia.OWFTOOp.OWFTOPKOpRutie.#ctor">
+            <summary>
+            Constructor de la clase
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OWFTOOp.OWFTOPKOpRutie.rmt_cont">
+            <summary>
+            Atributo Rmt_cont
+            </summary>
+        </member>
+        <member name="T:Ophelia.Ophelia.OWFTOOp.OWFTOOpSesio">
+            <summary>
+            Objeto de transferencia de datos para Sesio
+            </summary>
+        </member>
+        <member name="M:Ophelia.Ophelia.OWFTOOp.OWFTOOpSesio.#ctor">
+            <summary>
+            Constructor de la clase
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OWFTOOp.OWFTOOpSesio.act_esta">
+            <summary>
+            Atributo ACT_ESTA
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OWFTOOp.OWFTOOpSesio.act_hora">
+            <summary>
+            Atributo ACT_HORA
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OWFTOOp.OWFTOOpSesio.act_usua">
+            <summary>
+            Atributo ACT_USUA
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OWFTOOp.OWFTOOpSesio.ses_apli">
+            <summary>
+            Atributo SES_APLI
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OWFTOOp.OWFTOOpSesio.ses_esta">
+            <summary>
+            Atributo SES_ESTA
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OWFTOOp.OWFTOOpSesio.ses_fech">
+            <summary>
+            Atributo SES_FECH
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OWFTOOp.OWFTOOpSesio.ses_fecx">
+            <summary>
+            Atributo SES_FECX
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OWFTOOp.OWFTOOpSesio.ses_ipad">
+            <summary>
+            Atributo SES_IPAD
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OWFTOOp.OWFTOOpSesio.ses_tipa">
+            <summary>
+            Atributo SES_TIPA
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OWFTOOp.OWFTOOpSesio.ses_tokn">
+            <summary>
+            Atributo SES_TOKN
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OWFTOOp.OWFTOOpSesio.ses_usua">
+            <summary>
+            Atributo SES_USUA
+            </summary>
+        </member>
+        <member name="T:Ophelia.Ophelia.OWFTOOp.OWFTOPKOpSesio">
+            <summary>
+            Objeto PK de transferencia de datos para Sesio
+            </summary>
+        </member>
+        <member name="M:Ophelia.Ophelia.OWFTOOp.OWFTOPKOpSesio.#ctor">
+            <summary>
+            Constructor de la clase
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OWFTOOp.OWFTOPKOpSesio.ses_apli">
+            <summary>
+            Atributo Ses_apli
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OWFTOOp.OWFTOPKOpSesio.ses_ipad">
+            <summary>
+            Atributo Ses_ipad
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OWFTOOp.OWFTOPKOpSesio.ses_tokn">
+            <summary>
+            Atributo Ses_tokn
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OWFTOOp.OWFTOPKOpSesio.ses_usua">
+            <summary>
+            Atributo Ses_usua
+            </summary>
+        </member>
+        <member name="T:Ophelia.Ophelia.OWFTOOp.OWFTOOpTmpco">
+            <summary>
+            Objeto de transferencia de datos para Tmpco
+            </summary>
+        </member>
+        <member name="M:Ophelia.Ophelia.OWFTOOp.OWFTOOpTmpco.#ctor">
+            <summary>
+            Constructor de la clase
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OWFTOOp.OWFTOOpTmpco.emp_codi">
+            <summary>
+            Atributo EMP_CODI
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OWFTOOp.OWFTOOpTmpco.prc_cont">
+            <summary>
+            Atributo PRC_CONT
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OWFTOOp.OWFTOOpTmpco.rea_cont">
+            <summary>
+            Atributo REA_CONT
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OWFTOOp.OWFTOOpTmpco.rea_tipo">
+            <summary>
+            Atributo REA_TIPO
+            </summary>
+        </member>
+        <member name="T:Ophelia.Ophelia.OWFTOOp.OWFTOPKOpTmpco">
+            <summary>
+            Objeto PK de transferencia de datos para Tmpco
+            </summary>
+        </member>
+        <member name="M:Ophelia.Ophelia.OWFTOOp.OWFTOPKOpTmpco.#ctor">
+            <summary>
+            Constructor de la clase
+            </summary>
+        </member>
+        <member name="T:Ophelia.Ophelia.OWFTOOp.OWFTOOpTmpse">
+            <summary>
+            Objeto de transferencia de datos para Tmpse
+            </summary>
+        </member>
+        <member name="M:Ophelia.Ophelia.OWFTOOp.OWFTOOpTmpse.#ctor">
+            <summary>
+            Constructor de la clase
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OWFTOOp.OWFTOOpTmpse.emp_codi">
+            <summary>
+            Atributo EMP_CODI
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OWFTOOp.OWFTOOpTmpse.tmp_sele">
+            <summary>
+            Atributo TMP_SELE
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OWFTOOp.OWFTOOpTmpse.tmp_val1">
+            <summary>
+            Atributo TMP_VAL1
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OWFTOOp.OWFTOOpTmpse.tmp_val2">
+            <summary>
+            Atributo TMP_VAL2
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OWFTOOp.OWFTOOpTmpse.tmp_val3">
+            <summary>
+            Atributo TMP_VAL3
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OWFTOOp.OWFTOOpTmpse.tmp_val4">
+            <summary>
+            Atributo TMP_VAL4
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OWFTOOp.OWFTOOpTmpse.tmp_val5">
+            <summary>
+            Atributo TMP_VAL5
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OWFTOOp.OWFTOOpTmpse.tmp_val6">
+            <summary>
+            Atributo TMP_VAL6
+            </summary>
+        </member>
+        <member name="T:Ophelia.Ophelia.OWFTOOp.OWFTOPKOpTmpse">
+            <summary>
+            Objeto PK de transferencia de datos para Tmpse
+            </summary>
+        </member>
+        <member name="M:Ophelia.Ophelia.OWFTOOp.OWFTOPKOpTmpse.#ctor">
+            <summary>
+            Constructor de la clase
+            </summary>
+        </member>
+        <member name="T:Ophelia.Ophelia.OWFTOOp.OWFTOOpZopcm">
+            <summary>
+            Objeto de transferencia de datos para Zopcm
+            </summary>
+        </member>
+        <member name="M:Ophelia.Ophelia.OWFTOOp.OWFTOOpZopcm.#ctor">
+            <summary>
+            Constructor de la clase
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OWFTOOp.OWFTOOpZopcm.act_esta">
+            <summary>
+            Atributo ACT_ESTA
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OWFTOOp.OWFTOOpZopcm.act_hora">
+            <summary>
+            Atributo ACT_HORA
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OWFTOOp.OWFTOOpZopcm.act_usua">
+            <summary>
+            Atributo ACT_USUA
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OWFTOOp.OWFTOOpZopcm.cas_cont">
+            <summary>
+            Atributo CAS_CONT
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OWFTOOp.OWFTOOpZopcm.emp_codi">
+            <summary>
+            Atributo EMP_CODI
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OWFTOOp.OWFTOOpZopcm.zop_colr">
+            <summary>
+            Atributo ZOP_COLR
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OWFTOOp.OWFTOOpZopcm.zop_colu">
+            <summary>
+            Atributo ZOP_COLU
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OWFTOOp.OWFTOOpZopcm.zop_cont">
+            <summary>
+            Atributo ZOP_CONT
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OWFTOOp.OWFTOOpZopcm.zop_desc">
+            <summary>
+            Atributo ZOP_DESC
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OWFTOOp.OWFTOOpZopcm.zop_nomb">
+            <summary>
+            Atributo ZOP_NOMB
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OWFTOOp.OWFTOOpZopcm.zop_titu">
+            <summary>
+            Atributo ZOP_TITU
+            </summary>
+        </member>
+        <member name="T:Ophelia.Ophelia.OWFTOOp.OWFTOPKOpZopcm">
+            <summary>
+            Objeto PK de transferencia de datos para Zopcm
+            </summary>
+        </member>
+        <member name="M:Ophelia.Ophelia.OWFTOOp.OWFTOPKOpZopcm.#ctor">
+            <summary>
+            Constructor de la clase
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OWFTOOp.OWFTOPKOpZopcm.cas_cont">
+            <summary>
+            Atributo Cas_cont
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OWFTOOp.OWFTOPKOpZopcm.emp_codi">
+            <summary>
+            Atributo Emp_codi
+            </summary>
+        </member>
+        <member name="P:Ophelia.Ophelia.OWFTOOp.OWFTOPKOpZopcm.zop_cont">
+            <summary>
+            Atributo Zop_cont
+            </summary>
+        </member>
+    </members>
+</doc>

@@ -1,0 +1,215 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+OKGnCtrlWeb
+</name>
+</assembly>
+<members>
+<member name="T:OKGnCtrlWeb.My.Resources.Resources">
+<summary>
+  Clase de recurso fuertemente tipado, para buscar cadenas traducidas, etc.
+</summary>
+</member>
+<member name="P:OKGnCtrlWeb.My.Resources.Resources.ResourceManager">
+<summary>
+  Devuelve la instancia de ResourceManager almacenada en caché utilizada por esta clase.
+</summary>
+</member>
+<member name="P:OKGnCtrlWeb.My.Resources.Resources.Culture">
+<summary>
+  Reemplaza la propiedad CurrentUICulture del subproceso actual para todas las
+  búsquedas de recursos mediante esta clase de recurso fuertemente tipado.
+</summary>
+</member>
+<member name="F:OKGnCtrlWeb.KRLW.BOException">
+ <summary>
+ Variable para el control de Excepciones o errores
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:OKGnCtrlWeb.KRLW.ejecutaSentenciaConParametros(System.String,System.Collections.Generic.List{Ophelia.DataBase.Parameter})">
+ <summary>
+ Diego Camacho Implementacion de ejecutaSentenciaConParametros
+ </summary>
+ <param name="pSql">Cadena SQL</param>
+ <param name="pParameter">Parametros de Ejecucion</param>
+ <returns></returns>
+</member>
+<member name="M:OKGnCtrlWeb.KRLW.ejecuta_sqlQ(System.String)">
+ <summary>
+ Funcion para Conectarse a SQL
+ </summary>
+ <param name="sql">Cadena</param>
+ <returns>DataSet</returns>
+ <remarks></remarks>
+</member>
+<member name="M:OKGnCtrlWeb.KRLW.ejecuta_sqlO(System.String)">
+ <summary>
+ Funcion para Conectarse a Oracle
+ </summary>
+ <param name="sql">Cadena</param>
+ <returns>DataSet</returns>
+ <remarks></remarks>
+</member>
+<member name="M:OKGnCtrlWeb.KRLW.ejecuta_sqlG(System.String)">
+ <summary>
+ Funcion para Conectarse a SQL y Informix
+ </summary>
+ <param name="sql">Cadena</param>
+ <returns>DataSet</returns>
+ <remarks></remarks>
+</member>
+<member name="M:OKGnCtrlWeb.KRLW.ejecuta_sqlS(System.String)">
+ <summary>
+ Funcion para Conectarse a Sybase
+ </summary>
+ <param name="sql">Cadena</param>
+ <returns>DataSet</returns>
+ <remarks></remarks>
+</member>
+<member name="M:OKGnCtrlWeb.KRLW.ejecuta_sqlP(System.String)">
+ <summary>
+ Funcion para Conectarse a PostgreSQL
+ </summary>
+ <param name="sql">Cadena</param>
+ <returns>DataSet</returns>
+ <remarks></remarks>
+</member>
+<member name="M:OKGnCtrlWeb.KRLW.ConetNpgsql">
+ <summary>
+ Funcion utilizada para reportes de 
+ RCuentaCobro.aspx
+ RResumenPagos.aspx
+ </summary>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:OKGnCtrlWeb.KRLW.EnviarEmailGmail(System.String,System.String,System.String,System.String,System.String,System.String)">
+ <summary>
+ Funcion utilizada para enviar correos con Autenticación
+ </summary>
+ <param name="pSerCorreo">Servidor de Cooreo</param>
+ <param name="pCorreoAdmin">Correo Administrador</param>
+ <param name="pDestinatario">Destinatario</param>
+ <param name="pDestinatarioCC">Con Codia a</param>
+ <param name="pAsunto">Asunto</param>
+ <param name="pCuerpo">Cuerpo del Correo</param>
+ <returns>True si se envio, False si no se envio</returns>
+ <remarks></remarks>
+</member>
+<member name="M:OKGnCtrlWeb.KRLW.ObtenerCorreos(System.String)">
+ <summary>
+ Metodo utilizado para obtener los correos electronicos de destino
+ </summary>
+ <param name="pCorreos">Cadena con el listado de correos</param>
+ <returns>Arreglo de correos</returns>
+</member>
+<member name="M:OKGnCtrlWeb.KRLW.ToHexa(System.String)">
+ <summary>
+ Funcion para hacer la conversion de Valor a Hexadecimal
+ </summary>
+ <param name="valor"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:OKGnCtrlWeb.KRLW.VerificarExtension(System.Web.UI.WebControls.FileUpload,System.String)">
+ <summary>
+ Formato de pObtenerExtensionImg Ejemplo: ".pdf-.doc-.docx-.xls-.xlsx-.ppt-pptx-.gif-.jpg" 
+ El separador entre extenciones es el caracter [ - ]
+ </summary>
+ <param name="pFileUpload"></param>
+ <param name="pObtenerExtensionImg"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:OKGnCtrlWeb.KRLW.DifeEntHorMin(System.Int32,System.Int32,System.Int32,System.Int32)">
+ <summary>
+Funcion Utilizada para calcular la diferencia de Horas y Minutos entre 2 Grupos
+ </summary>
+ <param name="HorIn">Hora Inicial</param>
+ <param name="MinIn">Minuto Inicial</param>
+ <param name="HorFi">Hora Final</param>
+ <param name="MinFi">Minuto Final</param>
+ <returns>Arreglo resultante con Hora(0) y Minuto(1) de Diferencia</returns>
+ <remarks>N/A</remarks>
+</member>
+<member name="M:OKGnCtrlWeb.KRLW.GnInfno(System.String,System.String)">
+ <summary>
+ Consulta correos KGnInfno para envio por programa especifico
+ </summary>
+ <param name="pCOD_PROG">Programa</param>
+ <param name="pCod_Empr">Empresa</param>
+ <returns>DataSet con la Informacion de KGnInfno</returns>
+ <remarks></remarks>
+</member>
+<member name="M:OKGnCtrlWeb.KRLW.GnCorno(System.String,System.String)">
+ <summary>
+ Listado de Correos de KGnInfno
+ </summary>
+ <param name="pCOD_PROG">Programa</param>
+ <param name="pCod_Empr">Empresa</param>
+ <returns>Dataset con los correos de destino</returns>
+ <remarks></remarks>
+</member>
+<member name="M:OKGnCtrlWeb.KRLW.ListaCorreosGnCorno(System.String,System.String)">
+ <summary>
+ Listado de Correos de KGnInfno
+ </summary>
+ <param name="pCOD_PROG">Programa</param>
+ <param name="pCod_Empr">Empresa</param>
+ <returns>Cadena con los Correos de destino</returns>
+ <remarks></remarks>
+</member>
+<member name="M:OKGnCtrlWeb.KRLW.OcultarCamposUI(System.String,System.String,System.Web.UI.ControlCollection)">
+ <summary>
+  Funcion Generica para Ocultar Campos
+ </summary>
+ <param name="pEmpresa">Empresa</param>
+ <param name="pPrograma">Programa</param>
+ <param name="pMaster">Master</param>
+</member>
+<member name="M:OKGnCtrlWeb.KRLW.Multilenguaje(System.Web.UI.ControlCollection)">
+ <summary>
+ Funcion utilizada para el cambio de Idioma General de la Pagina
+ </summary>
+</member>
+<member name="M:OKGnCtrlWeb.KRLW.Multilenguaje(System.Web.UI.ControlCollection,System.String)">
+ <summary>
+ Funcion utilizada para el cambio de Idioma, para Controles de Usuario
+ </summary>
+ <param name="pCont_Usua">Control de Susuario</param>
+</member>
+<member name="M:OKGnCtrlWeb.KRLW.GnIdioW">
+ <summary>
+ Funcion utilizada para obtener los idiomas parametrizados para el cambio en las paginas
+ </summary>
+ <returns>Conjunto de Idiosmas parametrizados en GN_IDIOW</returns>
+</member>
+<member name="M:OKGnCtrlWeb.KRLW.CodigoQR(System.Web.UI.WebControls.PlaceHolder,System.String@)">
+ <summary>
+ Codigo para generar codigos QR
+ DiegoC - 12/12/16 Validacion de parametro 
+ </summary>
+ <param name="plBarCode">PlaceHolder</param>
+ <param name="pCadena">pCadena</param>
+ <remarks></remarks>
+</member>
+<member name="M:OKGnCtrlWeb.KRLW.ControlMensajeEnmascarar(System.String,System.String,System.String)">
+ <summary>
+ DiegoC - 12/12/16 Validacion de Parametro Enmascarar Mensaje
+ </summary>
+ <param name="pMensajeReal">Mensaje Real</param>
+ <param name="pMesnajeMascara">Mesnaje Mascara</param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:OKGnCtrlWeb.KRLW.ControlMensajeEnmascararLog(System.String,System.String)">
+ <summary>
+ DiegoC - 12/12/16 TextChanged Validacion de parametro 
+ </summary>
+ <param name="pMensaje"></param>
+ <remarks></remarks>
+</member>
+</members>
+</doc>

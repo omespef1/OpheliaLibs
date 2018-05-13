@@ -1,0 +1,1788 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Ophelia.Proteccion</name>
+    </assembly>
+    <members>
+        <member name="T:Ophelia.Proteccion.BDOp.BDOpLogbo">
+            <summary>
+            Objeto de business delegate para Logbo
+            </summary>
+        </member>
+        <member name="M:Ophelia.Proteccion.BDOp.BDOpLogbo.#ctor">
+            <summary>
+             Constructor del business delegate del programa
+            </summary>
+        </member>
+        <member name="M:Ophelia.Proteccion.BDOp.BDOpLogbo.ConsultarLogbo(System.Int64)">
+            <summary>
+             Obtiene la informacion de un registro de un(a) Logbo
+            </summary>
+            <param name="pIdLogbo">identificador del registro
+            </param>
+            <returns>
+             Objeto TO con la informacion del registro
+            </returns>
+        </member>
+        <member name="M:Ophelia.Proteccion.BDOp.BDOpLogbo.InsertarLogbo(Ophelia.Proteccion.TOOp.TOOpLogbo)">
+            <summary>
+             Inserta la informacion de un registro de un(a) Logbo
+            </summary>
+            <param name="pTOLogbo">Objeto TO con la informacion del registro
+            </param>
+            <returns>
+             identificador asignado al registro
+            </returns>
+        </member>
+        <member name="M:Ophelia.Proteccion.BDOp.BDOpLogbo.ModificarLogbo(Ophelia.Proteccion.TOOp.TOOpLogbo)">
+            <summary>
+             Modifica la informacion de un registro de un(a) Logbo
+            </summary>
+            <param name="pLogbo">Objeto TO con la informacion del registro
+            </param>
+            <returns>
+             Estado booleano de la modificacion
+            </returns>
+        </member>
+        <member name="M:Ophelia.Proteccion.BDOp.BDOpLogbo.EliminarLogbo(System.Int64)">
+            <summary>
+             Elimina un registro de un(a) Logbo
+            </summary>
+            <param name="pIdLogbo">identificador del registro
+            </param>
+            <returns>
+             Estado booleano de la eliminacion
+            </returns>
+        </member>
+        <member name="M:Ophelia.Proteccion.BDOp.BDOpLogbo.ListarLogboPorConsulta(System.String,System.String,System.Int32)">
+            <summary>
+             Consulta un conjunto de registros de un(a) Logbo
+            </summary>
+            <param name="pConsulta">Criterios de consulta SQL
+            </param>
+            <param name="pOrdenar">Criterio de ordenamiento de los registros
+            </param>
+            <param name="pEmp_iden">Criterio para diferenciar los datos entre empresas
+            </param>
+            <returns>
+             Conjunto de datos consultados
+            </returns>
+        </member>
+        <member name="M:Ophelia.Proteccion.BDOp.BDOpLogbo.ListarLogboPorConsulta(System.String,System.String)">
+            <summary>
+             Consulta un conjunto de registros de un(a) Logbo
+            </summary>
+            <param name="pConsulta">Criterios de consulta SQL
+            </param>
+            <param name="pOrdenar">Criterio de ordenamiento de los registros
+            </param>
+            <returns>
+             Conjunto de datos consultados
+            </returns>
+        </member>
+        <member name="T:Ophelia.Proteccion.BDOp.BDOpPermi">
+            <summary>
+            Objeto de Session Facade para Permi
+            </summary>
+        </member>
+        <member name="M:Ophelia.Proteccion.BDOp.BDOpPermi.#ctor">
+            <summary>
+             Constructor del Session Facade del programa
+            </summary>
+        </member>
+        <member name="M:Ophelia.Proteccion.BDOp.BDOpPermi.ConsultarPorProgramaGrupoUsuario(System.Int64,System.Int64)">
+            <summary>
+            Funcion utilizada para Obtener permisos botones por Programa
+            </summary>
+            <param name="pGruIden">Identificador de Grupo</param>
+            <param name="pProIden">Identificador de Programa</param>
+            <returns></returns>
+        </member>
+        <member name="M:Ophelia.Proteccion.BDOp.BDOpPermi.ConsultarProgramaPorCodigo(System.String)">
+            <summary>
+            Este metodo cumple con la funcion de consultar una tabla de acuerdo al parametro de entrada 
+            </summary>
+            <param name="pPro_codi">Identificador del registro</param>
+            <returns>"Devuelve un TO de acuerdo con la consulta"</returns>
+        </member>
+        <member name="T:Ophelia.Proteccion.BDOp.BDOpUtlap">
+            <summary>
+            Objeto de business delegate para Utlap
+            </summary>
+        </member>
+        <member name="M:Ophelia.Proteccion.BDOp.BDOpUtlap.#ctor">
+            <summary>
+             Constructor del business delegate del programa0
+            </summary>
+        </member>
+        <member name="M:Ophelia.Proteccion.BDOp.BDOpUtlap.ConsultarUtlap(System.String)">
+            <summary>
+             Obtiene la informacion de un registro de un(a) Utlap
+            </summary>
+            <param name="pIdUtlap">identificador del registro
+            </param>
+            <returns>
+             Objeto TO con la informacion del registro
+            </returns>
+        </member>
+        <member name="M:Ophelia.Proteccion.BDOp.BDOpUtlap.InsertarUtlap(Ophelia.Proteccion.TOOp.TOOpUtlap)">
+            <summary>
+             Inserta la informacion de un registro de un(a) Utlap
+            </summary>
+            <param name="pTOUtlap">Objeto TO con la informacion del registro
+            </param>
+            <returns>
+             identificador asignado al registro
+            </returns>
+        </member>
+        <member name="M:Ophelia.Proteccion.BDOp.BDOpUtlap.ModificarUtlap(Ophelia.Proteccion.TOOp.TOOpUtlap)">
+            <summary>
+             Modifica la informacion de un registro de un(a) Utlap
+            </summary>
+            <param name="pUtlap">Objeto TO con la informacion del registro
+            </param>
+            <returns>
+             Estado booleano de la modificacion
+            </returns>
+        </member>
+        <member name="M:Ophelia.Proteccion.BDOp.BDOpUtlap.EliminarUtlap(System.Int32)">
+            <summary>
+             Elimina un registro de un(a) Utlap
+            </summary>
+            <param name="pIdUtlap">identificador del registro
+            </param>
+            <returns>
+             Estado booleano de la eliminacion
+            </returns>
+        </member>
+        <member name="M:Ophelia.Proteccion.BDOp.BDOpUtlap.SalidaPrograma(System.Int32,System.DateTime,System.String)">
+            <summary>
+            Coloca la fecha de cierre a los ingresos que tuvieron una salida 
+            </summary>
+            <param name="pUsu_iden">usuario </param>
+            <returns></returns>
+        </member>
+        <member name="M:Ophelia.Proteccion.BDOp.BDOpUtlap.ListarUtlapPorConsulta(System.String,System.String)">
+            <summary>
+             Consulta un conjunto de registros de un(a) Utlap
+            </summary>
+            <param name="pConsulta">Criterios de consulta SQL</param>
+            <param name="pOrdenar">Criterio de ordenamiento de los registros</param>
+            <returns>
+             Conjunto de datos consultados
+            </returns>
+        </member>
+        <member name="M:Ophelia.Proteccion.BDOp.BDOpUtlap.ListarUtlapPorConsultaConEmpresa(System.String,System.String,System.Int32)">
+            <summary>
+             Consulta un conjunto de registros de un(a) Utlap
+            </summary>
+            <param name="pConsulta">Criterios de consulta SQL</param>
+            <param name="pOrdenar">Criterio de ordenamiento de los registros</param>
+            <param name="pCod_empr">Criterio para diferenciar los datos entre empresas</param>
+            <returns>
+             Conjunto de datos consultados
+            </returns>
+        </member>
+        <member name="T:Ophelia.Proteccion.BDOp.IBDOpLogbo">
+            <summary>
+            Objeto de Aplicacion de logica de negocio para Logbo
+            </summary>
+        </member>
+        <member name="M:Ophelia.Proteccion.BDOp.IBDOpLogbo.InsertarLogbo(Ophelia.Proteccion.TOOp.TOOpLogbo)">
+            <summary>
+             Inserta la informacion de un registro de un(a) Logbo
+            </summary>
+            <param name="pTOLogbo">Objeto TO con la informacion del registro
+            </param>
+            <returns>
+             identificador asignado al registro
+            </returns>
+        </member>
+        <member name="M:Ophelia.Proteccion.BDOp.IBDOpLogbo.ModificarLogbo(Ophelia.Proteccion.TOOp.TOOpLogbo)">
+            <summary>
+             Modifica la informacion de un registro de un(a) Logbo
+            </summary>
+            <param name="pLogbo">Objeto TO con la informacion del registro
+            </param>
+            <returns>
+             Estado booleano de la modificacion
+            </returns>
+        </member>
+        <member name="M:Ophelia.Proteccion.BDOp.IBDOpLogbo.EliminarLogbo(System.Int64)">
+            <summary>
+             Elimina un registro de un(a) Logbo
+            </summary>
+            <param name="pIdLogbo">identificador del registro
+            </param>
+            <returns>
+             Estado booleano de la eliminacion
+            </returns>
+        </member>
+        <member name="M:Ophelia.Proteccion.BDOp.IBDOpLogbo.ListarLogboPorConsulta(System.String,System.String,System.Int32)">
+            <summary>
+             Consulta un conjunto de registros de un(a) Logbo
+            </summary>
+            <param name="pConsulta">Criterios de consulta SQL
+            </param>
+            <param name="pOrdenar">Criterio de ordenamiento de los registros
+            </param>
+            <param name="pEmp_iden">Criterio para diferenciar los datos entre empresas
+            </param>
+            <returns>
+             Conjunto de datos consultados
+            </returns>
+        </member>
+        <member name="M:Ophelia.Proteccion.BDOp.IBDOpLogbo.ListarLogboPorConsulta(System.String,System.String)">
+            <summary>
+             Consulta un conjunto de registros de un(a) Logbo
+            </summary>
+            <param name="pConsulta">Criterios de consulta SQL
+            </param>
+            <param name="pOrdenar">Criterio de ordenamiento de los registros
+            </param>
+            <returns>
+             Conjunto de datos consultados
+            </returns>
+        </member>
+        <member name="T:Ophelia.Proteccion.BDOp.IBDOpPermi">
+            <summary>
+            Objeto de Interface Session Facade para Permi
+            </summary>
+        </member>
+        <member name="M:Ophelia.Proteccion.BDOp.IBDOpPermi.ConsultarPorProgramaGrupoUsuario(System.Int64,System.Int64)">
+            <summary>
+            Funcion utilizada para Obtener permisos botones por Programa
+            </summary>
+            <param name="pGruIden">Identificador de Grupo</param>
+            <param name="pProIden">Identificador de Programa</param>
+            <returns></returns>
+        </member>
+        <member name="M:Ophelia.Proteccion.BDOp.IBDOpPermi.ConsultarProgramaPorCodigo(System.String)">
+            <summary>
+            Este metodo cumple con la funcion de consultar una tabla de acuerdo al parametro de entrada 
+            </summary>
+            <param name="pPro_codi">Identificador del registro</param>
+            <returns>"Devuelve un TO de acuerdo con la consulta"</returns>
+        </member>
+        <member name="T:Ophelia.Proteccion.BDOp.IBDOpUtlap">
+            <summary>
+            Objeto de Interface Aplicacion de logica de negocio para Utlap
+            </summary>
+        </member>
+        <member name="M:Ophelia.Proteccion.BDOp.IBDOpUtlap.ModificarUtlap(Ophelia.Proteccion.TOOp.TOOpUtlap)">
+            <summary>
+             Modifica la informacion de un registro de un(a) Utlap
+            </summary>
+            <param name="pUtlap">Objeto TO con la informacion del registro
+            </param>
+            <returns>
+             Estado booleano de la modificacion
+            </returns>
+        </member>
+        <member name="M:Ophelia.Proteccion.BDOp.IBDOpUtlap.EliminarUtlap(System.Int32)">
+            <summary>
+             Elimina un registro de un(a) Utlap
+            </summary>
+            <param name="pIdUtlap">identificador del registro
+            </param>
+            <returns>
+             Estado booleano de la eliminacion
+            </returns>
+        </member>
+        <member name="M:Ophelia.Proteccion.BDOp.IBDOpUtlap.SalidaPrograma(System.Int32,System.DateTime,System.String)">
+            <summary>
+            Coloca la fecha de cierre a los ingresos que tuvieron una salida 
+            </summary>
+            <param name="pUsu_iden">usuario </param>
+            <returns></returns>
+        </member>
+        <member name="M:Ophelia.Proteccion.BDOp.IBDOpUtlap.ListarUtlapPorConsulta(System.String,System.String)">
+            <summary>
+             Consulta un conjunto de registros de un(a) Utlap
+            </summary>
+            <param name="pConsulta">Criterios de consulta SQL</param>
+            <param name="pOrdenar">Criterio de ordenamiento de los registros</param>
+            <returns>
+             Conjunto de datos consultados
+            </returns>
+        </member>
+        <member name="M:Ophelia.Proteccion.BDOp.IBDOpUtlap.ListarUtlapPorConsultaConEmpresa(System.String,System.String,System.Int32)">
+            <summary>
+             Consulta un conjunto de registros de un(a) Utlap
+            </summary>
+            <param name="pConsulta">Criterios de consulta SQL</param>
+            <param name="pOrdenar">Criterio de ordenamiento de los registros</param>
+            <param name="pCod_empr">Criterio para diferenciar los datos entre empresas</param>
+            <returns>
+             Conjunto de datos consultados
+            </returns>
+        </member>
+        <member name="T:Ophelia.Proteccion.BOOp.BOOpLogbo">
+            <summary>
+             Objeto de logica de negocio para OP_LOGBO
+            </summary>
+        </member>
+        <member name="M:Ophelia.Proteccion.BOOp.BOOpLogbo.#ctor">
+            <summary>
+             Constructor del Business Object del programa
+            </summary>
+        </member>
+        <member name="M:Ophelia.Proteccion.BOOp.BOOpLogbo.ConsultarLogbo(System.Int64)">
+            <summary>
+             Obtiene la informacion de un registro de un(a) Logbo
+            </summary>
+            <param name="pIdLogbo">identificador del registro
+            </param>
+            <returns>
+             Objeto TO con la informacion del registro
+            </returns>
+        </member>
+        <member name="M:Ophelia.Proteccion.BOOp.BOOpLogbo.InsertarLogbo(Ophelia.Proteccion.TOOp.TOOpLogbo)">
+            <summary>
+             Inserta la informacion de un registro de un(a) Logbo
+            </summary>
+            <param name="TOLogbo">Objeto TO con la informacion del registro
+            </param>
+            <returns>
+             identificador asignado al registro
+            </returns>
+        </member>
+        <member name="M:Ophelia.Proteccion.BOOp.BOOpLogbo.ModificarLogbo(Ophelia.Proteccion.TOOp.TOOpLogbo)">
+            <summary>
+             Modifica la informacion de un registro de un(a) Logbo
+            </summary>
+            <param name="pTOLogbo">Objeto TO con la informacion del registro
+            </param>
+            <returns>
+             Estado booleano de la modificacion
+            </returns>
+        </member>
+        <member name="M:Ophelia.Proteccion.BOOp.BOOpLogbo.EliminarLogbo(System.Int64)">
+            <summary>
+             Elimina un registro de un(a) Logbo
+            </summary>
+            <param name="pIdLogbo">identificador del registro
+            </param>
+            <returns>
+             Estado booleano de la eliminacn
+            </returns>
+        </member>
+        <member name="M:Ophelia.Proteccion.BOOp.BOOpLogbo.ListarLogboPorConsulta(System.String,System.String,System.Int32)">
+            <summary>
+             Consulta un conjunto de registros de un(a) Logbo
+            </summary>
+            <param name="pConsulta">Criterios de consulta SQL
+            </param>
+            <param name="pOrdenar">Criterio de ordenamiento de los registros
+            </param>
+            <param name="pEmp_iden">Criterio para diferenciar los datos entre empresas
+            </param>
+            <returns>
+             Conjunto de datos consultados
+            </returns>
+        </member>
+        <member name="M:Ophelia.Proteccion.BOOp.BOOpLogbo.ListarLogboPorConsulta(System.String,System.String)">
+            <summary>
+             Consulta un conjunto de registros de un(a) Logbo
+            </summary>
+            <param name="pConsulta">Criterios de consulta SQL
+            </param>
+            <param name="pOrdenar">Criterio de ordenamiento de los registros
+            </param>
+            <returns>
+             Conjunto de datos consultados
+            </returns>
+        </member>
+        <member name="T:Ophelia.Proteccion.BOOp.BOOpPermi">
+            <summary>
+             Objeto de logica de negocio para OP_PERMI
+            </summary>
+        </member>
+        <member name="M:Ophelia.Proteccion.BOOp.BOOpPermi.#ctor">
+            <summary>
+             Constructor del Business Object del programa
+            </summary>
+        </member>
+        <member name="M:Ophelia.Proteccion.BOOp.BOOpPermi.ConsultarPorProgramaGrupoUsuario(System.Int64,System.Int64)">
+            <summary>
+            Funcion utilizada para Obtener permisos botones por Programa
+            </summary>
+            <param name="pGruIden">Identificador de Grupo</param>
+            <param name="pProIden">Identificador de Programa</param>
+            <returns></returns>
+        </member>
+        <member name="M:Ophelia.Proteccion.BOOp.BOOpPermi.ConsultarProgramaPorCodigo(System.String)">
+            <summary>
+            Este metodo cumple con la funcion de consultar una tabla de acuerdo al parametro de entrada 
+            </summary>
+            <param name="pPro_codi">Identificador del registro</param>
+            <returns>"Devuelve un TO de acuerdo con la consulta"</returns>
+        </member>
+        <member name="T:Ophelia.Proteccion.BOOp.BOOpProgr">
+            <summary>
+             Objeto de logica de negocio para OP_PROGR
+            </summary>
+        </member>
+        <member name="M:Ophelia.Proteccion.BOOp.BOOpProgr.#ctor">
+            <summary>
+             Constructor del Business Object del programa
+            </summary>
+        </member>
+        <member name="M:Ophelia.Proteccion.BOOp.BOOpProgr.ConsultarProgramaPorCodigo(System.String)">
+            <summary>
+            Este metodo cumple con la funcion de consultar una tabla de acuerdo al parametro de entrada 
+            </summary>
+            <param name="pPro_codi">Identificador del registro</param>
+            <returns>"Devuelve un TO de acuerdo con la consulta"</returns>
+        </member>
+        <member name="T:Ophelia.Proteccion.BOOp.BOOpUtlap">
+            <summary>
+             Objeto de logica de negocio para OP_UTLAP
+            </summary>
+        </member>
+        <member name="M:Ophelia.Proteccion.BOOp.BOOpUtlap.#ctor">
+            <summary>
+             Constructor del Business Object del programa
+            </summary>
+        </member>
+        <member name="M:Ophelia.Proteccion.BOOp.BOOpUtlap.ConsultarUtlap(System.String)">
+            <summary>
+             Obtiene la informacion de un registro de un(a) Utlap
+            </summary>
+            <param name="pIdUtlap">identificador del registro
+            </param>
+            <returns>
+             Objeto TO con la informacion del registro
+            </returns>
+        </member>
+        <member name="M:Ophelia.Proteccion.BOOp.BOOpUtlap.InsertarUtlap(Ophelia.Proteccion.TOOp.TOOpUtlap)">
+            <summary>
+             Inserta la informacion de un registro de un(a) Utlap
+            </summary>
+            <param name="TOUtlap">Objeto TO con la informacion del registro
+            </param>
+            <returns>
+             identificador asignado al registro
+            </returns>
+        </member>
+        <member name="M:Ophelia.Proteccion.BOOp.BOOpUtlap.ModificarUtlap(Ophelia.Proteccion.TOOp.TOOpUtlap)">
+            <summary>
+             Modifica la informacion de un registro de un(a) Utlap
+            </summary>
+            <param name="pTOUtlap">Objeto TO con la informacion del registro
+            </param>
+            <returns>
+             Estado booleano de la modificacion
+            </returns>
+        </member>
+        <member name="M:Ophelia.Proteccion.BOOp.BOOpUtlap.EliminarUtlap(System.Int32)">
+            <summary>
+             Elimina un registro de un(a) Utlap
+            </summary>
+            <param name="pIdUtlap">identificador del registro
+            </param>
+            <returns>
+             Estado booleano de la eliminacion
+            </returns>
+        </member>
+        <member name="M:Ophelia.Proteccion.BOOp.BOOpUtlap.SalidaPrograma(System.Int32,System.DateTime,System.String)">
+            <summary>
+            Coloca la fecha de cierre a los regisros
+            </summary>
+            <param name="pUsu_iden">usuario </param>
+            <returns></returns>
+        </member>
+        <member name="M:Ophelia.Proteccion.BOOp.BOOpUtlap.ListarUtlapPorConsulta(System.String,System.String)">
+            <summary>
+             Consulta un conjunto de registros de un(a) Utlap
+            </summary>
+            <param name="pConsulta">Criterios de consulta SQL</param>
+            <param name="pOrdenar">Criterio de ordenamiento de los registros</param>
+            <returns>
+             Conjunto de datos consultados
+            </returns>
+        </member>
+        <member name="M:Ophelia.Proteccion.BOOp.BOOpUtlap.ListarUtlapPorConsultaConEmpresa(System.String,System.String,System.Int32)">
+            <summary>
+             Consulta un conjunto de registros de un(a) Utlap
+            </summary>
+            <param name="pConsulta">Criterios de consulta SQL</param>
+            <param name="pOrdenar">Criterio de ordenamiento de los registros</param>
+            <param name="pCod_empr">Criterio para diferenciar los datos entre empresas</param>
+            <returns>
+             Conjunto de datos consultados
+            </returns>
+        </member>
+        <member name="M:Ophelia.Proteccion.BO.BOOpLogs.#ctor">
+            <summary>
+            Constructor de la clase Bussiness Object
+            </summary>
+        </member>
+        <member name="M:Ophelia.Proteccion.BO.BOOpLogs.InsertarLog(System.Collections.ArrayList)">
+            <summary>
+            Metodo que inserta el registro en la bd
+            </summary>
+            <param name="pValores"></param>
+        </member>
+        <member name="T:Ophelia.Proteccion.DAOOp.DAOAOpLogbo">
+            <summary>
+            Clase de tipo abstracta para el modulo  y la tabla 
+            </summary>
+        </member>
+        <member name="M:Ophelia.Proteccion.DAOOp.DAOAOpLogbo.#ctor">
+            <summary>
+            Constructor de la clase 
+            </summary>
+        </member>
+        <member name="M:Ophelia.Proteccion.DAOOp.DAOAOpLogbo.Insertar(Ophelia.Proteccion.TOOp.TOOpLogbo)">
+            <summary>
+            Función que realiza la inserción de un registro compelto de una tabla a la base de datos
+            </summary>
+            <returns>Devuelve un verdadero o falso confirmando la insercion</returns>
+        </member>
+        <member name="M:Ophelia.Proteccion.DAOOp.DAOAOpLogbo.Eliminar(System.Int64)">
+            <summary>
+            Este metodo cumple con la funcion de eliminar un registro de la tabla 
+            utilizando la llave primaria de la misma para encontrarlo.
+            </summary>
+            <param name="pId">Identificador del registro</param>
+            <returns>Estado booleano de la operacion</returns>
+        </member>
+        <member name="M:Ophelia.Proteccion.DAOOp.DAOAOpLogbo.Consultar(System.Int64)">
+            <summary>
+            Este metodo cumple con la funcion de consultar una tabla de acuerdo al parametro de entrada correspondiente a la llave primaria
+            de la tabla OP_LOGBO
+            </summary>
+            <param name="pKey">Identificador del registro</param>
+            <returns>"Devuelve un TO de acuerdo con la consulta"</returns>
+        </member>
+        <member name="M:Ophelia.Proteccion.DAOOp.DAOAOpLogbo.Modificar(Ophelia.Proteccion.TOOp.TOOpLogbo)">
+            <summary>
+            Este metodo cumple con la funcion de actualizar un registro de la tabla 
+            utilizando la llave primaria de la misma para encontrarlo.
+            </summary>
+        </member>
+        <member name="M:Ophelia.Proteccion.DAOOp.DAOAOpLogbo.ListarLOGBO(System.String)">
+            <summary>
+            Este metodo cumple con la funcion de realizar la consulta de todos los registros de la tabla 
+            </summary>
+            <returns>Devuelve un verdadero o falso confirmando la inserción</returns>
+        </member>
+        <member name="M:Ophelia.Proteccion.DAOOp.DAOAOpLogbo.ObtenerNumeroRegistros(System.String,System.Int32)">
+            <summary>
+            Este metodo cumple con la funcion de contar los registros
+            de la tabla 
+            </summary>
+            <param name="pConsulta">Cadena de consulta SQL</param>
+            <param name="pEmp_iden">Identificador de la empresa</param>
+            <returns>numero de registros de la tabla</returns>
+        </member>
+        <member name="M:Ophelia.Proteccion.DAOOp.DAOAOpLogbo.ObtenerNumeroRegistros(System.String)">
+            <summary>
+            Este metodo cumple con la funcion de contar los registros
+            de la tabla 
+            </summary>
+            <param name="pConsulta">Cadena de consulta SQL</param>
+            <returns>numero de registros de la tabla</returns>
+        </member>
+        <member name="M:Ophelia.Proteccion.DAOOp.DAOAOpLogbo.ObtenerSiguienteId">
+            <summary>
+             Obtiene un identificador valido para utilizarlo en la insercion de un registro
+             </summary>
+             <returns>numero de identificador</returns>
+        </member>
+        <member name="M:Ophelia.Proteccion.DAOOp.DAOAOpLogbo.ListarPorConsulta(System.String,System.String,System.Int32)">
+            <summary>
+            Listar por parametros de consulta la tabla OP_LOGBO
+            </summary>
+            <param name="pConsulta">Cadena SQL con los parametros de consulta</param>
+            <param name="pOrdenar">Atributo por el cual se desea ordenar los datos</param>
+            <param name="pEmp_iden">Empresa</param>
+            <returns>Devuelve un dataset de acuerdo con la consulta</returns>
+        </member>
+        <member name="M:Ophelia.Proteccion.DAOOp.DAOAOpLogbo.ListarPorConsulta(System.String,System.String)">
+            <summary>
+            Listar por parametros de consulta la tabla OP_LOGBO
+            </summary>
+            <param name="pConsulta">Cadena SQL con los parametros de consulta</param>
+            <param name="pOrdenar">Atributo por el cual se desea ordenar los datos</param>
+            <returns>Devuelve un dataset de acuerdo con la consulta</returns>
+        </member>
+        <member name="T:Ophelia.Proteccion.DAOOp.DAOAOpPermi">
+            <summary>
+            Clase de tipo abstracta para el modulo Op y la tabla OP_PERMI
+            </summary>
+        </member>
+        <member name="M:Ophelia.Proteccion.DAOOp.DAOAOpPermi.#ctor">
+            <summary>
+            Constructor de la clase OP_PERMI
+            </summary>
+        </member>
+        <member name="M:Ophelia.Proteccion.DAOOp.DAOAOpPermi.Insertar(Ophelia.Proteccion.TOOp.TOOpPermi)">
+            <summary>
+            Función que realiza la inserción de un registro compelto de una tabla a la base de datos
+            </summary>
+            <returns>Devuelve un verdadero o falso confirmando la insercion</returns>
+        </member>
+        <member name="M:Ophelia.Proteccion.DAOOp.DAOAOpPermi.Eliminar(System.Int64,System.Int64)">
+            <summary>
+            Este metodo cumple con la funcion de eliminar un registro de la tabla 
+            utilizando la llave primaria de la misma para encontrarlo.
+            </summary>
+            <param name="pId">Identificador del registro</param>
+            <returns>Estado booleano de la racion</returns>
+        </member>
+        <member name="M:Ophelia.Proteccion.DAOOp.DAOAOpPermi.Consultar(System.Int64,System.Int64)">
+            <summary>
+            Este metodo cumple con la funcion de consultar una tabla de acuerdo al parametro de entrada correspondiente a la llave primaria
+            de la tabla OP_PERMI
+            </summary>
+            <param name="pKey">Identificador del registro</param>
+            <returns>"Devuelve un TO de acuerdo con la consulta"</returns>
+        </member>
+        <member name="M:Ophelia.Proteccion.DAOOp.DAOAOpPermi.Modificar(System.Collections.Generic.List{Ophelia.Proteccion.TOOp.TOOpPermi})">
+            <summary>
+            Este metodo cumple con la funcion de actualizar un registro de la tabla 
+            utilizando la llave primaria de la misma para encontrarlo.
+            </summary>
+        </member>
+        <member name="M:Ophelia.Proteccion.DAOOp.DAOAOpPermi.ListarPERMI(System.String)">
+            <summary>
+            Este metodo cumple con la funcion de realizar la consulta de todos los registros de la tabla 
+            </summary>
+            <returns>Devuelve un verdadero o falso confirmando la inserción</returns>
+        </member>
+        <member name="M:Ophelia.Proteccion.DAOOp.DAOAOpPermi.ObtenerNumeroRegistros(System.String,System.Int32)">
+            <summary>
+            Este metodo cumple con la funcion de contar los registros
+            de la tabla 
+            </summary>
+            <param name="pConsulta">Cadena de consulta SQL</param>
+            <param name="pEmp_iden">Identificador de la empresa</param>
+            <returns>numero de registros de la tabla</returns>
+        </member>
+        <member name="M:Ophelia.Proteccion.DAOOp.DAOAOpPermi.ObtenerSiguienteId">
+            <summary>
+             Obtiene un identificador valido para utilizarlo en la insercion de un registro
+             </summary>
+             <returns>numero de identificador</returns>
+        </member>
+        <member name="M:Ophelia.Proteccion.DAOOp.DAOAOpPermi.ListarPorConsulta(System.String,System.String,System.Int32)">
+            <summary>
+            Listar por parametros de consulta la tabla OP_PERMI
+            </summary>
+            <param name="pConsulta">Cadena SQL con los parametros de consulta</param>
+            <param name="pOrdenar">Atributo por el cual se desea ordenar los datos</param>
+            <returns>Devuelve un dataset de acuerdo con la consulta</returns>
+        </member>
+        <member name="T:Ophelia.Proteccion.DAOOp.DAOAOpProgr">
+            <summary>
+            Clase de tipo abstracta para el modulo Op y la tabla OP_PROGR
+            </summary>
+        </member>
+        <member name="M:Ophelia.Proteccion.DAOOp.DAOAOpProgr.#ctor">
+            <summary>
+            Constructor de la clase OP_PROGR
+            </summary>
+        </member>
+        <member name="M:Ophelia.Proteccion.DAOOp.DAOAOpProgr.Insertar(Ophelia.Proteccion.TOOp.TOOpProgr)">
+            <summary>
+            Función que realiza la inserción de un registro compelto de una tabla a la base de datos
+            </summary>
+            <returns>Devuelve un verdadero o falso confirmando la insercion</returns>
+        </member>
+        <member name="M:Ophelia.Proteccion.DAOOp.DAOAOpProgr.Eliminar(System.Int64)">
+            <summary>
+            Este metodo cumple con la funcion de eliminar un registro de la tabla 
+            utilizando la llave primaria de la misma para encontrarlo.
+            </summary>
+            <param name="pId">Identificador del registro</param>
+            <returns>Estado booleano de la racion</returns>
+        </member>
+        <member name="M:Ophelia.Proteccion.DAOOp.DAOAOpProgr.Consultar(System.Int64)">
+            <summary>
+            Este metodo cumple con la funcion de consultar una tabla de acuerdo al parametro de entrada correspondiente a la llave primaria
+            de la tabla OP_PROGR
+            </summary>
+            <param name="pKey">Identificador del registro</param>
+            <returns>"Devuelve un TO de acuerdo con la consulta"</returns>
+        </member>
+        <member name="M:Ophelia.Proteccion.DAOOp.DAOAOpProgr.Modificar(Ophelia.Proteccion.TOOp.TOOpProgr)">
+            <summary>
+            Este metodo cumple con la funcion de actualizar un registro de la tabla 
+            utilizando la llave primaria de la misma para encontrarlo.
+            </summary>
+        </member>
+        <member name="M:Ophelia.Proteccion.DAOOp.DAOAOpProgr.ListarPROGR(System.String)">
+            <summary>
+            Este metodo cumple con la funcion de realizar la consulta de todos los registros de la tabla 
+            </summary>
+            <returns>Devuelve un verdadero o falso confirmando la inserción</returns>
+        </member>
+        <member name="M:Ophelia.Proteccion.DAOOp.DAOAOpProgr.ObtenerNumeroRegistros(System.String,System.Int32)">
+            <summary>
+             Este metodo cumple con la funcion de contar los registros
+             de la tabla 
+             </summary>
+             <param name="pConsulta">Cadena de consulta SQL</param>
+             <param name="pEmp_iden">Identificador de la empresa</param>
+             <returns>numero de registros de la tabla</returns>
+        </member>
+        <member name="M:Ophelia.Proteccion.DAOOp.DAOAOpProgr.ObtenerNumeroRegistros(System.String)">
+            <summary>
+            Este metodo cumple con la funcion de contar los registros
+            de la tabla 
+            </summary>
+            <param name="pConsulta">Cadena de consulta SQL</param>
+            <returns>numero de registros de la tabla</returns>
+        </member>
+        <!-- Badly formed XML comment ignored for member "M:Ophelia.Proteccion.DAOOp.DAOAOpProgr.ObtenerSiguienteId" -->
+        <member name="M:Ophelia.Proteccion.DAOOp.DAOAOpProgr.ListarPorConsulta(System.String,System.String)">
+            <summary>
+            Listar por parametros de consulta la tabla OP_PROGR
+            </summary>
+            <param name="pConsulta">Cadena SQL con los parametros de consulta</param>
+            <param name="pOrdenar">Atributo por el cual se desea ordenar los datos</param>
+            <returns>Devuelve un dataset de acuerdo con la consulta</returns>
+        </member>
+        <member name="M:Ophelia.Proteccion.DAOOp.DAOAOpProgr.ListarPorConsultaConEmpresa(System.String,System.String,System.Int32)">
+            <summary>
+            Listar por parametros de consulta la tabla OP_PROGR
+            </summary>
+            <param name="pConsulta">Cadena SQL con los parametros de consulta</param>
+            <param name="pOrdenar">Atributo por el cual se desea ordenar los datos</param>
+            <param name="pCod_empr">Empresa por la cual se desea filtar los datos</param>
+            <returns>Devuelve un dataset de acuerdo con la consulta</returns>
+        </member>
+        <member name="M:Ophelia.Proteccion.DAOOp.DAOAOpProgr.ObtenerLLave">
+            <summary>
+            Obtiene un numero generado automaticamente
+            </summary>
+            <returns>Numero generado</returns>
+        </member>
+        <member name="T:Ophelia.Proteccion.DAOOp.DAOAOpUtlap">
+            <summary>
+            Clase de tipo abstracta para el modulo Op y la tabla OP_UTLAP
+            </summary>
+        </member>
+        <member name="M:Ophelia.Proteccion.DAOOp.DAOAOpUtlap.#ctor">
+            <summary>
+            Constructor de la clase OP_UTLAP
+            </summary>
+        </member>
+        <member name="M:Ophelia.Proteccion.DAOOp.DAOAOpUtlap.Insertar(Ophelia.Proteccion.TOOp.TOOpUtlap)">
+            <summary>
+            Función que realiza la inserción de un registro compelto de una tabla a la base de datos
+            </summary>
+            <returns>Devuelve un verdadero o falso confirmando la insercion</returns>
+        </member>
+        <member name="M:Ophelia.Proteccion.DAOOp.DAOAOpUtlap.Eliminar(System.Int32)">
+            <summary>
+            Este metodo cumple con la funcion de eliminar un registro de la tabla 
+            utilizando la llave primaria de la misma para encontrarlo.
+            </summary>
+            <param name="pId">Identificador del registro</param>
+            <returns>Estado booleano de la operacion</returns>
+        </member>
+        <member name="M:Ophelia.Proteccion.DAOOp.DAOAOpUtlap.Consultar(System.String)">
+            <summary>
+            Este metodo cumple con la funcion de consultar una tabla de acuerdo al parametro de entrada correspondiente a la llave primaria
+            de la tabla OP_UTLAP
+            </summary>
+            <param name="pKey">Identificador del registro</param>
+            <returns>"Devuelve un TO de acuerdo con la consulta"</returns>
+        </member>
+        <member name="M:Ophelia.Proteccion.DAOOp.DAOAOpUtlap.Modificar(Ophelia.Proteccion.TOOp.TOOpUtlap)">
+            <summary>
+            Este metodo cumple con la funcion de actualizar un registro de la tabla 
+            utilizando la llave primaria de la misma para encontrarlo.
+            </summary>
+        </member>
+        <member name="M:Ophelia.Proteccion.DAOOp.DAOAOpUtlap.ListarUTLAP(System.String)">
+            <summary>
+            Este metodo cumple con la funcion de realizar la consulta de todos los registros de la tabla 
+            </summary>
+            <returns>Devuelve un verdadero o falso confirmando la inserción</returns>
+        </member>
+        <member name="M:Ophelia.Proteccion.DAOOp.DAOAOpUtlap.ObtenerSiguienteId">
+            <summary>
+             Obtiene un identificador valido para utilizarlo en la insercion de un registro
+             </summary>
+             <returns>numero de identificador</returns>
+        </member>
+        <member name="M:Ophelia.Proteccion.DAOOp.DAOAOpUtlap.ListarPorConsulta(System.String,System.String)">
+            <summary>
+            Listar por parametros de consulta la tabla OP_UTLAP
+            </summary>
+            <param name="pConsulta">Cadena SQL con los parametros de consulta</param>
+            <param name="pOrdenar">Atributo por el cual se desea ordenar los datos</param>
+            <returns>Devuelve un dataset de acuerdo con la consulta</returns>
+        </member>
+        <member name="M:Ophelia.Proteccion.DAOOp.DAOAOpUtlap.ListarPorConsultaConEmpresa(System.String,System.String,System.Int32)">
+            <summary>
+            Listar por parametros de consulta la tabla OP_UTLAP
+            </summary>
+            <param name="pConsulta">Cadena SQL con los parametros de consulta</param>
+            <param name="pOrdenar">Atributo por el cual se desea ordenar los datos</param>
+            <param name="pCod_empr">Empresa por la cual se desea filtar los datos</param>
+            <returns>Devuelve un dataset de acuerdo con la consulta</returns>
+        </member>
+        <member name="M:Ophelia.Proteccion.DAOOp.DAOAOpUtlap.ObtenerNumeroRegistros(System.String)">
+            <summary>
+            Este metodo cumple con la funcion de contar los registros
+            de la tabla 
+            </summary>
+            <param name="pConsulta">Cadena de consulta SQL</param>
+            <returns>numero de registros de la tabla</returns>
+        </member>
+        <member name="M:Ophelia.Proteccion.DAOOp.DAOAOpUtlap.ObtenerNumeroRegistros(System.String,System.Int32)">
+            <summary>
+            Este metodo cumple con la funcion de contar los registros
+            de la tabla 
+            </summary>
+            <param name="pConsulta">Cadena de consulta SQL</param>
+            <param name="pCod_empr">Identificador de la empresa</param>
+            <returns>numero de registros de la tabla</returns>
+        </member>
+        <member name="T:Ophelia.Proteccion.DAOOp.DAOOpLogbo">
+            <summary>
+             Objeto de acceso a datos para OP_LOGBO
+            </summary>
+        </member>
+        <member name="M:Ophelia.Proteccion.DAOOp.DAOOpLogbo.#ctor">
+            <summary>
+             Constructor del objeto de acceso a datos de Logbo
+            </summary>
+        </member>
+        <member name="T:Ophelia.Proteccion.DAOOp.DAOOpPermi">
+            <summary>
+             Objeto de acceso a datos para OP_PERMI
+            </summary>
+        </member>
+        <member name="M:Ophelia.Proteccion.DAOOp.DAOOpPermi.#ctor">
+            <summary>
+             Constructor del objeto de acceso a datos de Permi
+            </summary>
+        </member>
+        <member name="M:Ophelia.Proteccion.DAOOp.DAOOpPermi.ConsultarPorProgramaGrupoUsuario(System.Int64,System.Int64)">
+            <summary>
+            Este metodo cumple con la funcion de consultar una tabla de acuerdo al parametro de entrada correspondiente a la llave primaria
+            de la tabla OP_PERMI
+            </summary>
+            <param name="pGru_iden">Identificador del Grupo</param>
+            <param name="pPro_iden">Identificador del Programa</param>
+            <returns>"Devuelve un TO de acuerdo con la consulta"</returns>
+        </member>
+        <member name="T:Ophelia.Proteccion.DAOOp.DAOOpProgr">
+            <summary>
+             Objeto de acceso a datos para OP_PROGR
+            </summary>
+        </member>
+        <member name="M:Ophelia.Proteccion.DAOOp.DAOOpProgr.#ctor">
+            <summary>
+             Constructor del objeto de acceso a datos de Progr
+            </summary>
+        </member>
+        <member name="M:Ophelia.Proteccion.DAOOp.DAOOpProgr.ListarProgramasPorCodigo(System.String)">
+            <summary>
+            Listar por parametros de consulta la tabla OP_PROGR
+            </summary>
+            <param name="pPro_codi">Codigo de Programa</param>
+            <returns>Devuelve un dataset de acuerdo con la consulta</returns>
+        </member>
+        <member name="M:Ophelia.Proteccion.DAOOp.DAOOpProgr.ListarProgramasPorNombre(System.String)">
+            <summary>
+            Listar por parametros de consulta la tabla OP_PROGR
+            </summary>
+            <param name="pPro_nomb">Codigo de Programa</param>
+            <returns>Devuelve un dataset de acuerdo con la consulta</returns>
+        </member>
+        <member name="M:Ophelia.Proteccion.DAOOp.DAOOpProgr.ConsultarProgramaPorCodigo(System.String)">
+            <summary>
+            Este metodo cumple con la funcion de consultar una tabla de acuerdo al parametro de entrada 
+            </summary>
+            <param name="pPro_codi">Identificador del registro</param>
+            <returns>"Devuelve un TO de acuerdo con la consulta"</returns>
+        </member>
+        <member name="M:Ophelia.Proteccion.DAOOp.DAOOpProgr.CargarListaProgramas">
+            <summary>
+            Consulta la lista d programas
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Ophelia.Proteccion.DAOOp.DAOOpProgr.ConsultarModulo(System.Int64)">
+            <summary>
+            Consulta el modulo y lo muestra en pantalla
+            </summary>
+            <param name="pIdModulo"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Ophelia.Proteccion.DAOOp.DAOOpProgr.CoprobarIDPrograma(System.String)">
+            <summary>
+            Función para Comprobar la Existencia de Un Programa
+            </summary>
+            <param name="pProgra">Nombre Programa</param>
+            <returns>Estado Booleano</returns>
+        </member>
+        <member name="M:Ophelia.Proteccion.DAOOp.DAOOpProgr.InsertarProgramaKactusOphelia(System.Collections.Generic.List{Ophelia.Proteccion.TOOp.TOOpProgr})">
+            <summary>
+            Inserta Grupos Kactus - Ophelia
+            </summary>
+            <param name="pTOoGrupo">Lista de To a Guardar</param>
+            <returns></returns>
+        </member>
+        <member name="M:Ophelia.Proteccion.DAOOp.DAOOpProgr.ObtenerNumerosdeRegistros">
+            <summary>
+            Funcion que consulta el numero e Registros de la Tabla Empresa
+            </summary>
+            <returns>Numero de resgistros</returns>
+        </member>
+        <member name="M:Ophelia.Proteccion.DAOOp.DAOOpProgr.ConsultarDetalleUsuario(System.Int64)">
+            <summary>
+            Metodo que retorna el nombre del usuario
+            </summary>
+            <param name="pIdUsuario">Id de usuario</param>
+            <returns></returns>
+        </member>
+        <member name="T:Ophelia.Proteccion.DAOOp.DAOOpUtlap">
+            <summary>
+             Objeto de acceso a datos para OP_UTLAP
+            </summary>
+        </member>
+        <member name="M:Ophelia.Proteccion.DAOOp.DAOOpUtlap.#ctor">
+            <summary>
+             Constructor del objeto de acceso a datos de Utlap
+            </summary>
+        </member>
+        <member name="M:Ophelia.Proteccion.DAOOp.DAOOpUtlap.CierresAnteriores(System.Int32)">
+            <summary>
+            Coloca la fecha de cierre a los ingresos que tuvieron una salida 
+            </summary>
+            <param name="pUsu_iden">usuario </param>
+            <returns></returns>
+        </member>
+        <member name="M:Ophelia.Proteccion.DAOOp.DAOOpUtlap.ListarPorConsulta(System.String,System.String)">
+            <summary>
+            Listar por parametros de consulta la tabla OP_UTLAP
+            </summary>
+            <param name="pConsulta">Cadena SQL con los parametros de consulta</param>
+            <param name="pOrdenar">Atributo por el cual se desea ordenar los datos</param>
+            <returns>Devuelve un dataset de acuerdo con la consulta</returns>
+        </member>
+        <member name="T:Ophelia.Proteccion.Control">
+            <summary>
+            Controlador General del sistema
+            </summary>
+        </member>
+        <member name="M:Ophelia.Proteccion.Control.VisualizarBotones(System.Web.UI.WebControls.Panel,System.String,System.String,System.Int64)">
+            <summary>
+            Administra la visualizacion de los botones generales dependiendo de la pagina a la que se accede
+            </summary>
+            <param name="pPanel">Panel que contiene los botones</param>
+            <param name="idOpcion">tipo de pagina a la cual esta accediendo</param>
+            <param name="pEditar">si se edita o no</param>
+        </member>
+        <member name="M:Ophelia.Proteccion.Control.NavegarPagina(System.String,System.String[],System.Int64,System.String)">
+            <summary>
+            Administra la navegacion del programa
+            </summary>
+            <param name="pOpcion">Tipo de pagina a navega</param>
+            <param name="pParametros">Areglo de prarmetros de navegacion "Parametros URL"</param>
+            <param name="pIdPerfil">Perfil del usuario</param>
+            <param name="programaActual">Nombre del programa al que se desea acceder</param>
+        </member>
+        <member name="M:Ophelia.Proteccion.Control.NavegarPagina(System.String,System.String[],System.Int64,System.String,Ophelia.Proteccion.QueryString)">
+            <summary>
+            Administra la navegacion del programa
+            </summary>
+            <param name="pOpcion">Tipo de pagina a navega</param>
+            <param name="pParametros">Areglo de prarmetros de navegacion "Parametros URL"</param>
+            <param name="pIdPerfil">Perfil del usuario</param>
+            <param name="programaActual">Nombre del programa al que se desea acceder</param>
+            <param name="pQueryStringDec">Parametos</param>
+        </member>
+        <member name="M:Ophelia.Proteccion.Control.insertarLogOp_utlap(System.String)">
+            <summary>
+            Inserta en el log de utilización del aplicativo
+            </summary>
+            <param name="pPro_codi">nombre del programa actuald</param>
+        </member>
+        <member name="M:Ophelia.Proteccion.Control.CierresAnteriores(System.Int32)">
+            <summary>
+            Regitra las salidas de los programas CierresAnteriores - SalidaPrograma
+            </summary>
+            <param name="pUsu_iden"></param>
+        </member>
+        <member name="T:Ophelia.Proteccion.InsertarLog">
+            <summary>
+            Clase Seguridad
+            </summary>
+        </member>
+        <member name="F:Ophelia.Proteccion.InsertarLog.BOException">
+            <summary>
+            Objeto para el control de excepciones del sistema
+            </summary>
+        </member>
+        <member name="F:Ophelia.Proteccion.InsertarLog.BXML">
+            <summary>
+            bjeto para la lectura del XML
+            </summary>
+        </member>
+        <member name="M:Ophelia.Proteccion.InsertarLog.#ctor">
+            <summary>
+            Constructor de la Clase Seguridad
+            </summary>
+        </member>
+        <member name="M:Ophelia.Proteccion.InsertarLog.InsertarLogbo(System.Int32,System.Int32,System.String,System.String,System.String,System.String,Ophelia.Transact.DBParameter[])">
+            <summary>
+            Inserta en los logs de auditoria los cambios realizados
+            </summary>
+            <param name="pTip_modi">1. Insert 2. Delete 3. Update</param>
+            <param name="pUsu_iden">Usuario que realiza la modificación</param>
+            <param name="pNomTabl">Nombre de la tabla afectada</param>
+            <param name="pDir_iplo">Dirección IP del usuario</param>
+            <param name="pNom_maqu">Nombre de la maquina del usuario</param>
+            <param name="pCadena">Cadena ejecutada</param>
+            <param name="pParametro">Parámetros utilizados</param>
+        </member>
+        <member name="M:Ophelia.Proteccion.InsertarLog.InsertarLogboOp(System.Int32,System.Int32,System.String,System.String,System.String,System.String,System.String,System.String,Ophelia.DataBase.Parameter[])">
+            <summary>
+            Inserta en los logs de auditoria los cambios realizados
+            </summary>
+            <param name="pTip_modi">1. Insert 2. Delete 3. Update</param>
+            <param name="pUsu_iden">Usuario que realiza la modificación</param>
+            <param name="pNomTabl">Nombre de la tabla afectada</param>
+            <param name="pDir_iplo">Dirección IP del usuario</param>
+            <param name="pNom_maqu">Nombre de la maquina del usuario</param>
+            <param name="pCadena">Cadena ejecutada</param>
+            <param name="pParametro">Parámetros utilizados</param>
+        </member>
+        <member name="M:Ophelia.Proteccion.InsertarLog.InsertarLogboOpA(System.Collections.ArrayList,System.String,Ophelia.DataBase.Parameter[])">
+            <summary>
+            Inserta en los logs de auditoria los cambios realizados
+            </summary>
+            <param name="pValores">Arreglo de valores</param>
+            <param name="pCadedna">Sentencia SQL</param>
+            <param name="pParametro">Parametros utilizados</param>
+        </member>
+        <member name="T:Ophelia.Proteccion.Seguridad">
+            <summary>
+            Clase Seguridad
+            </summary>
+        </member>
+        <member name="F:Ophelia.Proteccion.Seguridad.BOException">
+            <summary>
+            Objeto para el control de excepciones del sistema
+            </summary>
+        </member>
+        <member name="F:Ophelia.Proteccion.Seguridad.BXML">
+            <summary>
+            bjeto para la lectura del XML
+            </summary>
+        </member>
+        <member name="M:Ophelia.Proteccion.Seguridad.#ctor">
+            <summary>
+            Constructor de la Clase Seguridad
+            </summary>
+        </member>
+        <member name="M:Ophelia.Proteccion.Seguridad.InsSeguridad(System.Boolean)">
+            <summary>
+            Devuelve o crea la instancia de la clase utilizando el patrón Singleton
+            </summary>
+            <param name="pCambio">Parametro de Cambio en la Clase</param>
+            <returns>Obj Seguridad</returns>
+        </member>
+        <member name="M:Ophelia.Proteccion.Seguridad.EncriptarAcceso(System.String,System.String)">
+            <summary>
+            Metodo utilizado para validar el acceso de los usuarios
+            </summary>
+            <param name="pUsuario">Usuario</param>
+            <param name="pContraseña">Contraseña</param>
+            <returns>Encripciono</returns>
+        </member>
+        <member name="M:Ophelia.Proteccion.Seguridad.ObtenerPermiso(System.Int64,System.String)">
+            <summary>
+            Metodo utilizado para obtener los permisos de acceso a un programa
+            </summary>
+            <param name="pGruIden">Id Grupo</param>
+            <param name="pProCodi">Codigo de programa</param>
+            <returns>Valor del nivel de acceso</returns>
+        </member>
+        <member name="M:Ophelia.Proteccion.Seguridad.ObtenerPermisosBotonesPorPrograma(System.Int64,System.String)">
+            <summary>
+            Funcion utilizada para Obtener permisos botones por Programa
+            </summary>
+            <param name="pUsuIden"> Identificador de Usuario</param>
+            <param name="pProCodi">Codigo Programa</param>
+            <returns></returns>
+        </member>
+        <member name="T:Ophelia.Proteccion.SFOp.SFOpLogbo">
+            <summary>
+             Objeto de Interface Session Facade para OP_LOGBO
+            </summary>
+        </member>
+        <member name="M:Ophelia.Proteccion.SFOp.SFOpLogbo.#ctor">
+            <summary>
+             Constructor del Business Delegate del programa
+            </summary>
+        </member>
+        <member name="M:Ophelia.Proteccion.SFOp.SFOpLogbo.ConsultarLogbo(System.Int64)">
+            <summary>
+             Obtiene la informacion de un registro de un(a) Logbo
+            </summary>
+            <param name="pIdLogbo">identificador del registro
+            </param>
+            <returns>
+             Objeto TO con la informacion del registro
+            </returns>
+        </member>
+        <member name="M:Ophelia.Proteccion.SFOp.SFOpLogbo.InsertarLogbo(Ophelia.Proteccion.TOOp.TOOpLogbo)">
+            <summary>
+             Inserta la informacion de un registro de un(a) Logbo
+            </summary>
+            <param name="pTOLogbo">Objeto TO con la informacion del registro
+            </param>
+            <returns>
+             identificador asignado al registro
+            </returns>
+        </member>
+        <member name="M:Ophelia.Proteccion.SFOp.SFOpLogbo.ModificarLogbo(Ophelia.Proteccion.TOOp.TOOpLogbo)">
+            <summary>
+             Modifica la informacion de un registro de un(a) Logbo
+            </summary>
+            <param name="pTOLogbo">Objeto TO con la informacion del registro
+            </param>
+            <returns>
+             Estado booleano de la modificacion
+            </returns>
+        </member>
+        <member name="M:Ophelia.Proteccion.SFOp.SFOpLogbo.EliminarLogbo(System.Int64)">
+            <summary>
+             Elimina un registro de un(a) Logbo
+            </summary>
+            <param name="pIdLogbo">identificador del registro
+            </param>
+            <returns>
+             Estado booleano de la eliminacion
+            </returns>
+        </member>
+        <member name="M:Ophelia.Proteccion.SFOp.SFOpLogbo.ListarLogboPorConsulta(System.String,System.String,System.Int32)">
+            <summary>
+             Consulta un conjunto de registros de un(a) Logbo
+            </summary>
+            <param name="pConsulta">Criterios de consulta SQL
+            </param>
+            <param name="pOrdenar">Criterio de ordenamiento de los registros
+            </param>
+            <param name="pEmp_iden">Criterio para diferenciar los datos entre empresas
+            </param>
+            <returns>
+             Conjunto de datos consultados
+            </returns>
+        </member>
+        <member name="M:Ophelia.Proteccion.SFOp.SFOpLogbo.ListarLogboPorConsulta(System.String,System.String)">
+            <summary>
+             Consulta un conjunto de registros de un(a) Logbo
+            </summary>
+            <param name="pConsulta">Criterios de consulta SQL
+            </param>
+            <param name="pOrdenar">Criterio de ordenamiento de los registros
+            </param>
+            <returns>
+             Conjunto de datos consultados
+            </returns>
+        </member>
+        <member name="T:Ophelia.Proteccion.SFOp.SFOpPermi">
+            <summary>
+             Objeto de Aplicacion de logica de negocio para OP_PERMI
+            </summary>
+        </member>
+        <member name="M:Ophelia.Proteccion.SFOp.SFOpPermi.#ctor">
+            <summary>
+             Constructor del Business Delegate del programa
+            </summary>
+        </member>
+        <member name="M:Ophelia.Proteccion.SFOp.SFOpPermi.ConsultarPorProgramaGrupoUsuario(System.Int64,System.Int64)">
+            <summary>
+            Funcion utilizada para Obtener permisos botones por Programa
+            </summary>
+            <param name="pGruIden">Identificador de Grupo</param>
+            <param name="pProIden">Identificador de Programa</param>
+            <returns></returns>
+        </member>
+        <member name="M:Ophelia.Proteccion.SFOp.SFOpPermi.ConsultarProgramaPorCodigo(System.String)">
+            <summary>
+            Este metodo cumple con la funcion de consultar una tabla de acuerdo al parametro de entrada 
+            </summary>
+            <param name="pPro_codi">Identificador del registro</param>
+            <returns>"Devuelve un TO de acuerdo con la consulta"</returns>
+        </member>
+        <member name="T:Ophelia.Proteccion.SFOp.SFOpUtlap">
+            <summary>
+             Objeto de Session Facade para OP_UTLAP
+            </summary>
+        </member>
+        <member name="M:Ophelia.Proteccion.SFOp.SFOpUtlap.#ctor">
+            <summary>
+             Constructor del Business Delegate del programa
+            </summary>
+        </member>
+        <member name="M:Ophelia.Proteccion.SFOp.SFOpUtlap.ConsultarUtlap(System.String)">
+            <summary>
+             Obtiene la informacion de un registro de un(a) Utlap
+            </summary>
+            <param name="pIdUtlap">identificador del registro
+            </param>
+            <returns>
+             Objeto TO con la informacion del registro
+            </returns>
+        </member>
+        <member name="M:Ophelia.Proteccion.SFOp.SFOpUtlap.InsertarUtlap(Ophelia.Proteccion.TOOp.TOOpUtlap)">
+            <summary>
+             Inserta la informacion de un registro de un(a) Utlap
+            </summary>
+            <param name="pUtlap">Objeto TO con la informacion del registro
+            </param>
+            <returns>
+             identificador asignado al registro
+            </returns>
+        </member>
+        <member name="M:Ophelia.Proteccion.SFOp.SFOpUtlap.ModificarUtlap(Ophelia.Proteccion.TOOp.TOOpUtlap)">
+            <summary>
+             Modifica la informacion de un registro de un(a) Utlap
+            </summary>
+            <param name="pTOUtlap">Objeto TO con la informacion del registro
+            </param>
+            <returns>
+             Estado booleano de la modificacion
+            </returns>
+        </member>
+        <member name="M:Ophelia.Proteccion.SFOp.SFOpUtlap.EliminarUtlap(System.Int32)">
+            <summary>
+             Elimina un registro de un(a) Utlap
+            </summary>
+            <param name="pIdUtlap">identificador del registro
+            </param>
+            <returns>
+             Estado booleano de la eliminacion
+            </returns>
+        </member>
+        <member name="M:Ophelia.Proteccion.SFOp.SFOpUtlap.ListarUtlapPorConsulta(System.String,System.String)">
+            <summary>
+             Consulta un conjunto de registros de un(a) Utlap
+            </summary>
+            <param name="pConsulta">Criterios de consulta SQL</param>
+            <param name="pOrdenar">Criterio de ordenamiento de los registros</param>
+            <returns>
+             Conjunto de datos consultados
+            </returns>
+        </member>
+        <member name="M:Ophelia.Proteccion.SFOp.SFOpUtlap.ListarUtlapPorConsultaConEmpresa(System.String,System.String,System.Int32)">
+            <summary>
+             Consulta un conjunto de registros de un(a) Utlap
+            </summary>
+            <param name="pConsulta">Criterios de consulta SQL</param>
+            <param name="pOrdenar">Criterio de ordenamiento de los registros</param>
+            <returns>
+             Conjunto de datos consultados
+            </returns>
+        </member>
+        <member name="M:Ophelia.Proteccion.SFOp.SFOpUtlap.SalidaPrograma(System.Int32,System.DateTime,System.String)">
+            <summary>
+            Coloca la fecha de cierre a los registros
+            </summary>
+            <param name="pUsu_iden">usuario </param>
+            <returns></returns>
+        </member>
+        <member name="T:Ophelia.Proteccion.TOOp.TOOpLogbo">
+            <summary>
+            Objeto de transferencia de datos para 
+            </summary>
+        </member>
+        <member name="M:Ophelia.Proteccion.TOOp.TOOpLogbo.#ctor">
+            <summary>
+            Constructor de la clase
+            </summary>
+        </member>
+        <member name="P:Ophelia.Proteccion.TOOp.TOOpLogbo.usu_iden">
+            <summary>
+            Atributo Usu_iden
+            </summary>
+        </member>
+        <member name="P:Ophelia.Proteccion.TOOp.TOOpLogbo.nom_tabl">
+            <summary>
+            Atributo Nom_tabl
+            </summary>
+        </member>
+        <member name="P:Ophelia.Proteccion.TOOp.TOOpLogbo.nom_maqu">
+            <summary>
+            Atributo Nom_maqu
+            </summary>
+        </member>
+        <member name="P:Ophelia.Proteccion.TOOp.TOOpLogbo.log_tipo">
+            <summary>
+            Atributo Log_tipo
+            </summary>
+        </member>
+        <member name="P:Ophelia.Proteccion.TOOp.TOOpLogbo.log_usua">
+            <summary>
+            Atributo Log_usua
+            </summary>
+        </member>
+        <member name="P:Ophelia.Proteccion.TOOp.TOOpLogbo.rmt_logs">
+            <summary>
+            Atributo Rmt_logs
+            </summary>
+        </member>
+        <member name="P:Ophelia.Proteccion.TOOp.TOOpLogbo.log_fech">
+            <summary>
+            Atributo Log_fech
+            </summary>
+        </member>
+        <member name="P:Ophelia.Proteccion.TOOp.TOOpLogbo.log_tabl">
+            <summary>
+            Atributo Log_tabl
+            </summary>
+        </member>
+        <member name="P:Ophelia.Proteccion.TOOp.TOOpLogbo.log_regi">
+            <summary>
+            Atributo Log_regi
+            </summary>
+        </member>
+        <member name="P:Ophelia.Proteccion.TOOp.TOOpLogbo.log_ipdi">
+            <summary>
+            Atributo Log_ipdi
+            </summary>
+        </member>
+        <member name="P:Ophelia.Proteccion.TOOp.TOOpLogbo.log_term">
+            <summary>
+            Atributo Log_term
+            </summary>
+        </member>
+        <member name="T:Ophelia.Proteccion.TOOp.TOOpPermi">
+            <summary>
+            Objeto de transferencia de datos para 
+            </summary>
+        </member>
+        <member name="M:Ophelia.Proteccion.TOOp.TOOpPermi.#ctor">
+            <summary>
+            Constructor de la clase
+            </summary>
+        </member>
+        <member name="P:Ophelia.Proteccion.TOOp.TOOpPermi.aud_fcre">
+            <summary>
+            Atributo Aud_fcre
+            </summary>
+        </member>
+        <member name="P:Ophelia.Proteccion.TOOp.TOOpPermi.aud_ucre">
+            <summary>
+            Atributo Aud_ucre
+            </summary>
+        </member>
+        <member name="P:Ophelia.Proteccion.TOOp.TOOpPermi.aud_fmod">
+            <summary>
+            Atributo Aud_fmod
+            </summary>
+        </member>
+        <member name="P:Ophelia.Proteccion.TOOp.TOOpPermi.aud_umod">
+            <summary>
+            Atributo Aud_umod
+            </summary>
+        </member>
+        <member name="P:Ophelia.Proteccion.TOOp.TOOpPermi.gru_iden">
+            <summary>
+            Atributo Gru_iden
+            </summary>
+        </member>
+        <member name="P:Ophelia.Proteccion.TOOp.TOOpPermi.pro_iden">
+            <summary>
+            Atributo Pro_iden
+            </summary>
+        </member>
+        <member name="P:Ophelia.Proteccion.TOOp.TOOpPermi.per_adic">
+            <summary>
+            Atributo Per_adic
+            </summary>
+        </member>
+        <member name="P:Ophelia.Proteccion.TOOp.TOOpPermi.per_modi">
+            <summary>
+            Atributo Per_modi
+            </summary>
+        </member>
+        <member name="P:Ophelia.Proteccion.TOOp.TOOpPermi.per_borr">
+            <summary>
+            Atributo Per_borr
+            </summary>
+        </member>
+        <member name="P:Ophelia.Proteccion.TOOp.TOOpPermi.per_cons">
+            <summary>
+            Atributo Per_cons
+            </summary>
+        </member>
+        <member name="P:Ophelia.Proteccion.TOOp.TOOpPermi.per_repo">
+            <summary>
+            Atributo Per_repo
+            </summary>
+        </member>
+        <member name="P:Ophelia.Proteccion.TOOp.TOOpPermi.per_bore">
+            <summary>
+            Atributo Per_bore
+            </summary>
+        </member>
+        <member name="P:Ophelia.Proteccion.TOOp.TOOpPermi.per_boge">
+            <summary>
+            Atributo Per_boge
+            </summary>
+        </member>
+        <member name="P:Ophelia.Proteccion.TOOp.TOOpPermi.per_acre">
+            <summary>
+            Atributo Per_acre
+            </summary>
+        </member>
+        <member name="P:Ophelia.Proteccion.TOOp.TOOpPermi.per_acge">
+            <summary>
+            Atributo Per_acge
+            </summary>
+        </member>
+        <member name="T:Ophelia.Proteccion.TOOp.TOOpProgr">
+            <summary>
+            Objeto de transferencia de datos para Progr
+            </summary>
+        </member>
+        <member name="M:Ophelia.Proteccion.TOOp.TOOpProgr.#ctor">
+            <summary>
+            Constructor de la clase
+            </summary>
+        </member>
+        <member name="P:Ophelia.Proteccion.TOOp.TOOpProgr.pro_iden">
+            <summary>
+            Atributo Pro_iden
+            </summary>
+        </member>
+        <member name="P:Ophelia.Proteccion.TOOp.TOOpProgr.mod_iden">
+            <summary>
+            Atributo Mod_iden
+            </summary>
+        </member>
+        <member name="P:Ophelia.Proteccion.TOOp.TOOpProgr.pro_nomb">
+            <summary>
+            Atributo Pro_nomb
+            </summary>
+        </member>
+        <member name="P:Ophelia.Proteccion.TOOp.TOOpProgr.pro_inst">
+            <summary>
+            Atributo Pro_inst
+            </summary>
+        </member>
+        <member name="P:Ophelia.Proteccion.TOOp.TOOpProgr.pro_ruta">
+            <summary>
+            Atributo Pro_ruta
+            </summary>
+        </member>
+        <member name="P:Ophelia.Proteccion.TOOp.TOOpProgr.pro_ayud">
+            <summary>
+            Atributo Pro_ayud
+            </summary>
+        </member>
+        <member name="P:Ophelia.Proteccion.TOOp.TOOpProgr.pro_paad">
+            <summary>
+            Atributo Pro_paad
+            </summary>
+        </member>
+        <member name="P:Ophelia.Proteccion.TOOp.TOOpProgr.pro_vabi">
+            <summary>
+            Atributo Pro_vabi
+            </summary>
+        </member>
+        <member name="P:Ophelia.Proteccion.TOOp.TOOpProgr.aud_fcre">
+            <summary>
+            Atributo Aud_fcre
+            </summary>
+        </member>
+        <member name="P:Ophelia.Proteccion.TOOp.TOOpProgr.aud_ucre">
+            <summary>
+            Atributo Aud_ucre
+            </summary>
+        </member>
+        <member name="P:Ophelia.Proteccion.TOOp.TOOpProgr.aud_fmod">
+            <summary>
+            Atributo Aud_fmod
+            </summary>
+        </member>
+        <member name="P:Ophelia.Proteccion.TOOp.TOOpProgr.aud_umod">
+            <summary>
+            Atributo Aud_umod
+            </summary>
+        </member>
+        <member name="P:Ophelia.Proteccion.TOOp.TOOpProgr.pro_codi">
+            <summary>
+            Atributo Pro_codi
+            </summary>
+        </member>
+        <member name="P:Ophelia.Proteccion.TOOp.TOOpProgr.pro_clid">
+            <summary>
+            Atributo Pro_clid
+            </summary>
+        </member>
+        <member name="P:Ophelia.Proteccion.TOOp.TOOpProgr.pro_vers">
+            <summary>
+            Atributo Pro_vers
+            </summary>
+        </member>
+        <member name="P:Ophelia.Proteccion.TOOp.TOOpProgr.pro_rest">
+            <summary>
+            Atributo Pro_rest
+            </summary>
+        </member>
+        <member name="P:Ophelia.Proteccion.TOOp.TOOpProgr.pro_luin">
+            <summary>
+            Atributo Pro_luin
+            </summary>
+        </member>
+        <member name="P:Ophelia.Proteccion.TOOp.TOOpProgr.pro_lufi">
+            <summary>
+            Atributo Pro_lufi
+            </summary>
+        </member>
+        <member name="P:Ophelia.Proteccion.TOOp.TOOpProgr.pro_main">
+            <summary>
+            Atributo Pro_main
+            </summary>
+        </member>
+        <member name="P:Ophelia.Proteccion.TOOp.TOOpProgr.pro_mafi">
+            <summary>
+            Atributo Pro_mafi
+            </summary>
+        </member>
+        <member name="P:Ophelia.Proteccion.TOOp.TOOpProgr.pro_miin">
+            <summary>
+            Atributo Pro_miin
+            </summary>
+        </member>
+        <member name="P:Ophelia.Proteccion.TOOp.TOOpProgr.pro_mifi">
+            <summary>
+            Atributo Pro_mifi
+            </summary>
+        </member>
+        <member name="P:Ophelia.Proteccion.TOOp.TOOpProgr.pro_juin">
+            <summary>
+            Atributo Pro_juin
+            </summary>
+        </member>
+        <member name="P:Ophelia.Proteccion.TOOp.TOOpProgr.pro_jufi">
+            <summary>
+            Atributo Pro_jufi
+            </summary>
+        </member>
+        <member name="P:Ophelia.Proteccion.TOOp.TOOpProgr.pro_viin">
+            <summary>
+            Atributo Pro_viin
+            </summary>
+        </member>
+        <member name="P:Ophelia.Proteccion.TOOp.TOOpProgr.pro_vifi">
+            <summary>
+            Atributo Pro_vifi
+            </summary>
+        </member>
+        <member name="P:Ophelia.Proteccion.TOOp.TOOpProgr.pro_sain">
+            <summary>
+            Atributo Pro_sain
+            </summary>
+        </member>
+        <member name="P:Ophelia.Proteccion.TOOp.TOOpProgr.pro_safi">
+            <summary>
+            Atributo Pro_safi
+            </summary>
+        </member>
+        <member name="P:Ophelia.Proteccion.TOOp.TOOpProgr.pro_doin">
+            <summary>
+            Atributo Pro_doin
+            </summary>
+        </member>
+        <member name="P:Ophelia.Proteccion.TOOp.TOOpProgr.pro_dofi">
+            <summary>
+            Atributo Pro_dofi
+            </summary>
+        </member>
+        <member name="P:Ophelia.Proteccion.TOOp.TOOpProgr.pro_inlu">
+            <summary>
+            Atributo Pro_inlu
+            </summary>
+        </member>
+        <member name="P:Ophelia.Proteccion.TOOp.TOOpProgr.pro_inma">
+            <summary>
+            Atributo Pro_inma
+            </summary>
+        </member>
+        <member name="P:Ophelia.Proteccion.TOOp.TOOpProgr.pro_inmi">
+            <summary>
+            Atributo Pro_inmi
+            </summary>
+        </member>
+        <member name="P:Ophelia.Proteccion.TOOp.TOOpProgr.pro_inju">
+            <summary>
+            Atributo Pro_inju
+            </summary>
+        </member>
+        <member name="P:Ophelia.Proteccion.TOOp.TOOpProgr.pro_invi">
+            <summary>
+            Atributo Pro_invi
+            </summary>
+        </member>
+        <member name="P:Ophelia.Proteccion.TOOp.TOOpProgr.pro_insa">
+            <summary>
+            Atributo Pro_insa
+            </summary>
+        </member>
+        <member name="P:Ophelia.Proteccion.TOOp.TOOpProgr.pro_indo">
+            <summary>
+            Atributo Pro_indo
+            </summary>
+        </member>
+        <member name="P:Ophelia.Proteccion.TOOp.TOOpProgr.usu_iden">
+            <summary>
+            Atributo Usu_codi
+            </summary>
+        </member>
+        <member name="P:Ophelia.Proteccion.TOOp.TOOpProgr.pro_tipo">
+            <summary>
+            Atributo Pro_tipo
+            </summary>
+        </member>
+        <member name="P:Ophelia.Proteccion.TOOp.TOOpProgr.pro_clas">
+            <summary>
+            Atributo Pro_clas
+            </summary>
+        </member>
+        <member name="P:Ophelia.Proteccion.TOOp.TOOpProgr.pro_obse">
+            <summary>
+            Atributo Pro_obse
+            </summary>
+        </member>
+        <member name="P:Ophelia.Proteccion.TOOp.TOOpProgr.pro_vrep">
+            <summary>
+            Atributo Pro_vrep
+            </summary>
+        </member>
+        <member name="P:Ophelia.Proteccion.TOOp.TOOpProgr.pro_imob">
+            <summary>
+            Atributo Pro_imob
+            </summary>
+        </member>
+        <member name="P:Ophelia.Proteccion.TOOp.TOOpProgr.pro_aaob">
+            <summary>
+            Atributo Pro_aaob
+            </summary>
+        </member>
+        <member name="T:Ophelia.Proteccion.TOOp.TOOpUtlap">
+            <summary>
+            Objeto de transferencia de datos para Utlap
+            </summary>
+        </member>
+        <member name="M:Ophelia.Proteccion.TOOp.TOOpUtlap.#ctor">
+            <summary>
+            Constructor de la clase
+            </summary>
+        </member>
+        <member name="P:Ophelia.Proteccion.TOOp.TOOpUtlap.usu_iden">
+            <summary>
+            Atributo Usu_codi
+            </summary>
+        </member>
+        <member name="P:Ophelia.Proteccion.TOOp.TOOpUtlap.usu_sist">
+            <summary>
+            Atributo Usu_sist
+            </summary>
+        </member>
+        <member name="P:Ophelia.Proteccion.TOOp.TOOpUtlap.nom_maqu">
+            <summary>
+            Atributo Nom_maqu
+            </summary>
+        </member>
+        <member name="P:Ophelia.Proteccion.TOOp.TOOpUtlap.pro_codi">
+            <summary>
+            Atributo Pro_codi
+            </summary>
+        </member>
+        <member name="P:Ophelia.Proteccion.TOOp.TOOpUtlap.fec_entr">
+            <summary>
+            Atributo Fec_entr
+            </summary>
+        </member>
+        <member name="P:Ophelia.Proteccion.TOOp.TOOpUtlap.fec_sali">
+            <summary>
+            Atributo Fec_sali
+            </summary>
+        </member>
+        <member name="P:Ophelia.Proteccion.TOOp.TOOpUtlap.dir_iplo">
+            <summary>
+            Atributo Dir_iplo
+            </summary>
+        </member>
+        <member name="P:Ophelia.Proteccion.TOOp.TOOpUtlap.tip_sali">
+            <summary>
+            Atributo Tip_sali
+            </summary>
+        </member>
+        <member name="T:Ophelia.Proteccion.TO.TOOpLogs">
+            <summary>
+            Objeto de Transferencia de datos para los logs
+            </summary>
+        </member>
+        <member name="M:Ophelia.Proteccion.TO.TOOpLogs.#ctor">
+            <summary>
+            Constructor de la clase
+            </summary>
+        </member>
+        <member name="P:Ophelia.Proteccion.TO.TOOpLogs.log_fech">
+            <summary>
+            Atributo LOG_FECH
+            </summary>
+        </member>
+        <member name="P:Ophelia.Proteccion.TO.TOOpLogs.log_cate">
+            <summary>
+            Atributo LOG_CATE
+            </summary>
+        </member>
+        <member name="P:Ophelia.Proteccion.TO.TOOpLogs.log_prrd">
+            <summary>
+            Atributo LOG_PRRD
+            </summary>
+        </member>
+        <member name="P:Ophelia.Proteccion.TO.TOOpLogs.log_even">
+            <summary>
+            Atributo LOG_EVEN
+            </summary>
+        </member>
+        <member name="P:Ophelia.Proteccion.TO.TOOpLogs.log_grav">
+            <summary>
+            Atributo LOG_GRAV
+            </summary>
+        </member>
+        <member name="P:Ophelia.Proteccion.TO.TOOpLogs.log_maqu">
+            <summary>
+            Atributo LOG_MAQU
+            </summary>
+        </member>
+        <member name="P:Ophelia.Proteccion.TO.TOOpLogs.log_idpr">
+            <summary>
+            Atributo LOG_IDPR
+            </summary>
+        </member>
+        <member name="P:Ophelia.Proteccion.TO.TOOpLogs.log_idhi">
+            <summary>
+            Atributo LOG_IDHI
+            </summary>
+        </member>
+        <member name="P:Ophelia.Proteccion.TO.TOOpLogs.log_fecg">
+            <summary>
+            Atributo LOG_FECG
+            </summary>
+        </member>
+        <member name="P:Ophelia.Proteccion.TO.TOOpLogs.log_msje">
+            <summary>
+            Atributo LOG_MSJE
+            </summary>
+        </member>
+    </members>
+</doc>
